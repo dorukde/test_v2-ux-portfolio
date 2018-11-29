@@ -1,0 +1,244 @@
+/* TYPOGRAPHY START */
+@font-face {
+  font-family: 'Crimson';
+  src: url('webfonts/crimson-roman-webfont.eot');
+  src: url('webfonts/crimson-roman-webfont.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/crimson-roman-webfont.woff2') format('woff2'),
+       url('webfonts/crimson-roman-webfont.woff') format('woff'),
+       url('webfonts/crimson-roman-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Crimson';
+  src: url('webfonts/crimson-semibold-webfont.eot');
+  src: url('webfonts/crimson-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/crimson-semibold-webfont.woff2') format('woff2'),
+       url('webfonts/crimson-semibold-webfont.woff') format('woff'),
+       url('webfonts/crimson-semibold-webfont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Crimson';
+  src: url('webfonts/crimson-bold-webfont.eot');
+  src: url('webfonts/crimson-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/crimson-bold-webfont.woff2') format('woff2'),
+       url('webfonts/crimson-bold-webfont.woff') format('woff'),
+       url('webfonts/crimson-bold-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3676401, 2018-11-21T09:20:53-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: NexaBlackItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/black-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaThin by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/thin/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBlack by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/black/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBoldItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/bold-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/bold/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBookItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/book-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBook by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/book/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaHeavyItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/heavy-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaHeavy by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/heavy/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaLightItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/light-italic/
+ * Copyright: Copyright (c) 2012 by Svetoslav Simov. All rights reserved.
+ * 
+ * Webfont: NexaLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/light/
+ * Copyright: Copyright (c) 2010 by Svetoslav Simov. All rights reserved.
+ * 
+ * Webfont: Nexa-RegularItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Nexa by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/regular/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaThinItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/thin-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaXBoldItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/xbold-italic/
+ * Copyright: Copyright (c) 2012 by Svetoslav Simov. All rights reserved.
+ * 
+ * Webfont: NexaXBold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/xbold/
+ * Copyright: Copyright (c) 2010 by Svetoslav Simov. All rights reserved.
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3676401
+ * Licensed pageviews: 10,000
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+@font-face {font-family: 'NexaThin';src: url('webfonts/3818F1_1_0.eot');src: url('webfonts/3818F1_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_1_0.woff2') format('woff2'),url('webfonts/3818F1_1_0.woff') format('woff'),url('webfonts/3818F1_1_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaBlack';src: url('webfonts/3818F1_2_0.eot');src: url('webfonts/3818F1_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_2_0.woff2') format('woff2'),url('webfonts/3818F1_2_0.woff') format('woff'),url('webfonts/3818F1_2_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaBold';src: url('webfonts/3818F1_4_0.eot');src: url('webfonts/3818F1_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_4_0.woff2') format('woff2'),url('webfonts/3818F1_4_0.woff') format('woff'),url('webfonts/3818F1_4_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaBook';src: url('webfonts/3818F1_6_0.eot');src: url('webfonts/3818F1_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_6_0.woff2') format('woff2'),url('webfonts/3818F1_6_0.woff') format('woff'),url('webfonts/3818F1_6_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaHeavy';src: url('webfonts/3818F1_8_0.eot');src: url('webfonts/3818F1_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_8_0.woff2') format('woff2'),url('webfonts/3818F1_8_0.woff') format('woff'),url('webfonts/3818F1_8_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaLight';src: url('webfonts/3818F1_A_0.eot');src: url('webfonts/3818F1_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_A_0.woff2') format('woff2'),url('webfonts/3818F1_A_0.woff') format('woff'),url('webfonts/3818F1_A_0.ttf') format('truetype');}
+@font-face {font-family: 'Nexa';src: url('webfonts/3818F1_C_0.eot');src: url('webfonts/3818F1_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_C_0.woff2') format('woff2'),url('webfonts/3818F1_C_0.woff') format('woff'),url('webfonts/3818F1_C_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaXBold';src: url('webfonts/3818F1_F_0.eot');src: url('webfonts/3818F1_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_F_0.woff2') format('woff2'),url('webfonts/3818F1_F_0.woff') format('woff'),url('webfonts/3818F1_F_0.ttf') format('truetype');}
+
+
+
+/* TYPOGRAPHY END */
+
+body{
+  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 1.1em;  
+  line-height: 1.35;
+  cursor: default;
+  background-color: #FFF1F1;
+  -webkit-font-smoothing: antialiased;
+}
+
+h5 {
+  font-family: 'NexaBook', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.8;
+  cursor: default;
+  color: #F7F4F0;
+  padding-left: 2em;
+}
+
+h4 {
+  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;  
+  font-size:1.2em;
+  line-height: 1.45;
+  color: rgb(168, 158, 158);
+  font-weight: normal;
+  }
+
+a {
+text-decoration: none;
+color: #FFF1F1;
+}
+  
+/* HERO START */
+
+.Works {
+  margin: 0 auto;
+  max-width: 960px;  
+padding-top: 4em; 
+}
+
+/* ABOUT - PROJECT STYLE */
+
+.HeroAbout {
+  width: 100%;
+}
+
+.AboutTop {
+    margin: 0 auto;
+    max-width: 960px;
+    }
+    .AboutTop a {
+       font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-weight: 600;
+      }
+
+    .AboutTop a:hover {
+     text-decoration: underline;
+      }
+
+.AboutTopW {
+  background-color: #393439;
+  padding: 3em 0 0.5em 3.5em;
+      }
+
+#AnimateImage {
+width: 160px;
+height: 160px;
+background: url('../images/profile_image2x.jpg') left center;
+background-size: cover;
+animation: funguy 1.5s steps(2) infinite;
+display: inline-block;
+}
+
+@keyframes funguy {
+  100% {background-position: -320px;}
+}
+
+.Content{
+  margin: 0 auto;
+  padding: 1.75em 1.75em;
+  max-width: 960px;
+  line-height: 1.6em;
+  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ContentW {
+  width: 100%;
+
+}
+
+.WorkExperience {
+  line-height: 1.6em;
+  font-size: 0.9em;
+}
+
+  
+/* HERO END */
+
+
+@media (max-width: 640px) {
+
+    .ProjectSubtitle {
+      display: none;
+    }
+
+.AboutTopW {
+  background-color: #393439;
+  padding: 3em 1.5em 0.5em 1.5em;
+      }
+
+
+}
+
+  
