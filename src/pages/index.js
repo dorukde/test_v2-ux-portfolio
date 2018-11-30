@@ -1,14 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Layout from '../components/layout'
-import Image from '../components/image'
 import Project  from '../components/project'
 import ProjectMini  from '../components/projectmini'
 import '../components/header.css'
-import Footer from '../components/footer'
+import Image from '../components/image'
+
 
 const IndexPage = () => (
-  <Layout>
   <div id="Works_id" className="Works">
   <Project 
   ProjectName = "Strafe"
@@ -43,8 +41,6 @@ const IndexPage = () => (
   ProjectDetail = "3D, Print, Branding"
   />
   </div>
-  <Footer />
-  </Layout>
 )
 
 

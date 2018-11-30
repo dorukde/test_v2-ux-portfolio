@@ -1,10 +1,10 @@
 /* TYPOGRAPHY START */
 @font-face {
   font-family: 'Crimson';
-  src: url('webfonts/crimson-roman-webfont.eot');
-  src: url('webfonts/crimson-roman-webfont.eot?#iefix') format('embedded-opentype'),
-       url('webfonts/crimson-roman-webfont.woff2') format('woff2'),
-       url('webfonts/crimson-roman-webfont.woff') format('woff'),
+  src: url('./webfonts/crimson-roman-webfont.eot');
+  src: url('./webfonts/crimson-roman-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./webfonts/crimson-roman-webfont.woff2') format('woff2'),
+       url('./webfonts/crimson-roman-webfont.woff') format('woff'),
        url('webfonts/crimson-roman-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -122,8 +122,6 @@
 @font-face {font-family: 'Nexa';src: url('webfonts/3818F1_C_0.eot');src: url('webfonts/3818F1_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_C_0.woff2') format('woff2'),url('webfonts/3818F1_C_0.woff') format('woff'),url('webfonts/3818F1_C_0.ttf') format('truetype');}
 @font-face {font-family: 'NexaXBold';src: url('webfonts/3818F1_F_0.eot');src: url('webfonts/3818F1_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_F_0.woff2') format('woff2'),url('webfonts/3818F1_F_0.woff') format('woff'),url('webfonts/3818F1_F_0.ttf') format('truetype');}
 
-
-
 /* TYPOGRAPHY END */
 
 body{
@@ -134,6 +132,7 @@ body{
   cursor: default;
   background-color: #FFF1F1;
   -webkit-font-smoothing: antialiased;
+  overflow: auto;
 }
 
 h5 {

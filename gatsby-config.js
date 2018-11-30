@@ -2,7 +2,13 @@ module.exports = {
   siteMetadata: {
     title: 'Doruk Demircioglu - UX Portfolio',
   },
-  plugins: [ `gatsby-plugin-styled-components`,
+  plugins: [ 
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+          component: require.resolve(`${__dirname}/src/layouts/layout`)
+      }
+  },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,

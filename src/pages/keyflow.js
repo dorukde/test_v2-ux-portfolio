@@ -2,12 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import {FaGooglePlay, FaApple} from 'react-icons/fa';
 import '../components/projectpage.css' 
-import Layout from '../components/layout'
-import Footer2 from '../components/footer'
-
 
 const KeyflowPage = () => (
-  <Layout>
   <div id='HeroAbout2' className="HeroAbout">
     <div className="AboutTopW">
       <div className="AboutTop">
@@ -23,8 +19,6 @@ const KeyflowPage = () => (
       </div>
     </div>
   </div>
-  <Footer2 />
-  </ Layout>
 )
 
 export default KeyflowPage

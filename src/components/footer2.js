@@ -7,10 +7,10 @@ const Footer2 = ({ siteTitle }) => (
   <div className="Footer2">
     <div className="FooterWrapper2">
       <div className="year2">
-      <a href="https://github.com/dorukde/ux-portfolio" target="_blank" rel="noopener">© 2018 - Built by <span role="img" aria-label="cat">🐈</span> &amp; Doruk</a>
+      <a href="https://github.com/dorukde/ux-portfolio" target="_blank" rel="noopener noreferrer">© 2018 - Built by <span role="img" aria-label="cat">🐈</span> &amp; Doruk</a>
       </div>
       <div className="bottom_right2">
-      <h2><a href="https://linkedin.com/in/dorukdemircioglu" target="_blank" rel="noopener"><FaLinkedin /></a> <a href="https://instagram.com/dorukde/" target="_blank" rel="noopener"><FaInstagram /></a></h2>      
+      <h2><a href="https://linkedin.com/in/dorukdemircioglu" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a> <a href="https://instagram.com/dorukde/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></h2>      
       </div>
     </div>
   </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ResumeItem = props => (
     <div className="ResumeItem">
-        <div className="Role">{props.Role}</div>
+        <div className="MyRole">{props.MyRole}</div>
         <div className="Workplace">{props.Workplace}</div>
         <div className="Duration">{props.Duration} • {props.City}</div>
         <div className="City"></div>
