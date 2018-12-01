@@ -132,7 +132,7 @@ body{
   cursor: default;
   background-color: #FFF1F1;
   -webkit-font-smoothing: antialiased;
-  overflow: auto;
+  overflow-y: scroll;
 }
 
 h5 {

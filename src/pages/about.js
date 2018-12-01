@@ -1,35 +1,77 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { FaLinkedin, FaGithubSquare, FaSkype, FaInstagram, FaDribbbleSquare } from 'react-icons/fa'
+import {
+  FaLinkedin,
+  FaGithubSquare,
+  FaSkype,
+  FaInstagram,
+  FaDribbbleSquare,
+} from 'react-icons/fa'
 import ResumeItem from '../components/resume'
 import ResumeItem2 from '../components/resume2'
 import ResumeItem3 from '../components/resume3'
 import '../components/resume.css'
 
-
 const AboutPage = () => (
- 
-  <div id='HeroAbout2' className="HeroAbout">
-    <div className="AboutTopW"> 
+  <div id="HeroAbout2" className="HeroAbout">
+    <div className="AboutTopW">
       <div className="AboutTop">
         <h4>
           <br />
-          <div id="AnimateImage"></div>
+          <div id="AnimateImage" />
           <br />
           <br />
-          Hi, This is Doruk!<br />
-          I'm a digital product designer based in Sydney <span role="img" aria-label="koala">🐨</span><br />focused on building inclusive &amp; accessible products.<br /> <br />
-          I love funk, jazz, soul, my <span role="img" aria-label="cat">🐈</span>, documentary photography, <br />art-house, crafty food &amp; 90's <span role="img" aria-label="basketball">🏀</span>.
-        </h4><br />
+          Hi, This is Doruk!
+          <br />
+          I'm a digital product designer based in Sydney{' '}
+          <span role="img" aria-label="koala">
+            🐨
+          </span>
+          <br />
+          focused on building inclusive &amp; accessible products.
+          <br /> <br />I love funk, jazz, soul, my{' '}
+          <span role="img" aria-label="cat">
+            🐈
+          </span>
+          , documentary photography, <br />
+          art-house, crafty food &amp; 90's{' '}
+          <span role="img" aria-label="basketball">
+            🏀
+          </span>
+          .
+        </h4>
+        <br />
         <h4>
-          You can download my <Link> Resume</Link><br /><br />
-          Get in touch with me at<br />
-          <a href="mailto:hello@dorukdemircioglu.com">hello@dorukdemircioglu.com</a><br />
-          <h2><a href="https://linkedin.com/in/dorukdemircioglu" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a> &nbsp; <a href="https://instagram.com/dorukde/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></h2>
+          You can download my <Link> Resume</Link>
+          <br />
+          <br />
+          Get in touch with me at
+          <br />
+          <a href="mailto:hello@dorukdemircioglu.com">
+            hello@dorukdemircioglu.com
+          </a>
+          <br />
+          <h2>
+            <a
+              href="https://linkedin.com/in/dorukdemircioglu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>{' '}
+            &nbsp;{' '}
+            <a
+              href="https://instagram.com/dorukde/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+          </h2>
         </h4>
       </div>
     </div>
-    <div className="ContentW"> 
+    <div className="ContentW">
       <div className="Content">
         <div className="SectionTitle">Experience</div>
         <ResumeItem
@@ -91,7 +133,6 @@ const AboutPage = () => (
       </div>
     </div>
   </div>
-
 )
 
 export default AboutPage

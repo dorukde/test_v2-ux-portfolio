@@ -1,0 +1,19 @@
+/* Global styles */
+.scrollbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #f4f6f9;
+  color: #666666;
+}
+
+.clear {
+  clear: both;
+}
+ul {
+  list-style: none;
+}

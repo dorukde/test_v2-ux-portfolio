@@ -7,7 +7,7 @@ import Header from '../components/header'
 import Header2 from '../components/header2'
 import Footer from '../components/footer'
 import Footer2 from '../components/footer2'
-import Transition from "../components/transition"
+import Transition from '../components/transition'
 
 const Layout = ({ children, data, location }) => (
   <StaticQuery
@@ -30,24 +30,21 @@ const Layout = ({ children, data, location }) => (
           ]}
         >
           <html lang="en" />
-        </Helmet> <Transition location={location}> 
-{location.pathname === '/' &&
-<Header siteTitle={data.site.siteMetadata.title} />  
-}
-{location.pathname !== '/' &&
-<Header2 siteTitle={data.site.siteMetadata.title} />
-}
-{children}
+        </Helmet>{' '}
+        <Transition location={location}>
+          {location.pathname === '/' && (
+            <Header siteTitle={data.site.siteMetadata.title} />
+          )}
+          {location.pathname !== '/' && (
+            <Header2 siteTitle={data.site.siteMetadata.title} />
+          )}
+          {children}
 
-{location.pathname === '/' &&
-<Footer />
-}
+          {location.pathname === '/' && <Footer />}
 
-{location.pathname !== '/' &&
-<Footer2 />
-}   
-</Transition>      
-</>
+          {location.pathname !== '/' && <Footer2 />}
+        </Transition>
+      </>
     )}
   />
 )
