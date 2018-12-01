@@ -9,7 +9,7 @@ class ScrollBar extends Component {
       <div
         className="scrollbar"
         style={{
-          border: 'solid 1px lightgray',
+          border: 'solid 1px lightgray',
           height,
           backgroundColor: '#f4f6f9',
         }}
@@ -60,17 +60,30 @@ class ManageScrollBar extends Component {
   }
 
   componentDidMount() {
-    this.ScrollRateCalculation()
-
-    document.addEventListener('scroll', this.ScrollRateCalculation)
-    window.addEventListener('hashchange', this.ScrollRateCalculation)
-    document.addEventListener('click', this.ScrollRateCalculation)
+    // sanity check to see if the window object is accessible
+    // as you don't have access to it in ssr(server side rendering)
+    // and will make you scratch your head and wonder why react will spit out errors left and right and prevent the component rendering
+    if (typeof window !== 'undefined') {
+      this.ScrollRateCalculation()
+      document.addEventListener('scroll', this.ScrollRateCalculation)
+      window.addEventListener('hashchange', this.ScrollRateCalculation)
+      document.addEventListener('click', this.ScrollRateCalculation)
+    }
+  }
+  // make sure to remove the listener
+  // when the component is not mounted anymore
+  // you don't need it, no need for lingering stuff
+  componentWillUnmount() {
+    if (typeof window !== 'undefined') {
+      window.removeEventListener('resize', this.ScrollRateCalculation)
+    }
   }
 
   render() {
+    const { scrollBarRate } = this.state // destructuring is your new best friend, learn it, love it, breath it xD.
     return (
       <div>
-        <ScrollBar className="scrollbar" width={this.state.scrollBarRate} />
+        <ScrollBar className="scrollbar" width={scrollBarRate} />
       </div>
     )
   }
