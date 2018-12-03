@@ -2,13 +2,22 @@ module.exports = {
   siteMetadata: {
     title: 'Doruk Demircioglu - UX Portfolio',
   },
-  plugins: [ 
+  plugins: [
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `tomato`,
+        // Disable the loading spinner.
+        showSpinner: false,
+      },
+    },
     {
       resolve: `gatsby-plugin-layout`,
       options: {
-          component: require.resolve(`${__dirname}/src/layouts/layout`)
-      }
-  },
+        component: require.resolve(`${__dirname}/src/layouts/layout`),
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,

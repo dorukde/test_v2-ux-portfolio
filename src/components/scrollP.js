@@ -62,7 +62,6 @@ class ManageScrollBar extends Component {
   componentDidMount() {
     // sanity check to see if the window object is accessible
     // as you don't have access to it in ssr(server side rendering)
-    // and will make you scratch your head and wonder why react will spit out errors left and right and prevent the component rendering
     if (typeof window !== 'undefined') {
       this.ScrollRateCalculation()
       document.addEventListener('scroll', this.ScrollRateCalculation)
@@ -70,7 +69,7 @@ class ManageScrollBar extends Component {
       document.addEventListener('click', this.ScrollRateCalculation)
     }
   }
-  // make sure to remove the listener
+  // remove the listener
   // when the component is not mounted anymore
   // you don't need it, no need for lingering stuff
   componentWillUnmount() {
