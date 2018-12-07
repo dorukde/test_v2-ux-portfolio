@@ -10,7 +10,6 @@ import Text2 from '../components/text2'
 import SHeader from '../components/sheader'
 
 /*STYLED COMPONENT */
-import styled from 'styled-components'
 
 const skakPage = props => (
   <div id="HeroAbout2" className="HeroAbout">
