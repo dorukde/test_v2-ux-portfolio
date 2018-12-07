@@ -35,7 +35,7 @@
 .navo a {
   position: relative;
   display: inline-block;
-  padding: 0em 0 0 3em;
+  padding: 0 0 0 3em;
   font-size: 0.8em;
   opacity: 0.6;
 }
@@ -83,11 +83,16 @@
 
 @media (max-width: 640px) {
   .home a {
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
 
   .navo {
-    font-size: 0.9em;
-    padding: 1.25em 1em;
+    font-size: 0.8em;
+    padding: 1.6em 1em;
+  }
+
+  .navo a {
+    font-size: 0.8em;
+    padding-left: 1.5em;
   }
 }

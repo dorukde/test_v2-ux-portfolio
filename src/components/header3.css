@@ -62,11 +62,16 @@
 
 @media (max-width: 640px) {
   .home3 a {
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
 
   .navo3 {
-    font-size: 0.9em;
-    padding: 1.25em 1em;
+    font-size: 0.8em;
+    padding: 1.6em 1em;
+  }
+
+  .navo3 a {
+    font-size: 0.8em;
+    padding-left: 1.5em;
   }
 }
