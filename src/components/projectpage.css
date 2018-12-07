@@ -128,15 +128,19 @@ h1 {
   .ProjectDetail2 {
     font-size: 1em;
     padding-top: 2.25em;
+    padding-right: 0;
+    display: block;
   }
   .ProjectName2 {
     font-size: 1.6em;
     padding-left: 0em;
-    width: 40%;
+    width: 50%;
+    display: block;
   }
   .ProjectDescription {
     font-size: 1em;
     max-width: 90%;
+    display: block;
   }
   .Text1 {
     width: 90%;
