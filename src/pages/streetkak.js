@@ -53,7 +53,7 @@ const skakPage = props => (
           <div className="textbold">Method:</div> Lean UX
           <br />
         </div>
-        <div className="SectionTitle">Introduction</div>
+        <div className="SectionTitle2">Introduction</div>
         <HText1
           Header1="Street-food in Scandinavia"
           Text1="Summer of 2014, marked the launch of street-food trucks in Stockholm, and made a big impact during the short summer (e.g. a new TV-series about street-food). Streetkäk (street + snack) started as a passion project, including an ex hamburger-kiosk chef. Initial idea of Streetkäk has been locating and finding food-trucks in the city before they were out in the wild. The time was scarce for street-food lovers, as well as the limited supply of good-taste to be chased."
@@ -89,7 +89,7 @@ const skakPage = props => (
           Text1="Streetkäk provides a complete solution for the food-truck community, with an agile platform and a Check-in App for food-truck owners to start with. 
           Street-food community loves 'small-talk' and Streetkäk's idea has been creating a platform, that removes the distance created by limitations. Food truck owners need to be able to "
         />
-        <div className="SectionTitle">The Process</div>
+        <div className="SectionTitle2">The Process</div>
         <HText1
           Header1="Persona of a Food-Truck"
           Text1="'Communication' is the core concept shaping street-food culture. It is a complete-storytelling process that is personal, involving the chef, the story of the food, and participation of street-food lover. However, the trucks needed a platform for being able to say 'Hi' and introduce their menu/prices for making the most of their limited time on the street. Streetkäk provided an admin-panel where food-truck owners could add/edit their intro/menu, add food specifications (happy cows &amp; no more allergies)."
@@ -98,7 +98,7 @@ const skakPage = props => (
           fluid={props.data.skFive.childImageSharp.fluid}
           alt="Personalising Trucks"
         />
-        <div className="SectionTitle">Streetkäk Check-in</div>
+        <div className="SectionTitle2">Streetkäk Check-in</div>
         <HText1
           Header1="The Process"
           Text1="Summer of 2014 marked the launch of street-food trucks in Stockholm, and made a big impact during the short summer (e.g. a new TV-series about street-food). Streetkäk started as a passion project, including an ex hamburger-kiosk chef. Initial idea of Streetkäk has been locating and finding food-trucks in the city before they were out in the wild. The time was scarce as well as limited supply of good-taste to be chased for street-food lovers."
