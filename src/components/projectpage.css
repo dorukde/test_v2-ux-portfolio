@@ -141,7 +141,7 @@ h1 {
     font-size: 1em;
     max-width: 90%;
     display: block;
-    float: right;
+    float: left;
   }
   .Text1 {
     width: 90%;
