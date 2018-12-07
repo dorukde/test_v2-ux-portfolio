@@ -21,7 +21,7 @@ const skakPage = props => (
           <div className="ProjectDetail2">Product Design</div>
         </div>
         <div className="ProjectDescription">
-          Inspired by the growing streed food culture in Scandinavia, and
+          Inspired by the growing street food culture in Scandinavia, and
           legendary Citroen H Van. Streetkäk is the first App to locate food
           trucks and other street food vendors in real time, in the Nordic
           countries such as Sweden, Denmark, Norway and Finland.
@@ -120,6 +120,7 @@ export const fluidImage = graphql`
     }
   }
 `
+
 export const fluidImage2 = graphql`
   fragment fluidImage2 on File {
     childImageSharp {
@@ -129,6 +130,7 @@ export const fluidImage2 = graphql`
     }
   }
 `
+
 export const fixedImage = graphql`
   fragment fixedImage on File {
     childImageSharp {
