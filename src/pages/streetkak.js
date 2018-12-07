@@ -9,8 +9,6 @@ import HText1 from '../components/text1'
 import Text2 from '../components/text2'
 import SHeader from '../components/sheader'
 
-/*STYLED COMPONENT */
-
 const skakPage = props => (
   <div id="HeroAbout2" className="HeroAbout">
     <div className="AboutW">
@@ -59,26 +57,31 @@ const skakPage = props => (
         />
         <Text2 Text2="Streetkäk's visual language has been crafty, humanistic, with a team having a complete 'DIY' approach. After having collaborated with the food-truck chefs and observing their interaction with the community, the visal language has shaped as  crafty, custom and 'humanist', as tech-savvy as greasy hands and a hungry mind." />
         <br />
-        <Img
-          fixed={props.data.skOne.childImageSharp.fixed}
-          alt="Logo and App Icon"
-          style={{ maxWidth: 400 }}
-        />
-        <Img
-          fixed={props.data.skTwo.childImageSharp.fixed}
-          alt="Typography and Colour"
-          style={{ maxWidth: 400 }}
-        />
-        <Img
-          fixed={props.data.skThree.childImageSharp.fixed}
-          alt="Iconography"
-          style={{ maxWidth: 400 }}
-        />
-        <Img
-          fixed={props.data.skFour.childImageSharp.fixed}
-          alt="State Indicators"
-          style={{ maxWidth: 400 }}
-        />
+        <div className="gatsby-image-wrapper2">
+          <Img
+            fluid={props.data.skOne.childImageSharp.fluid}
+            alt="Logo and App Icon"
+            style={{ width: 400 }}
+          />
+          <Img
+            fluid={props.data.skTwo.childImageSharp.fluid}
+            alt="Typography and Colour"
+            style={{ width: 400 }}
+          />
+        </div>
+        <div className="gatsby-image-wrapper2">
+          <Img
+            fluid={props.data.skThree.childImageSharp.fluid}
+            alt="Iconography"
+            style={{ width: 400 }}
+          />
+          <Img
+            fluid={props.data.skFour.childImageSharp.fluid}
+            alt="State Indicators"
+            style={{ width: 400 }}
+          />
+        </div>
+
         <HText1
           Header1="The Problem"
           Text1="'Communication' is at the heart of street-food culture. Street-food can be thought as a storytelling process, involving the chef, the story of the food, and participation of street-food lover. In Nordic cities, there are regulations about time-interval, location and schedule of sales for food trucks. Communication within the street-food community depended on 'happy coincidences' and social media, without a specific platform. Often times, food-truck chefs run a 'one man show', making it harder to manage social-media updates while cooking at the same time. "
@@ -143,16 +146,16 @@ export const fixedImage = graphql`
 export const pageQuery = graphql`
   query {
     skOne: file(relativePath: { eq: "sk1.jpg" }) {
-      ...fixedImage
+      ...fluidImage2
     }
     skTwo: file(relativePath: { eq: "sk2.jpg" }) {
-      ...fixedImage
+      ...fluidImage2
     }
     skThree: file(relativePath: { eq: "sk3.jpg" }) {
-      ...fixedImage
+      ...fluidImage2
     }
     skFour: file(relativePath: { eq: "sk4.jpg" }) {
-      ...fixedImage
+      ...fluidImage2
     }
     skFive: file(relativePath: { eq: "sk5.jpg" }) {
       ...fluidImage
