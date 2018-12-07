@@ -1,124 +1,123 @@
-
 .ProjectItem {
-    transition: all 1s ease;
-    height: auto;
-    border-radius: 4px;
-    padding-top: 1.5em;
-    padding-bottom: 1em;
-  }
-  
-  .ProjectTitle {
-    display: inline-block;
-    width: 100%;
-  }
-  
-  .ProjectSubtitle {
-    transition: all 0.5s ease;
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    max-height: 0;
-    opacity: 0;
-    visibility: hidden;
-    font-weight: normal;
-  
-  }
-  
-  .ProjectName {
+  transition: all 1s ease;
+  height: auto;
+  border-radius: 4px;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.ProjectTitle {
+  display: inline-block;
+  width: 100%;
+}
+
+.ProjectSubtitle {
+  transition: all 0.5s ease;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  font-weight: normal;
+}
+
+.ProjectName {
   float: left;
-  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: normal;
   font-size: 2.2em;
   color: #333030;
   padding: 0em 0 0 0.75em;
   -webkit-font-smoothing: antialiased;
+}
+
+.ProjectDetail {
+  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  color: #857d7d;
+  padding: 0.4em 1em 0 0;
+  float: right;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ProjectText1 {
+  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 0.85em;
+  color: #333030;
+  padding: 0 0 0 2.2em;
+  line-height: 1.5em;
+  width: 67%;
+  float: left;
+}
+
+.ProjectText2 {
+  font-family: 'NexaHeavy', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 0.8em;
+  color: #333030;
+  padding: 0 2em 0 0;
+  width: 33%;
+  float: right;
+  text-align: right;
+}
+
+.ProjectItem:hover {
+  transition: all 1s ease;
+  background-color: rgb(245, 228, 228);
+}
+
+.ProjectItem:hover > .ProjectSubtitle {
+  transition: all 0.75s ease;
+  max-height: 5em;
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+  padding-bottom: 0;
+}
+
+@media (max-width: 960px) {
+  .ProjectName {
+    font-size: 1.5em;
+    padding-left: 0.5em;
   }
-  
   .ProjectDetail {
-    font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;  
-    font-size:1.5em;
-    color: #857D7D;
-    padding: 0.4em 1em 0 0;
-    float: right;
-    -webkit-font-smoothing: antialiased;
-    }
-  
-    .ProjectText1 {
-      font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      margin: 0; 
-      font-size: 0.85em;
-      color: #333030;
-      padding: 0 0 0 2.2em;
-      line-height: 1.5em;
-      width: 67%;
-      float: left;
-      }
-      
-      .ProjectText2 {
-      font-family: 'NexaHeavy', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      margin: 0;
-      font-size: 0.8em;
-      color: #333030;
-      padding: 0 2em 0 0;
-      width: 33%;
-      float: right; 
-      text-align: right;
+    font-size: 1em;
+    padding-right: 1em;
   }
-      
-      .ProjectItem:hover {
-        transition: all 1s ease;
-        background-color: rgb(245, 228, 228);
-      }
-  
-      .ProjectItem:hover > .ProjectSubtitle {
-        transition: all 0.75s ease;
-        max-height: 5em;
-        height: auto;
-        opacity: 1;
-        visibility: visible;
-        padding-bottom: 0;
-      }
-      
-      @media (max-width: 960px) {
-  
-        .ProjectName {
-      font-size: 1.8em;
-      }
-      
-      .ProjectDetail {
-        font-size:1.4em;
-      }
-        .ProjectText1 {
-          font-size: 0.7em;
-          }
-          
-          .ProjectText2 {
-          font-size: 0.7em;
-  
-                }
-      }
-  
-  
-  @media (max-width: 720px) {
-    
-      .ProjectItem {
-      padding: 1.5em 0;
-    }
-  
-    .ProjectName {
-  font-size: 1.3em;
+  .ProjectText1 {
+    font-size: 0.7em;
+    padding-left: 1.25em;
   }
-  
+  .ProjectText2 {
+    font-size: 0.7em;
+    padding-right: 1.5em;
+  }
+  .ProjectSubtitle {
+    padding-top: 0.5em;
+  }
+}
+
+@media (max-width: 640px) {
+  .ProjectSubtitle {
+    display: none;
+  }
+  .ProjectItem {
+    padding-bottom: 0.75em;
+    height: auto;
+  }
   .ProjectDetail {
-    font-size:1em;
-    line-height: 0.9em;
+    padding-top: 0.25em;
+    font-size: 1em;
   }
-    .ProjectText1 {
-      font-size: 0.65em;
-      }
-      
-      .ProjectText2 {
-      font-size: 0.65em;
-            }
+  .ProjectName {
+    font-size: 1.25em;
+    padding-left: 0.5em;
   }
+}

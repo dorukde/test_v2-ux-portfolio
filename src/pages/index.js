@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import Project from '../components/project'
 import ProjectMini from '../components/projectmini'
 import '../components/header.css'
-import Image from '../components/image'
 
 const IndexPage = () => (
   <div id="Works_id" className="Works">
@@ -30,16 +29,18 @@ const IndexPage = () => (
       ProjectText2="VIEW PROJECT >"
     />
 
-    <Project
-      ProjectName="Streetkäk"
-      ProjectDetail="Product Design"
-      ProjectText1="Inspired by the growing streed food culture in Scandinavia and legendary Citroen H Van - Streetkäk is the first App to locate food trucks and street food vendors real-time, in the Nordic countries such as Sweden, Denmark, Norway and Finland."
-      ProjectText2="VIEW PROJECT >"
-    />
+    <Link to="/streetkak">
+      <Project
+        ProjectName="Streetkäk App"
+        ProjectDetail="Product Design"
+        ProjectText1="Inspired by the growing streed food culture in Scandinavia and legendary Citroen H Van - Streetkäk is the first App to locate food trucks and street food vendors real-time, in the Nordic countries such as Sweden, Denmark, Norway and Finland."
+        ProjectText2="VIEW PROJECT >"
+      />
+    </Link>
 
     <ProjectMini
       ProjectName="- Other Works"
-      ProjectDetail="3D, Print, Branding"
+      ProjectDetail="HCD, 3D, Print, Branding"
     />
   </div>
 )

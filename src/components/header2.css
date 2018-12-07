@@ -16,14 +16,10 @@
 .HeaderWrapper2 {
   max-width: 960px;
   margin: 0 auto;
-  text-align: center;
   display: block;
-  align-items: center;
-  justify-items: center;
-  z-index: 100;
 }
 
-.home {
+.home2 {
   margin: 0 auto;
   padding: 1em 0 0 1.75em;
   font-size: 1em;
@@ -33,22 +29,41 @@
 .navo2 {
   padding: 1em 1.75em 0 0;
   float: right;
+  margin: 0 0;
 }
 
 .navo2 a {
   position: relative;
   display: inline-block;
-  padding: 0.25em 0 0 3em;
+  padding: 0em 0 0 3em;
   font-size: 0.8em;
+  opacity: 0.6;
 }
 
 .navo2 a::after {
   content: '';
-  background: rgb(243, 94, 94);
-  height: 4px;
+  background: #f7f4f0;
+  height: 3px;
   position: absolute;
-  bottom: 0;
+  bottom: -13px;
   transition: 0.16s all 0.025s;
+  border-radius: 2px;
+}
+
+#selected2 {
+  opacity: 1;
+}
+
+#selected2:after {
+  content: '';
+  background: #f7f4f0;
+  height: 3px;
+  position: absolute;
+  bottom: -13px;
+  opacity: 1;
+  border-radius: 2px;
+  left: 42%;
+  right: 0%;
 }
 
 .navo2 a::after {
@@ -56,26 +71,18 @@
   right: 0;
 }
 
-.navo2 a:hover ~ a::after {
-  left: 0;
-  right: 100%;
-}
-
 .navo2 a:hover::after {
-  left: 0;
-  right: 0;
-}
-
-.horizontalSlider {
-  padding-top: 3em;
+  left: 42%;
+  right: 0%;
 }
 
 @media (max-width: 640px) {
-  .home a {
-    font-size: 0.8em;
+  .home2 a {
+    font-size: 0.9em;
   }
 
   .navo2 {
-    font-size: 0.8em;
+    font-size: 0.9em;
+    padding: 1.25em 1em;
   }
 }

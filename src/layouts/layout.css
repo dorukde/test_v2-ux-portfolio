@@ -2,10 +2,11 @@
 @font-face {
   font-family: 'Crimson';
   src: url('./webfonts/crimson-roman-webfont.eot');
-  src: url('./webfonts/crimson-roman-webfont.eot?#iefix') format('embedded-opentype'),
-       url('./webfonts/crimson-roman-webfont.woff2') format('woff2'),
-       url('./webfonts/crimson-roman-webfont.woff') format('woff'),
-       url('webfonts/crimson-roman-webfont.ttf') format('truetype');
+  src: url('./webfonts/crimson-roman-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('./webfonts/crimson-roman-webfont.woff2') format('woff2'),
+    url('./webfonts/crimson-roman-webfont.woff') format('woff'),
+    url('webfonts/crimson-roman-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,10 +14,11 @@
 @font-face {
   font-family: 'Crimson';
   src: url('webfonts/crimson-semibold-webfont.eot');
-  src: url('webfonts/crimson-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('webfonts/crimson-semibold-webfont.woff2') format('woff2'),
-       url('webfonts/crimson-semibold-webfont.woff') format('woff'),
-       url('webfonts/crimson-semibold-webfont.ttf') format('truetype');
+  src: url('webfonts/crimson-semibold-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('webfonts/crimson-semibold-webfont.woff2') format('woff2'),
+    url('webfonts/crimson-semibold-webfont.woff') format('woff'),
+    url('webfonts/crimson-semibold-webfont.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
@@ -24,10 +26,11 @@
 @font-face {
   font-family: 'Crimson';
   src: url('webfonts/crimson-bold-webfont.eot');
-  src: url('webfonts/crimson-bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('webfonts/crimson-bold-webfont.woff2') format('woff2'),
-       url('webfonts/crimson-bold-webfont.woff') format('woff'),
-       url('webfonts/crimson-bold-webfont.ttf') format('truetype');
+  src: url('webfonts/crimson-bold-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('webfonts/crimson-bold-webfont.woff2') format('woff2'),
+    url('webfonts/crimson-bold-webfont.woff') format('woff'),
+    url('webfonts/crimson-bold-webfont.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -113,58 +116,117 @@
  * © 2018 MyFonts Inc
 */
 
-@font-face {font-family: 'NexaThin';src: url('webfonts/3818F1_1_0.eot');src: url('webfonts/3818F1_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_1_0.woff2') format('woff2'),url('webfonts/3818F1_1_0.woff') format('woff'),url('webfonts/3818F1_1_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaBlack';src: url('webfonts/3818F1_2_0.eot');src: url('webfonts/3818F1_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_2_0.woff2') format('woff2'),url('webfonts/3818F1_2_0.woff') format('woff'),url('webfonts/3818F1_2_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaBold';src: url('webfonts/3818F1_4_0.eot');src: url('webfonts/3818F1_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_4_0.woff2') format('woff2'),url('webfonts/3818F1_4_0.woff') format('woff'),url('webfonts/3818F1_4_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaBook';src: url('webfonts/3818F1_6_0.eot');src: url('webfonts/3818F1_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_6_0.woff2') format('woff2'),url('webfonts/3818F1_6_0.woff') format('woff'),url('webfonts/3818F1_6_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaHeavy';src: url('webfonts/3818F1_8_0.eot');src: url('webfonts/3818F1_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_8_0.woff2') format('woff2'),url('webfonts/3818F1_8_0.woff') format('woff'),url('webfonts/3818F1_8_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaLight';src: url('webfonts/3818F1_A_0.eot');src: url('webfonts/3818F1_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_A_0.woff2') format('woff2'),url('webfonts/3818F1_A_0.woff') format('woff'),url('webfonts/3818F1_A_0.ttf') format('truetype');}
-@font-face {font-family: 'Nexa';src: url('webfonts/3818F1_C_0.eot');src: url('webfonts/3818F1_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_C_0.woff2') format('woff2'),url('webfonts/3818F1_C_0.woff') format('woff'),url('webfonts/3818F1_C_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaXBold';src: url('webfonts/3818F1_F_0.eot');src: url('webfonts/3818F1_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3818F1_F_0.woff2') format('woff2'),url('webfonts/3818F1_F_0.woff') format('woff'),url('webfonts/3818F1_F_0.ttf') format('truetype');}
+@font-face {
+  font-family: 'NexaThin';
+  src: url('webfonts/3818F1_1_0.eot');
+  src: url('webfonts/3818F1_1_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/3818F1_1_0.woff2') format('woff2'),
+    url('webfonts/3818F1_1_0.woff') format('woff'),
+    url('webfonts/3818F1_1_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NexaBlack';
+  src: url('webfonts/3818F1_2_0.eot');
+  src: url('webfonts/3818F1_2_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/3818F1_2_0.woff2') format('woff2'),
+    url('webfonts/3818F1_2_0.woff') format('woff'),
+    url('webfonts/3818F1_2_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NexaBold';
+  src: url('webfonts/3818F1_4_0.eot');
+  src: url('webfonts/3818F1_4_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/3818F1_4_0.woff2') format('woff2'),
+    url('webfonts/3818F1_4_0.woff') format('woff'),
+    url('webfonts/3818F1_4_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NexaBook';
+  src: url('webfonts/3818F1_6_0.eot');
+  src: url('webfonts/3818F1_6_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/3818F1_6_0.woff2') format('woff2'),
+    url('webfonts/3818F1_6_0.woff') format('woff'),
+    url('webfonts/3818F1_6_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NexaHeavy';
+  src: url('webfonts/3818F1_8_0.eot');
+  src: url('webfonts/3818F1_8_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/3818F1_8_0.woff2') format('woff2'),
+    url('webfonts/3818F1_8_0.woff') format('woff'),
+    url('webfonts/3818F1_8_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NexaLight';
+  src: url('webfonts/3818F1_A_0.eot');
+  src: url('webfonts/3818F1_A_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/3818F1_A_0.woff2') format('woff2'),
+    url('webfonts/3818F1_A_0.woff') format('woff'),
+    url('webfonts/3818F1_A_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nexa';
+  src: url('webfonts/3818F1_C_0.eot');
+  src: url('webfonts/3818F1_C_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/3818F1_C_0.woff2') format('woff2'),
+    url('webfonts/3818F1_C_0.woff') format('woff'),
+    url('webfonts/3818F1_C_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NexaXBold';
+  src: url('webfonts/3818F1_F_0.eot');
+  src: url('webfonts/3818F1_F_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/3818F1_F_0.woff2') format('woff2'),
+    url('webfonts/3818F1_F_0.woff') format('woff'),
+    url('webfonts/3818F1_F_0.ttf') format('truetype');
+}
 
 /* TYPOGRAPHY END */
 
-body{
-  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
-  font-size: 1.1em;  
+  font-size: 1.1em;
   line-height: 1.35;
   cursor: default;
-  background-color: #FFF1F1;
+  background-color: #fff1f1;
   -webkit-font-smoothing: antialiased;
   overflow-y: scroll;
 }
 
 h5 {
-  font-family: 'NexaBook', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'NexaBook', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   font-size: 1.2em;
   line-height: 1.8;
   cursor: default;
-  color: #F7F4F0;
+  color: #f7f4f0;
   padding-left: 2em;
 }
 
 h4 {
-  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 0;  
-  font-size:1.2em;
+  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 1.2em;
   line-height: 1.45;
   color: rgb(168, 158, 158);
   font-weight: normal;
-  }
+}
 
 a {
-text-decoration: none;
-color: #FFF1F1;
+  text-decoration: none;
+  color: #f7f4f0;
 }
-  
+
 /* HERO START */
 
 .Works {
   margin: 0 auto;
-  max-width: 960px;  
-padding-top: 4em; 
+  max-width: 960px;
+  padding-top: 4em;
 }
 
 /* ABOUT - PROJECT STYLE */
@@ -173,71 +235,71 @@ padding-top: 4em;
   width: 100%;
 }
 
-.AboutTop {
-    margin: 0 auto;
-    max-width: 960px;
-    }
-    .AboutTop a {
-       font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-       font-weight: 600;
-      }
+.About {
+  margin: 0 auto;
+  max-width: 960px;
+}
+.About a {
+  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
 
-    .AboutTop a:hover {
-     text-decoration: underline;
-      }
+.About a:hover {
+  text-decoration: underline;
+}
 
-.AboutTopW {
+.AboutW {
   background-color: #393439;
   padding: 3em 0 0.5em 3.5em;
-      }
-
-#AnimateImage {
-width: 160px;
-height: 160px;
-background: url('../images/profile_image2x.jpg') left center;
-background-size: cover;
-animation: funguy 1.5s steps(2) infinite;
-display: inline-block;
 }
 
-@keyframes funguy {
-  100% {background-position: -320px;}
-}
-
-.Content{
+.Content {
   margin: 0 auto;
-  padding: 1.75em 1.75em;
   max-width: 960px;
   line-height: 1.6em;
-  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .ContentW {
-  width: 100%;
-
+  padding: 1em 0 0.5em 3em;
 }
 
-.WorkExperience {
-  line-height: 1.6em;
-  font-size: 0.9em;
+#AnimateImage {
+  width: 160px;
+  height: 160px;
+  background: url('../images/profile_image2x.jpg') left center;
+  background-size: cover;
+  animation: funguy 1.5s steps(2) infinite;
+  display: block;
+  margin: 2em 0 2em 0;
 }
 
-  
+@keyframes funguy {
+  100% {
+    background-position: -320px;
+  }
+}
+
 /* HERO END */
-
+@media (max-width: 960px) {
+  .Works {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
 
 @media (max-width: 640px) {
-
-    .ProjectSubtitle {
-      display: none;
-    }
-
-.AboutTopW {
-  background-color: #393439;
-  padding: 3em 1.5em 0.5em 1.5em;
-      }
-
-
+  .AboutW {
+    background-color: #393439;
+    padding: 3em 1.5em 0.5em 1.5em;
+  }
+  .ContentW {
+    padding: 1em 1.5em 0.5em 1.5em;
+  }
+  .Works {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
 }
-
-  

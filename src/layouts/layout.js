@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import './layout.css'
 import Header from '../components/header'
 import Header2 from '../components/header2'
+import Header3 from '../components/header3'
 import Footer from '../components/footer'
 import Footer2 from '../components/footer2'
 import Transition from '../components/transition'
@@ -36,8 +37,12 @@ const Layout = ({ children, data, location }) => (
             <Header siteTitle={data.site.siteMetadata.title} />
           )}
           {location.pathname !== '/' && (
+            <Header3 siteTitle={data.site.siteMetadata.title} />
+          )}
+          {location.pathname === '/about' && (
             <Header2 siteTitle={data.site.siteMetadata.title} />
           )}
+
           {children}
 
           {location.pathname === '/' && <Footer />}

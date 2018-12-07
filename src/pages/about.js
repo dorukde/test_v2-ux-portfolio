@@ -11,16 +11,15 @@ import ResumeItem from '../components/resume'
 import ResumeItem2 from '../components/resume2'
 import ResumeItem3 from '../components/resume3'
 import '../components/resume.css'
+import HText1 from '../components/text1'
+import Text2 from '../components/text2'
 
 const AboutPage = () => (
-  <div id="HeroAbout2" className="HeroAbout">
-    <div className="AboutTopW">
-      <div className="AboutTop">
+  <div className="HeroAbout">
+    <div className="AboutW">
+      <div className="About">
+        <div id="AnimateImage" />
         <h4>
-          <br />
-          <div id="AnimateImage" />
-          <br />
-          <br />
           Hi, This is Doruk!
           <br />
           I'm a digital product designer based in Sydney{' '}
@@ -51,38 +50,30 @@ const AboutPage = () => (
             hello@dorukdemircioglu.com
           </a>
           <br />
-          <h2>
-            <a
-              href="https://linkedin.com/in/dorukdemircioglu"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin />
-            </a>{' '}
-            &nbsp;{' '}
-            <a
-              href="https://instagram.com/dorukde/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram />
-            </a>
-          </h2>
         </h4>
+        <h2>
+          <a
+            href="https://linkedin.com/in/dorukdemircioglu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>{' '}
+          &nbsp;{' '}
+          <a
+            href="https://instagram.com/dorukde/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram />
+          </a>
+        </h2>
       </div>
     </div>
     <div className="ContentW">
       <div className="Content">
         <div className="SectionTitle">Experience</div>
-        <ResumeItem
-          MyRole="Digital Product Design (Freelance)"
-          Workplace="Strafe"
-          Duration="2018/5 &#x2013; 2018/8"
-          City="Stockholm, Sweden"
-          Item1="Planning &amp; Conducting User Research"
-          Item2="New Features: Friends Functionality &amp; Gamified leaderboard"
-          Item3="New voting module"
-        />
+        <HText1 Header1="Digital Product Design (Freelance)" Text1="Strafe" />
         <ResumeItem
           MyRole="Digital Product Design, UX-UI Design"
           Workplace="Keyflow"
@@ -97,7 +88,7 @@ const AboutPage = () => (
           Workplace="Streetkäk"
           Duration="2013 &#x2013; Present"
           City="Stockholm, Sweden"
-          Item1="UX-UI Design for native mobile Apps for end-users and truck-owners"
+          Item1="UX-UI Design for native mobile Apps for end-users and food-truck owners"
           Item2="Branding &amp; art direction of events, video production"
           Item3="Digital and physical marketing visuals design"
         />
@@ -120,15 +111,14 @@ const AboutPage = () => (
           Duration="2003 &#x2013; 2009"
           City="Izmir, Turkey"
         />
-
         <div className="SectionTitle">Tools</div>
         <ResumeItem3
           MyRole="Design"
-          Workplace="Sketch, Figma, Framer, Adobe CC (XD, Ps, Ai, Pr, Lr), C4D, Maya, Pencil(s) &amp; Sketchbook"
+          Workplace="Sketch, Figma, Adobe CC (XD, Ps, Ai, Pr, Lr), C4D, Maya, Pencil(s) &amp; Sketchbook"
         />
         <ResumeItem3
           MyRole="Prototyping"
-          Workplace="Zeplin, Principle, InVision, Framer, html + CSS + JS, React (basic)"
+          Workplace="Zeplin, Principle, InVision, Framer X, html + CSS + JS, React"
         />
       </div>
     </div>
