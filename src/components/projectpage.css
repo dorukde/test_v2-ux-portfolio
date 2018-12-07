@@ -120,14 +120,6 @@ h1 {
   padding: 1em 0 0 0;
 }
 
-.ImgW_Top {
-  display: inline;
-}
-
-.ImgW {
-  width: 50%;
-}
-
 .SingleHeader {
   padding: 2em 0 1em 0;
 }
@@ -151,10 +143,6 @@ h1 {
   }
   .Text2 {
     width: 90%;
-  }
-  .Img {
-    width: 40%;
-    max-width: 360px;
   }
 }
 
