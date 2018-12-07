@@ -149,6 +149,9 @@ h1 {
   .Text2 {
     width: 90%;
   }
+  .infobox2 {
+    font-size: 0.75em;
+  }
 }
 
 @media (max-width: 740px) {
