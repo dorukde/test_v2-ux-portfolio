@@ -33,7 +33,7 @@ ScrollBar.propTypes = {
 }
 
 ScrollBar.defaultProps = {
-  height: 10,
+  height: 5,
   width: 0,
 }
 
@@ -48,11 +48,13 @@ class ManageScrollBar extends Component {
   }
 
   ScrollRateCalculation() {
-    const innerHeight = window.innerHeight //A
-    const scrollMax = Math.ceil(window.outerHeight - innerHeight)
-    const scrollY =
-      document.documentElement.scrollTop || document.body.scrollTop
-    const scrollRate = parseInt((scrollY / scrollMax) * 100, 10)
+    let innerHeight = window.innerHeight //A
+    let bodyElement = document.getElementById('rect') //B1
+    let rect = bodyElement.getBoundingClientRect() //B2
+    let heightIsHtml = rect.height //B3
+    let scrollMax = Math.ceil(heightIsHtml - innerHeight) //C = B3 - A
+    let scrollY = document.documentElement.scrollTop || document.body.scrollTop //D
+    let scrollRate = parseInt((scrollY / scrollMax) * 100, 10) //E = (D / C) *100
     this.setState({
       scrollY: scrollY,
       scrollBarRate: scrollRate,

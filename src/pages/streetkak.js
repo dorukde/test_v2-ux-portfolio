@@ -8,106 +8,180 @@ import Img from 'gatsby-image'
 import HText1 from '../components/text1'
 import Text2 from '../components/text2'
 import SHeader from '../components/sheader'
+import TextLi from '../components/textLi'
+
+import Scroller from '../components/scrollP'
 
 const skakPage = props => (
-  <div id="HeroAbout2" className="HeroAbout">
-    <div className="AboutW">
-      <div className="AboutProject">
-        <div className="ProjectTitle">
-          <div className="ProjectName2">Streetkäk App</div>
-          <div className="ProjectDetail2">Product Design</div>
+  <div id="rect">
+    <Scroller />
+    <div id="HeroAbout2" className="HeroAbout">
+      <div className="AboutW">
+        <div className="AboutProject">
+          <div className="ProjectTitle">
+            <div className="ProjectName2">Streetkäk App</div>
+            <div className="ProjectDetail2">Product Design</div>
+          </div>
+          <div className="ProjectDescription">
+            Inspired by the growing street food culture in Scandinavia, and
+            legendary Citroen H Van. Streetkäk is the first App to locate food
+            trucks and other street food vendors in real time, in the Nordic
+            countries such as Sweden, Denmark, Norway and Finland.
+          </div>
+          <h1>
+            <Link>
+              <FaApple />
+            </Link>{' '}
+            <Link>
+              <FaGooglePlay />
+            </Link>
+            <div className="infobox">
+              <div className="textbold">Platform:</div> iOS/Android & Web <br />
+              <div className="textbold">Duration:</div> 2015/5 – 2018/5 <br />
+              <div className="textbold">Role:</div> Co-Founder, Product Designer
+              <br />
+              <div className="textbold">Method:</div> Lean UX <br />
+            </div>
+          </h1>
         </div>
-        <div className="ProjectDescription">
-          Inspired by the growing street food culture in Scandinavia, and
-          legendary Citroen H Van. Streetkäk is the first App to locate food
-          trucks and other street food vendors in real time, in the Nordic
-          countries such as Sweden, Denmark, Norway and Finland.
-        </div>
-        <h1>
-          <Link>
-            <FaApple />
-          </Link>{' '}
-          <Link>
-            <FaGooglePlay />
-          </Link>
-          <div className="infobox">
+      </div>
+      <div className="ContentW">
+        <div className="Content">
+          <div className="infobox2">
             <div className="textbold">Platform:</div> iOS/Android & Web <br />
             <div className="textbold">Duration:</div> 2015/5 – 2018/5 <br />
             <div className="textbold">Role:</div> Co-Founder, Product Designer
             <br />
-            <div className="textbold">Method:</div> Lean UX <br />
+            <div className="textbold">Method:</div> Lean UX
+            <br />
           </div>
-        </h1>
-      </div>
-    </div>
-    <div className="ContentW">
-      <div className="Content">
-        <div className="infobox2">
-          <div className="textbold">Platform:</div> iOS/Android & Web <br />
-          <div className="textbold">Duration:</div> 2015/5 – 2018/5 <br />
-          <div className="textbold">Role:</div> Co-Founder, Product Designer
+          <div className="SectionTitle2">Introduction</div>
+          <HText1
+            Header1="Street-food in Scandinavia"
+            Text1="Summer of 2014, marked the launch of street-food trucks in Stockholm, and made a big impact during the short summer (e.g. a new TV-series about street-food). Streetkäk (street + snack) started as a passion project, including an ex hamburger-kiosk chef. Initial idea of Streetkäk has been locating and finding food-trucks in the city before they were out in the wild. The time was scarce for street-food lovers, as well as the limited supply of good-taste to be chased."
+          />
+          <Text2 Text2="Streetkäk's visual language has been crafty, humanistic, with a team having a complete 'DIY' approach. After having collaborated with the food-truck chefs and observing their interaction with the community, the visal language has shaped as  crafty, custom and 'humanist', as tech-savvy as greasy hands and a hungry mind." />
           <br />
-          <div className="textbold">Method:</div> Lean UX
+          <div className="gatsby-image-wrapper2">
+            <Img
+              fluid={props.data.skOne.childImageSharp.fluid}
+              alt="Logo and App Icon"
+            />
+            <Img
+              fluid={props.data.skTwo.childImageSharp.fluid}
+              alt="Typography and Colour"
+            />
+          </div>
+          <div className="gatsby-image-wrapper2">
+            <Img
+              fluid={props.data.skThree.childImageSharp.fluid}
+              alt="Iconography"
+            />
+            <Img
+              fluid={props.data.skFour.childImageSharp.fluid}
+              alt="State Indicators"
+            />
+          </div>
+          <HText1
+            Header1="The Problem"
+            Text1="Our contextual observation has shown the importance of 'communication' in street-food culture. Street-food can be thought as a storytelling process, involving the chef, the story of the food, and participation of street-food lover. In Nordic cities, there are regulations about time-interval, location and schedule of sales for food trucks. Communication within the street-food community depended on 'happy coincidences' and social media, without a specific platform. Often times, food-truck chefs run a 'one man show', making it harder to manage social-media updates while cooking at the same time. "
+          />{' '}
+          <br />
+          <TextLi TextLi="Check-in locations and serving schedule change rapidly." />
+          <TextLi TextLi="Menu changes on a daily-basis, social media updates require visual work." />
+          <TextLi TextLi="Notifying nearby customers, managing promotions over stamp-cards are challenges." />{' '}
+          <TextLi TextLi="Lack of online food-order systems solving street-food problems." />
+          <HText1
+            Header1="Solution: Streetkäk &amp; Check-in"
+            Text1="Streetkäk provides a complete solution for the food-truck community, with an agile platform and a Check-in App for food-truck owners to start with. Street-food community loves some genuine 'small-talk' to learn about the other side of the story. Streetkäk's idea has been creating a platform, that removes the distance created by limitations.  "
+          />{' '}
+          <br />
+          <TextLi TextLi="Tracking location, schedule and availability of food-trucks." />
+          <TextLi TextLi="Possibility to call the truck, pay by credit card, or by cash." />
+          <TextLi TextLi="Side dish (time-saver): Generated social-media assets." />
+          <br />
+          <div class="embed-container">
+            <iframe
+              src="https://player.vimeo.com/video/235285409?color=ffffff&title=0&byline=0&portrait=0"
+              frameborder="0"
+              webkitAllowFullScreen
+              mozallowfullscreen
+              allowFullScreen
+              scrolling="yes"
+            />
+          </div>
+          <br />
+          <div className="SectionTitle2">The Process</div>
+          <p>
+            <strong>Research:</strong> Contextual Analysis, Surveys (trucks),
+            Interviews (users), Focus groups
+            <br />
+            <strong>Ideas:</strong> Mind Map, Empathy Map, User Journey Map
+            <br />
+            <strong>Design:</strong> Storyboarding, Heuristic Evaluation,
+            Sketching, Wireframing &amp; Zeplin
+            <br />
+            <strong>Prototype:</strong> High Fidelity Prototype, Interactive
+            Button &amp; Notifications (trucks)
+            <br />
+            <strong>Test-Produce-Evaluate:</strong> User Testing (individual &
+            group), Experience Sampling, Field(Feature) Testing, Functional
+            Testing
+            <br />
+          </p>
+          <HText1
+            Header1="Research: Persona of a Food-Truck"
+            Text1="Streetkäk Team has been in close contact from the early era of food trucks in Stockholm (first 10 trucks) until the number has grown up to 3-digit numbers of trucks in Scandinavia. The research process included participatory workshops with truck owners, surveys, recollection of test-event data. Test-events also helped food-truck lovers to answer our questions, which helped prioritisation of problems to solve and building features. The research phase has created emphasis on communication and personality of food-trucks."
+          />
+          <Img
+            fluid={props.data.skFive.childImageSharp.fluid}
+            alt="Personalising Trucks"
+          />
+          <HText1
+            Header1="Ideas: Synthesis for Street-Food Ecosystem"
+            Text1="Ideation process of the ecosystem has started with mind-mapping, for being able to name the possible features surrounded by what street-food culture could be. Early iterations of the App-features would focus on 'communication' aspect, connecting different dots of the ecosystem. Empathy maps helped us see the differences between tech-savvy and cooking-focused food-truck chefs. On later iterations, the focus has shifted on improving simultaneous order management &amp; cooking processes. "
+          />
+          <Img
+            fluid={props.data.skSix.childImageSharp.fluid}
+            alt="Ecosystem for Street-Food"
+          />
+          <HText1
+            Header1="Design &amp; Prototyping:"
+            Text1="Findings of street-food lovers and the food-truck chefs' were different from each other. In earlier iterations the design processes were moving on two single-tracks as two developers worked on iOS &amp; Android versions. However, with the implementation of Streetkäk's payment feature, simultaneity has been the focus. The process started with defining information architecture, sketches and wireframes - continued with flow diagrams and finally delivery of prototypes (Principle App) assets through Zeplin to developers."
+          />
+          <br />
+          <Img
+            fluid={props.data.skSeven.childImageSharp.fluid}
+            alt="Ecosystem for Street-Food"
+          />
+          <br />
+          <Img
+            fluid={props.data.skTen.childImageSharp.fluid}
+            alt="Ecosystem for Street-Food"
+          />
+          <br />
+          <Img
+            fluid={props.data.skEight.childImageSharp.fluid}
+            alt="Ecosystem for Street-Food"
+          />
+          <br />
+          <Img
+            fluid={props.data.skEleven.childImageSharp.fluid}
+            alt="Ecosystem for Street-Food"
+          />
+          <HText1
+            Header1="Test - Produce - Evaluate"
+            Text1="Findings of street-food lovers and the food-truck chefs' were different from each other. In earlier iterations the design processes were moving on two single-tracks as two developers worked on iOS &amp; Android versions. However, with the implementation of Streetkäk's payment feature, simultaneity has been the focus. The process started with defining information architecture, sketches and wireframes - continued with flow diagrams and finally delivery of prototypes (Principle App) assets through Zeplin to developers.."
+          />
+          <br />
+          <Img
+            fluid={props.data.skNine.childImageSharp.fluid}
+            alt="Ecosystem for Street-Food"
+          />
           <br />
         </div>
-        <div className="SectionTitle2">Introduction</div>
-        <HText1
-          Header1="Street-food in Scandinavia"
-          Text1="Summer of 2014, marked the launch of street-food trucks in Stockholm, and made a big impact during the short summer (e.g. a new TV-series about street-food). Streetkäk (street + snack) started as a passion project, including an ex hamburger-kiosk chef. Initial idea of Streetkäk has been locating and finding food-trucks in the city before they were out in the wild. The time was scarce for street-food lovers, as well as the limited supply of good-taste to be chased."
-        />
-        <Text2 Text2="Streetkäk's visual language has been crafty, humanistic, with a team having a complete 'DIY' approach. After having collaborated with the food-truck chefs and observing their interaction with the community, the visal language has shaped as  crafty, custom and 'humanist', as tech-savvy as greasy hands and a hungry mind." />
-        <br />
-        <div className="gatsby-image-wrapper2">
-          <Img
-            fluid={props.data.skOne.childImageSharp.fluid}
-            alt="Logo and App Icon"
-            style={{ width: 400 }}
-          />
-          <Img
-            fluid={props.data.skTwo.childImageSharp.fluid}
-            alt="Typography and Colour"
-            style={{ width: 400 }}
-          />
-        </div>
-        <div className="gatsby-image-wrapper2">
-          <Img
-            fluid={props.data.skThree.childImageSharp.fluid}
-            alt="Iconography"
-            style={{ width: 400 }}
-          />
-          <Img
-            fluid={props.data.skFour.childImageSharp.fluid}
-            alt="State Indicators"
-            style={{ width: 400 }}
-          />
-        </div>
-
-        <HText1
-          Header1="The Problem"
-          Text1="'Communication' is at the heart of street-food culture. Street-food can be thought as a storytelling process, involving the chef, the story of the food, and participation of street-food lover. In Nordic cities, there are regulations about time-interval, location and schedule of sales for food trucks. Communication within the street-food community depended on 'happy coincidences' and social media, without a specific platform. Often times, food-truck chefs run a 'one man show', making it harder to manage social-media updates while cooking at the same time. "
-        />
-        <HText1
-          Header1="Solution: Streetkäk &amp; Check-in"
-          Text1="Streetkäk provides a complete solution for the food-truck community, with an agile platform and a Check-in App for food-truck owners to start with. 
-          Street-food community loves 'small-talk' and Streetkäk's idea has been creating a platform, that removes the distance created by limitations. Food truck owners need to be able to "
-        />
-        <div className="SectionTitle2">The Process</div>
-        <HText1
-          Header1="Persona of a Food-Truck"
-          Text1="'Communication' is the core concept shaping street-food culture. It is a complete-storytelling process that is personal, involving the chef, the story of the food, and participation of street-food lover. However, the trucks needed a platform for being able to say 'Hi' and introduce their menu/prices for making the most of their limited time on the street. Streetkäk provided an admin-panel where food-truck owners could add/edit their intro/menu, add food specifications (happy cows &amp; no more allergies)."
-        />
-        <Img
-          fluid={props.data.skFive.childImageSharp.fluid}
-          alt="Personalising Trucks"
-        />
-        <div className="SectionTitle2">Streetkäk Check-in</div>
-        <HText1
-          Header1="The Process"
-          Text1="Summer of 2014 marked the launch of street-food trucks in Stockholm, and made a big impact during the short summer (e.g. a new TV-series about street-food). Streetkäk started as a passion project, including an ex hamburger-kiosk chef. Initial idea of Streetkäk has been locating and finding food-trucks in the city before they were out in the wild. The time was scarce as well as limited supply of good-taste to be chased for street-food lovers."
-        />
-        <br />
       </div>
-    </div>
+    </div>{' '}
   </div>
 )
 
@@ -126,7 +200,7 @@ export const fluidImage = graphql`
 export const fluidImage2 = graphql`
   fragment fluidImage2 on File {
     childImageSharp {
-      fluid(quality: 100, maxWidth: 480) {
+      fluid(quality: 100, maxWidth: 400) {
         ...GatsbyImageSharpFluid
       }
     }
@@ -158,6 +232,24 @@ export const pageQuery = graphql`
       ...fluidImage2
     }
     skFive: file(relativePath: { eq: "sk5.jpg" }) {
+      ...fluidImage
+    }
+    skSix: file(relativePath: { eq: "sk6.jpg" }) {
+      ...fluidImage
+    }
+    skSeven: file(relativePath: { eq: "sk7.jpg" }) {
+      ...fluidImage
+    }
+    skEight: file(relativePath: { eq: "sk8.jpg" }) {
+      ...fluidImage
+    }
+    skNine: file(relativePath: { eq: "sk9.jpg" }) {
+      ...fluidImage
+    }
+    skTen: file(relativePath: { eq: "sk10.jpg" }) {
+      ...fluidImage
+    }
+    skEleven: file(relativePath: { eq: "sk11.jpg" }) {
       ...fluidImage
     }
   }

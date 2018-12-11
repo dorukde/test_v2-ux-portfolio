@@ -8,7 +8,7 @@ const IndexPage = () => (
   <div id="Works_id" className="Works">
     <Project
       ProjectName="Strafe"
-      ProjectDetail="UX-UI (Contract)"
+      ProjectDetail="UX-UI"
       ProjectText1="Strafe is the first e-sports tracking App for iOS and Android. Strafe provides results, schedules, tournament info &amp; statistics for major e-sports titles."
       ProjectText2="VIEW PROJECT >"
     />

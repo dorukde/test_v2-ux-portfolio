@@ -4,6 +4,9 @@ import { FaGooglePlay, FaApple } from 'react-icons/fa'
 import '../components/projectpage.css'
 
 /*TESTING */
+
+import Scroller from '../components/scrollP'
+
 import ResumeItem from '../components/resume'
 
 const keyflowPage = () => (
@@ -17,7 +20,7 @@ const keyflowPage = () => (
         <div className="ProjectDescription">
           Keyflow, headquartered in Stockholm Sweden, is an event service
           solution for both event producers and guests around the globe.
-        </div>
+        </div>{' '}
         <h1>
           <Link>
             <FaApple />
