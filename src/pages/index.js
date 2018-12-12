@@ -38,7 +38,7 @@ const IndexPage = () => (
       />
     </Link>
 
-    <ProjectMini ProjectName="- Other Works" ProjectDetail="HCD, 3D, etc." />
+    <ProjectMini ProjectName="— Other Works" ProjectDetail="HCD, 3D, etc." />
   </div>
 )
 

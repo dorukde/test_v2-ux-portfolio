@@ -58,9 +58,9 @@ const skakPage = props => (
           <div className="SectionTitle2">Introduction</div>
           <HText1
             Header1="Street-food in Scandinavia"
-            Text1="Summer of 2014, marked the launch of street-food trucks in Stockholm, and made a big impact during the short summer (e.g. a new TV-series about street-food). Streetkäk (street + snack) started as a passion project, including an ex hamburger-kiosk chef. Initial idea of Streetkäk has been locating and finding food-trucks in the city before they were out in the wild. The time was scarce for street-food lovers, as well as the limited supply of good-taste to be chased."
+            Text1="Summer of 2014 marked the launch of street-food trucks in Stockholm and made a big impact during the short summer (e.g. a new TV-series about street-food). Streetkäk (street + snack) started as a passion project, including an ex hamburger-kiosk chef. Initial idea of Streetkäk has been locating and finding food-trucks in the city before they were out in the wild. The time was scarce for street-food lovers, as well as the limited supply of good-taste to be chased."
           />
-          <Text2 Text2="Streetkäk's visual language has been crafty, humanistic, with a team having a complete 'DIY' approach. After having collaborated with the food-truck chefs and observing their interaction with the community, the visal language has shaped as  crafty, custom and 'humanist', as tech-savvy as greasy hands and a hungry mind." />
+          <Text2 Text2="Streetkäk's visual language has been crafty, humanistic, with a team having a complete 'DIY' approach. After having collaborated with the food-truck chefs and observing their interaction with the community, the visual language has shaped as  crafty, custom and 'humanist', as tech-savvy as greasy hands and a hungry mind." />
           <br />
           <div className="gatsby-image-wrapper2">
             <Img
@@ -125,7 +125,7 @@ const skakPage = props => (
             Button &amp; Notifications (trucks)
             <br />
             <strong>Test-Produce-Evaluate:</strong> User Testing (individual &
-            group), Experience Sampling, Field(Feature) Testing, Functional
+            group), Experience Sampling, Field (Feature) Testing, Functional
             Testing
             <br />
           </p>
@@ -147,7 +147,7 @@ const skakPage = props => (
           />
           <HText1
             Header1="Design &amp; Prototyping:"
-            Text1="Findings of street-food lovers and the food-truck chefs' were different from each other. In earlier iterations the design processes were moving on two single-tracks as two developers worked on iOS &amp; Android versions. However, with the implementation of Streetkäk's payment feature, simultaneity has been the focus. The process started with defining information architecture, sketches and wireframes - continued with flow diagrams and finally delivery of prototypes (Principle App) assets through Zeplin to developers."
+            Text1="Findings of street-food lovers and the food-truck chefs were different from each other. In earlier iterations the design processes were moving on two single-tracks as two developers worked on iOS &amp; Android versions. However, with the implementation of Streetkäk's payment feature, simultaneity has become the new focus. The process started with defining information architecture, sketches and - continued with wireframes, flow diagrams and finally delivery of prototypes (Principle App) assets through Zeplin to developers."
           />
           <br />
           <Img
@@ -158,6 +158,10 @@ const skakPage = props => (
           <Img
             fluid={props.data.skTen.childImageSharp.fluid}
             alt="Ecosystem for Street-Food"
+          />
+          <HText1
+            Header1="Designing Streetkäk Check-in"
+            Text1="Our team had the chance to collaborate with PayPal, Nike and Universal Studios - Sweden to organise focus-group events where working-prototypes built on staging environment were tested. Cash payment, phone-call, disabling menu items during sales, have been developed per the feedback received from the trucks. The system has designed to be scalable and autonomous, which later have been used outside of Stockholm - the birthplace."
           />
           <br />
           <Img
@@ -171,7 +175,7 @@ const skakPage = props => (
           />
           <HText1
             Header1="Test - Produce - Evaluate"
-            Text1="Findings of street-food lovers and the food-truck chefs' were different from each other. In earlier iterations the design processes were moving on two single-tracks as two developers worked on iOS &amp; Android versions. However, with the implementation of Streetkäk's payment feature, simultaneity has been the focus. The process started with defining information architecture, sketches and wireframes - continued with flow diagrams and finally delivery of prototypes (Principle App) assets through Zeplin to developers.."
+            Text1="Field tests of Streetkäk have helped addition of agile cooking situations, making it simple to handle crisis situations such as 'sold-out' or cancellation of orders and communicating with the customers. Final run of field-test has taken place in Way Out West festival in Gothenburg, Sweden before release. The released Apps were tested out at a pop-up food-court where discounts, iOS &amp; Android and web products were tested. The development stage has been completed with 2 consults and one internal team-member, where a part of the work has been conducted remotely. Testing, data collection and decision of agile sprint-scopes have been challenges that our team had to solve until the final release."
           />
           <br />
           <Img
@@ -179,6 +183,15 @@ const skakPage = props => (
             alt="Ecosystem for Street-Food"
           />
           <br />
+          <HText1
+            Header1="Conclusions"
+            Text1="Streetkäk has evolved from a simple digital street-food map to become a holistic product that solves problems of street-food habitat in Scandinavia. It has been featured on several international media outlets, creating an organic growth that has lad to 6-digit number of downloads - mostly in Stockholm. I have learned a lot from the whole process about how to brand, build, scale a product, conducting research and solving problems in a set-timeframe. Even though, the product has made its mark to the street-food culture, further improvements are necessary to maintain a sustainable growth:"
+          />
+          <br />
+          <TextLi TextLi="Unique solutions for food-truck chains and single trucks." />
+          <TextLi TextLi="Generating meaningful analysis based on collected data from the city and the truck. Notifying both users and trucks about previous positive experiences." />
+          <TextLi TextLi="Collaboration with municipal organisations to improve street-food habitat (e.g. better locations, bending hour-limits at certain situations)." />
+          <TextLi TextLi="Helping truck owners to improve how they can represent themselves and their food." />
         </div>
       </div>
     </div>{' '}
