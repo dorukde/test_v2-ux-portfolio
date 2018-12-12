@@ -7,8 +7,9 @@ import Img from 'gatsby-image'
 /*TEXT COMPONENTS */
 import HText1 from '../components/text1'
 import Text2 from '../components/text2'
-import SHeader from '../components/sheader'
 import TextLi from '../components/textLi'
+import BTextA from '../components/btn1'
+import BTextB from '../components/btn2'
 
 import Scroller from '../components/scrollP'
 
@@ -37,7 +38,7 @@ const skakPage = props => (
             </Link>
             <div className="infobox">
               <div className="textbold">Platform:</div> iOS/Android & Web <br />
-              <div className="textbold">Duration:</div> 2015/5 – 2018/5 <br />
+              <div className="textbold">Duration:</div> 2015/5 – 2018/12 <br />
               <div className="textbold">Role:</div> Co-Founder, Product Designer
               <br />
               <div className="textbold">Method:</div> Lean UX <br />
@@ -49,7 +50,7 @@ const skakPage = props => (
         <div className="Content">
           <div className="infobox2">
             <div className="textbold">Platform:</div> iOS/Android & Web <br />
-            <div className="textbold">Duration:</div> 2015/5 – 2018/5 <br />
+            <div className="textbold">Duration:</div> 2015/5 – 2018/12 <br />
             <div className="textbold">Role:</div> Co-Founder, Product Designer
             <br />
             <div className="textbold">Method:</div> Lean UX
@@ -92,7 +93,7 @@ const skakPage = props => (
           <TextLi TextLi="Notifying nearby customers, managing promotions over stamp-cards are challenges." />{' '}
           <TextLi TextLi="Lack of online food-order systems solving street-food problems." />
           <HText1
-            Header1="Solution: Streetkäk &amp; Check-in"
+            Header1="The Solution: Streetkäk &amp; Check-in"
             Text1="Streetkäk provides a complete solution for the food-truck community, with an agile platform and a Check-in App for food-truck owners to start with. Street-food community loves some genuine 'small-talk' to learn about the other side of the story. Streetkäk's idea has been creating a platform, that removes the distance created by limitations.  "
           />{' '}
           <br />
@@ -185,16 +186,24 @@ const skakPage = props => (
           <br />
           <HText1
             Header1="Conclusions"
-            Text1="Streetkäk has evolved from a simple digital street-food map to become a holistic product that solves problems of street-food habitat in Scandinavia. It has been featured on several international media outlets, creating an organic growth that has lad to 6-digit number of downloads - mostly in Stockholm. I have learned a lot from the whole process about how to brand, build, scale a product, conducting research and solving problems in a set-timeframe. Even though, the product has made its mark to the street-food culture, further improvements are necessary to maintain a sustainable growth:"
+            Text1="Streetkäk has evolved from a simple digital street-food map to a holistic product that solves problems of street-food habitat in Scandinavia. It has been featured on several international media outlets, creating an organic growth that has lad to 6-digit number of downloads - mostly in Stockholm. I have learned a lot from the whole process about how to brand, build, scale a product, conducting research and solving problems in a set-timeframe. Even though, the product has made its mark to the street-food culture, further improvements are necessary to maintain a sustainable growth:"
           />
           <br />
           <TextLi TextLi="Unique solutions for food-truck chains and single trucks." />
           <TextLi TextLi="Generating meaningful analysis based on collected data from the city and the truck. Notifying both users and trucks about previous positive experiences." />
           <TextLi TextLi="Collaboration with municipal organisations to improve street-food habitat (e.g. better locations, bending hour-limits at certain situations)." />
           <TextLi TextLi="Helping truck owners to improve how they can represent themselves and their food." />
+          <div className="BWrapper">
+            <Link to="/keyflowbusiness">
+              <BTextA BHeader1="⟵ Previous" BText1="Keyflow Business" />
+            </Link>
+            <Link to="/others">
+              <BTextB BHeader2="Next ⟶" BText2="Other Works" />
+            </Link>
+          </div>
         </div>
       </div>
-    </div>{' '}
+    </div>
   </div>
 )
 

@@ -161,6 +161,52 @@ p {
   font-size: 1em;
   width: 80%;
 }
+
+/* BUTTONS STYLE */
+.BHeader1 {
+  text-align: left;
+  font-family: 'NexaxBold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #857d7d;
+}
+
+.BText1 {
+  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 1.6em;
+  line-height: 1em;
+  color: #393939;
+  padding: 0.5em 0 0 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.BHeader2 {
+  text-align: right;
+  font-family: 'NexaxBold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #857d7d;
+}
+
+.BText2 {
+  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 1.6em;
+  line-height: 1em;
+  color: #393939;
+  padding: 0.5em 0 0 0;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+}
+
+.BWrapper {
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 0 1em 0;
+}
+
 @media (max-width: 640px) {
   .ProjectDetail2 {
     font-size: 1em;
@@ -217,5 +263,11 @@ p {
   }
   h1 {
     padding-bottom: 3em;
+  }
+  li {
+    width: 100%;
+  }
+  p {
+    width: 100%;
   }
 }
