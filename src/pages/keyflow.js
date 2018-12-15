@@ -14,6 +14,10 @@ import BTextB from '../components/btn2'
 
 import '../../node_modules/video-react/dist/video-react.css'
 
+import kvideo1 from '../images/keyflow0.mp4'
+import kvideo2 from '../images/keyflow1.mp4'
+import kvideo3 from '../images/keyflow2.mp4'
+
 /*TESTING */
 
 import Scroller from '../components/scrollP'
@@ -86,6 +90,10 @@ const keyflowPage = props => (
           <TextLi TextLi="Guests seek transparency. They need to know about the atmosphere, dress code and avoid being rejected at the door." />
           <TextLi TextLi="Booking a table, planning a night out with friends require lots of phone calls and making a comparison between venues is time-consuming." />
           <TextLi TextLi="Some venues have long queues at the door, which takes the fun away from nightlife. Getting an admission should be time-efficient and hassle-free." />
+          <Img
+            fluid={props.data.kfNine.childImageSharp.fluid}
+            alt="Keyflow Nightlife"
+          />
           <HText1
             Header1="The Solution: Keyflow"
             Text1="Keyflow helps guests discover, get and share friction-free access to a wide-range of nightclubs. Guests have the power to pre-manage the night out without any surprises. Guests can request to be on the list, have digital VIP cards, pre-order table service, skip the queue and get admission for their friends. Keyflow also works as a discovery platform for nightlife "
@@ -134,10 +142,13 @@ const keyflowPage = props => (
             fluid={props.data.kfSix.childImageSharp.fluid}
             alt="Keyflow - iconography"
           />
-          <Player>
-            <source src="/images/keyflow1.mp4" />
-          </Player>
-          <Text2 Text2="Transparency has been the focal-point to find the matching experience. The idea behind 'Guest list request' feature, was to remove the gap between guests and the venues before the night. Even though, loyalty is already being tracked and rewarded by Keyflow, guests need earlier answers before waiting in the queue to plan their night-out. Admission types and ticketing options have iteratively developed and request feature has been iteratively improving since the introduction." />
+          <Text2 Text2="Transparency has been the focal-point to find the matching experience. The idea behind 'Guest list request' feature, was to remove the gap between guests and the venues before the night. Even though, loyalty is already being tracked and rewarded by Keyflow, guests need earlier answers before waiting in the queue to plan their night-out. Admission types and ticketing options have iteratively developed and request feature has been iteratively improving since the introduction. Layers of business-logic, transactional communication, functional dependencies were also considered at the end of every ideation session." />
+          <br />
+          <br />
+          <Img
+            fluid={props.data.kfEight.childImageSharp.fluid}
+            alt="Transactional Flow"
+          />
           <HText1
             Header1="Designing Keyflow App &amp; Web"
             Text1="My role in the team as the only product designer required collaboration with several stakeholders including members from sales-marketing team, project management and 8+ developers (native mobile &amp; web). Keyflow is a scalable and multi-lingual product from the start. The earliest visual-iterations has been about improving core-functional requirements about multi-platform and multi-lingual support of the products. Building a design system, started with a sketch component-library, continued with Confluence documentation and workshops with developers."
@@ -162,8 +173,22 @@ const keyflowPage = props => (
           />
           <HText1
             Header1="Test - Produce - Evaluate"
-            Text1="Testing of new-releases at Keyflow started with internal-testing on the staging environment where edge-cases were continuously created and early bugs were reported. Further field-tests took place in person during office-hours and nightlife events. Major features such as RSVP or QR-code tickets required field-testing in event conditions, where a doorman, an event manager and number of guests were required. Keyflow team had the chance to collaborate with brands like Absolut, Marshall, Peroni and Universal Studios for being able to host nightlife professionals to hold feature-tests to gain meaningful insights and user-feedbacks from professionals."
+            Text1="Testing of new-releases at Keyflow started with internal-testing on the staging environment where edge-cases were continuously created and early bugs were reported. Further field-tests took place in person during office-hours and nightlife events. Major features such as RSVP or QR-code tickets required field-testing in event conditions, where a doorman, an event manager and number of guests were required. Keyflow team had the chance to collaborate with brands like Absolut, Marshall, Peroni and Universal Studios for being able to host nightlife professionals to hold feature-tests to gain meaningful insights and user-feedbacks from professionals. Handling of invitations, listing of events and intrusiveness of advertisements were prototyped in Principle App for micro-interactions. 
+            "
           />
+          <br />
+          <div className="prototypes">
+            <div className="prototype1">
+              <Player playsInline fluid="false" src={kvideo1} />
+            </div>
+            <div className="prototype1">
+              <Player playsInline fluid="false" src={kvideo2} />
+            </div>
+            <div className="prototype1">
+              <Player playsInline fluid="false" src={kvideo3} />
+            </div>
+          </div>
+          <br />
           <HText1
             Header1="Conclusions"
             Text1="Keyflow is currently the main nightlife platform of Scandinavia with a growing number of guests who discover nightlife events and venues through the platform. As an integrated nightlife solution, the product has branched to provide unique solutions to the needs of various types of guests. Team's understanding has increased as the product and user-base has grown. Request feature has been the most significant disruption in the industry and its development has not continued as a straight-line. Introduction of Keyflow Coins was based on surveys and user-interviews to help venues engage more with guest list requests. Coins would add value to the requests, save time for venues and help gathering user information and reward mechanism. Even though introduction of Coins has increased request-engagement on both sides (guests &amp; venues), it proved to have room for improvement for a wider-audience. Keyflow has come with a newer and transparent approach to increase request engagement by making changes on Keyflow Business (venue response rate). Nightlife dynamics show a large variety globally, and Keyflow has following challenges:"
@@ -196,7 +221,7 @@ export const pageQuery = graphql`
     kfTwo: file(relativePath: { eq: "kf2.jpg" }) {
       ...fluidImage2
     }
-    kfThree: file(relativePath: { eq: "kf3.jpg" }) {
+    kfThree: file(relativePath: { eq: "kf3a.jpg" }) {
       ...fluidImage
     }
     kfFour: file(relativePath: { eq: "kf4.jpg" }) {
@@ -211,10 +236,10 @@ export const pageQuery = graphql`
     kfSeven: file(relativePath: { eq: "kf_app.jpg" }) {
       ...fluidImage
     }
-    kfEight: file(relativePath: { eq: "kf8.jpg" }) {
+    kfEight: file(relativePath: { eq: "kf3b.jpg" }) {
       ...fluidImage
     }
-    kfNine: file(relativePath: { eq: "kf9.jpg" }) {
+    kfNine: file(relativePath: { eq: "kf3c.jpg" }) {
       ...fluidImage
     }
     kfTen: file(relativePath: { eq: "kf10.jpg" }) {

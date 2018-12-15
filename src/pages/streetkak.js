@@ -229,7 +229,7 @@ export const pageQuery = graphql`
     skSix: file(relativePath: { eq: "sk6.jpg" }) {
       ...fluidImage
     }
-    skSeven: file(relativePath: { eq: "sk7.jpg" }) {
+    skSeven: file(relativePath: { eq: "sk7a.jpg" }) {
       ...fluidImage
     }
     skEight: file(relativePath: { eq: "sk8.jpg" }) {

@@ -6,7 +6,6 @@ import Img from 'gatsby-image'
 
 /*TEXT COMPONENTS */
 import HText1 from '../components/text1'
-import Text2 from '../components/text2'
 import TextLi from '../components/textLi'
 import BTextA from '../components/btn1'
 import BTextB from '../components/btn2'
@@ -15,7 +14,7 @@ import BTextB from '../components/btn2'
 
 import Scroller from '../components/scrollP'
 
-const keyflowPage = props => (
+const keyflowBPage = props => (
   <div id="rect">
     <Scroller />
     <div id="HeroAbout2" className="HeroAbout">
@@ -65,16 +64,6 @@ const keyflowPage = props => (
           <TextLi TextLi="Keyflow App for guests to track events, manage VIP cards, invite friends and get admissions." />
           <TextLi TextLi="Keyflow Business helping venues to create events, manage lists, sell admissions and collect meaningful pre-event and after-event data." />
           <br />
-          <div className="gatsby-image-wrapper2">
-            <Img
-              fluid={props.data.kfOne.childImageSharp.fluid}
-              alt="Keyflow App"
-            />
-            <Img
-              fluid={props.data.kfTwo.childImageSharp.fluid}
-              alt="Keyflow Business"
-            />
-          </div>
           <HText1
             Header1="The Problem"
             Text1="Accessing a venue or having deep information on what happens in a city is too complicated for guests. It takes several trial &amp; errors, long timespans waiting at the queue. Booking a table with friends, connecting to a promoter or noticing the venue as a VIP guest need quick solutions. There are various obstacles against every type of nightlife guest:"
@@ -166,42 +155,4 @@ const keyflowPage = props => (
   </div>
 )
 
-export default keyflowPage
-
-export const pageQuery = graphql`
-  query {
-    kfOne: file(relativePath: { eq: "kf1.jpg" }) {
-      ...fluidImage2
-    }
-    kfTwo: file(relativePath: { eq: "kf2.jpg" }) {
-      ...fluidImage2
-    }
-    kfThree: file(relativePath: { eq: "kf3.jpg" }) {
-      ...fluidImage
-    }
-    kfFour: file(relativePath: { eq: "kf4.jpg" }) {
-      ...fluidImage2
-    }
-    kfFive: file(relativePath: { eq: "kf5.jpg" }) {
-      ...fluidImage
-    }
-    kfSix: file(relativePath: { eq: "kf6.jpg" }) {
-      ...fluidImage
-    }
-    kfSeven: file(relativePath: { eq: "kf7.jpg" }) {
-      ...fluidImage
-    }
-    kfEight: file(relativePath: { eq: "kf8.jpg" }) {
-      ...fluidImage
-    }
-    kfNine: file(relativePath: { eq: "kf9.jpg" }) {
-      ...fluidImage
-    }
-    kfTen: file(relativePath: { eq: "kf10.jpg" }) {
-      ...fluidImage
-    }
-    kfEleven: file(relativePath: { eq: "kf11.jpg" }) {
-      ...fluidImage
-    }
-  }
-`
+export default keyflowBPage
