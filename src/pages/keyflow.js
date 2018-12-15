@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 import { FaGooglePlay, FaApple } from 'react-icons/fa'
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
+import { Player } from 'video-react'
 
 /*TEXT COMPONENTS */
 import HText1 from '../components/text1'
@@ -11,11 +12,13 @@ import TextLi from '../components/textLi'
 import BTextA from '../components/btn1'
 import BTextB from '../components/btn2'
 
+import '../../node_modules/video-react/dist/video-react.css'
+
 /*TESTING */
 
 import Scroller from '../components/scrollP'
 
-const keyflowPage = () => (
+const keyflowPage = props => (
   <div id="rect">
     <Scroller />
     <div id="HeroAbout2" className="HeroAbout">
@@ -58,90 +61,122 @@ const keyflowPage = () => (
           </div>
           <div className="SectionTitle2">Introduction</div>
           <HText1
-            Header1="Digitalisation of Nightlife in the Age of Social Media"
-            Text1="Nightlife is seriously fun and having access to it can be challenging. Every guest seeks to have the access to a uniquely fun experience. Keyflow was inspired by the challenges of nightlife, aiming to make the fun of nightlife accessible again. Guests and venues have specific requirements and finding the right fit makes it fun and hassle-free for both sides. Keyflow Team includes night-life professionals who has access to a focus-group of venues and night-life guests. Keyflow's nightlife solution comes with an integrated 2-layered nightlife ecosystem:"
+            Header1="Digitalisation of Nightlife in the Social Media Age"
+            Text1="Nightlife is seriously fun and having access to it can sometimes be challenging. Every guest seeks to have the access to a uniquely fun experience. Keyflow was motivated by solving the complicated problems of nightlife, aiming to make the fun of nightlife accessible. Guests and venues have specific requirements and finding the right fit makes the night fun for everyone. Keyflow Team includes night-life professionals who has access to a focus-group of venues and night-life guests. The solutions come with an integrated 2-layered nightlife ecosystem:"
           />{' '}
           <br />
           <TextLi TextLi="Keyflow App for guests to track events, manage VIP cards, invite friends and get admissions." />
           <TextLi TextLi="Keyflow Business helping venues to create events, manage lists, sell admissions and collect meaningful pre-event and after-event data." />
           <br />
+          <div className="gatsby-image-wrapper2">
+            <Img
+              fluid={props.data.kfOne.childImageSharp.fluid}
+              alt="Keyflow App"
+            />
+            <Img
+              fluid={props.data.kfTwo.childImageSharp.fluid}
+              alt="Keyflow Business"
+            />
+          </div>
           <HText1
             Header1="The Problem"
-            Text1="Our contextual observation has shown the importance of 'communication' in street-food culture. Street-food can be thought as a storytelling process, involving the chef, the story of the food, and participation of street-food lover. In Nordic cities, there are regulations about time-interval, location and schedule of sales for food trucks. Communication within the street-food community depended on 'happy coincidences' and social media, without a specific platform. Often times, food-truck chefs run a 'one man show', making it harder to manage social-media updates while cooking at the same time. "
+            Text1="Accessing a venue or having deep information on what happens in a city is too complicated for guests. It takes several trial &amp; errors, long timespans waiting at the queue. Booking a table with friends, connecting to a promoter or noticing the venue as a VIP guest need quick solutions. There are various obstacles against every type of nightlife guest:"
           />{' '}
           <br />
-          <TextLi TextLi="Check-in locations and serving schedule change rapidly." />
-          <TextLi TextLi="Menu changes on a daily-basis, social media updates require visual work." />
-          <TextLi TextLi="Notifying nearby customers, managing promotions over stamp-cards are challenges." />{' '}
-          <TextLi TextLi="Lack of online food-order systems solving street-food problems." />
+          <TextLi TextLi="Guests seek transparency. They need to know about the atmosphere, dress code and avoid being rejected at the door." />
+          <TextLi TextLi="Booking a table, planning a night out with friends require lots of phone calls and making a comparison between venues is time-consuming." />
+          <TextLi TextLi="Some venues have long queues at the door, which takes the fun away from nightlife. Getting an admission should be time-efficient and hassle-free." />
           <HText1
-            Header1="The Solution: Streetkäk &amp; Check-in"
-            Text1="Streetkäk provides a complete solution for the food-truck community, with an agile platform and a Check-in App for food-truck owners to start with. Street-food community loves some genuine 'small-talk' to learn about the other side of the story. Streetkäk's idea has been creating a platform, that removes the distance created by limitations.  "
+            Header1="The Solution: Keyflow"
+            Text1="Keyflow helps guests discover, get and share friction-free access to a wide-range of nightclubs. Guests have the power to pre-manage the night out without any surprises. Guests can request to be on the list, have digital VIP cards, pre-order table service, skip the queue and get admission for their friends. Keyflow also works as a discovery platform for nightlife "
           />{' '}
           <br />
-          <TextLi TextLi="Tracking location, schedule and availability of food-trucks." />
-          <TextLi TextLi="Possibility to call the truck, pay by credit card, or by cash." />
-          <TextLi TextLi="Side dish (time-saver): Generated social-media assets." />
-          <br />
-          <br />
+          <TextLi TextLi="Getting access to venues on a global scale, finding the inspiring events conveniently." />
+          <TextLi TextLi="Planning-ahead individually or as a group of friends, sharing digital tickets." />
+          <TextLi TextLi="Empowering guests when getting admissions and booking tables with flexibility." />
+          <TextLi TextLi="Skipping the queue-line, pre-event communication with the venue." />
+          <Img
+            fluid={props.data.kfSeven.childImageSharp.fluid}
+            alt="Keyflow App (iOS)"
+          />
           <div className="SectionTitle2">The Process</div>
           <p>
-            <strong>Research:</strong> Contextual Analysis, Surveys (trucks),
-            Interviews (users), Focus groups
+            <strong>Research:</strong> Contextual Analysis, Surveys (guests
+            &amp; venues), Periodic Interviews (venue staff), Focus groups (e.g.
+            Creatives, VIP guests), Data Analytics
             <br />
-            <strong>Ideas:</strong> Mind Map, Empathy Map, User Journey Map
+            <strong>Ideas:</strong> Mind Map, Empathy Map, User Journey Map,
+            Personas
             <br />
-            <strong>Design:</strong> Storyboarding, Heuristic Evaluation,
-            Sketching, Wireframing &amp; Zeplin
+            <strong>Design:</strong> Storyboarding, Design for Accessibility
+            &amp; Localisation, Heuristic Evaluation, Sketching, Wireframing
+            &amp; Zeplin, Documentation (Confluence)
             <br />
-            <strong>Prototype:</strong> High Fidelity Prototype, Interactive
-            Button &amp; Notifications (trucks)
+            <strong>Prototype:</strong> High Fidelity Prototype, Working
+            Prototype (Staging)
             <br />
-            <strong>Test-Produce-Evaluate:</strong> User Testing (individual &
-            group), Experience Sampling, Field (Feature) Testing, Functional
-            Testing
+            <strong>Test-Produce-Evaluate:</strong> User Testing (individual
+            &amp; groups), Experience Sampling, Field (Feature) Testing (sober
+            &amp; drunk), Functional Testing, Testing &amp; Bug Reporting (JIRA)
             <br />
           </p>
           <HText1
-            Header1="Research: Persona of a Food-Truck"
-            Text1="Streetkäk Team has been in close contact from the early era of food trucks in Stockholm (first 10 trucks) until the number has grown up to 3-digit numbers of trucks in Scandinavia. The research process included participatory workshops with truck owners, surveys, recollection of test-event data. Test-events also helped food-truck lovers to answer our questions, which helped prioritisation of problems to solve and building features. The research phase has created emphasis on communication and personality of food-trucks."
+            Header1="Research: Seeing beyond the queue"
+            Text1="Thrill of the night might fade out during long queues. Several focus groups for being able to analyse needs of a wide-range of nightlife guests. A group of creatives were invited to the workshops to understanding the needs of guests and the venues. VIP-Guests answered surveys about VIP-Card privileges, sharing privileges with friends and requesting from venues. Keyflow has also ran private-events (e.g. Absolut Nights, Marshall Headphones) to connect with nightclub owners in Sweden - also a chance to test new features and collect user-feedback. Decision and schedule of features have been based on these research insights, as well as data gathered using analytics from Apps &amp; web platform. "
           />
           <HText1
-            Header1="Ideas: Synthesis for Street-Food Ecosystem"
-            Text1="Ideation process of the ecosystem has started with mind-mapping, for being able to name the possible features surrounded by what street-food culture could be. Early iterations of the App-features would focus on 'communication' aspect, connecting different dots of the ecosystem. Empathy maps helped us see the differences between tech-savvy and cooking-focused food-truck chefs. On later iterations, the focus has shifted on improving simultaneous order management &amp; cooking processes. "
+            Header1="Ideas: From pre-party to 'story-to-tell'"
+            Text1="To have a deeper understanding of the journey of guests, we worked along personas of young-creatives, VIP guests and built empathy maps. The ideation process has helped us define a smart way of defining events and admission types. Building a framework of a new iconography and creating tags for atmosphere &amp; music preferences. Tags would help defining venue atmosphere and match guest preferences to provide a better discovery experience."
           />
+          <br />
+          <br />
+          <Img
+            fluid={props.data.kfSix.childImageSharp.fluid}
+            alt="Keyflow - iconography"
+          />
+          <Player>
+            <source src="/images/keyflow1.mp4" />
+          </Player>
+          <Text2 Text2="Transparency has been the focal-point to find the matching experience. The idea behind 'Guest list request' feature, was to remove the gap between guests and the venues before the night. Even though, loyalty is already being tracked and rewarded by Keyflow, guests need earlier answers before waiting in the queue to plan their night-out. Admission types and ticketing options have iteratively developed and request feature has been iteratively improving since the introduction." />
           <HText1
-            Header1="Design &amp; Prototyping:"
-            Text1="Findings of street-food lovers and the food-truck chefs were different from each other. In earlier iterations the design processes were moving on two single-tracks as two developers worked on iOS &amp; Android versions. However, with the implementation of Streetkäk's payment feature, simultaneity has become the new focus. The process started with defining information architecture, sketches and - continued with wireframes, flow diagrams and finally delivery of prototypes (Principle App) assets through Zeplin to developers."
+            Header1="Designing Keyflow App &amp; Web"
+            Text1="My role in the team as the only product designer required collaboration with several stakeholders including members from sales-marketing team, project management and 8+ developers (native mobile &amp; web). Keyflow is a scalable and multi-lingual product from the start. The earliest visual-iterations has been about improving core-functional requirements about multi-platform and multi-lingual support of the products. Building a design system, started with a sketch component-library, continued with Confluence documentation and workshops with developers."
+          />{' '}
+          <br />
+          <div className="gatsby-image-wrapper2">
+            <Img
+              fluid={props.data.kfFour.childImageSharp.fluid}
+              alt="Keyflow App - Sketches"
+            />
+            <Img
+              fluid={props.data.kfFive.childImageSharp.fluid}
+              alt="Keyflow App - Board User Flow"
+            />
+          </div>
+          <br />
+          <Text2 Text2="Design details of new features were presented to relevant stakeholders before each sprint, periodically. This helped creating a sprint-based workflow and delivery of assets on Zeplin. The component-libraries, guidelines, app-store images and onboarding assets were also periodically updated. Periodic presentations and workshops with other stakeholders helped preventing bugs, creating better data-collection points in the product and keep visual and functional consistency." />
+          <br />
+          <Img
+            fluid={props.data.kfThree.childImageSharp.fluid}
+            alt="Keyflow App - Flow Diagram"
           />
-          <br />
-          <br />
-          <HText1
-            Header1="Designing Streetkäk Check-in"
-            Text1="Our team had the chance to collaborate with PayPal, Nike and Universal Studios - Sweden to organise focus-group events where working-prototypes built on staging environment were tested. Cash payment, phone-call, disabling menu items during sales, have been developed per the feedback received from the trucks. The system has designed to be scalable and autonomous, which later have been used outside of Stockholm - the birthplace."
-          />
-          <br />
-          <br />
           <HText1
             Header1="Test - Produce - Evaluate"
-            Text1="Field tests of Streetkäk have helped addition of agile cooking situations, making it simple to handle crisis situations such as 'sold-out' or cancellation of orders and communicating with the customers. Final run of field-test has taken place in Way Out West festival in Gothenburg, Sweden before release. The released Apps were tested out at a pop-up food-court where discounts, iOS &amp; Android and web products were tested. The development stage has been completed with 2 consults and one internal team-member, where a part of the work has been conducted remotely. Testing, data collection and decision of agile sprint-scopes have been challenges that our team had to solve until the final release."
+            Text1="Testing of new-releases at Keyflow started with internal-testing on the staging environment where edge-cases were continuously created and early bugs were reported. Further field-tests took place in person during office-hours and nightlife events. Major features such as RSVP or QR-code tickets required field-testing in event conditions, where a doorman, an event manager and number of guests were required. Keyflow team had the chance to collaborate with brands like Absolut, Marshall, Peroni and Universal Studios for being able to host nightlife professionals to hold feature-tests to gain meaningful insights and user-feedbacks from professionals."
           />
-          <br />
-          <br />
           <HText1
             Header1="Conclusions"
-            Text1="Streetkäk has evolved from a simple digital street-food map to become a holistic product that solves problems of street-food habitat in Scandinavia. It has been featured on several international media outlets, creating an organic growth that has lad to 6-digit number of downloads - mostly in Stockholm. I have learned a lot from the whole process about how to brand, build, scale a product, conducting research and solving problems in a set-timeframe. Even though, the product has made its mark to the street-food culture, further improvements are necessary to maintain a sustainable growth:"
+            Text1="Keyflow is currently the main nightlife platform of Scandinavia with a growing number of guests who discover nightlife events and venues through the platform. As an integrated nightlife solution, the product has branched to provide unique solutions to the needs of various types of guests. Team's understanding has increased as the product and user-base has grown. Request feature has been the most significant disruption in the industry and its development has not continued as a straight-line. Introduction of Keyflow Coins was based on surveys and user-interviews to help venues engage more with guest list requests. Coins would add value to the requests, save time for venues and help gathering user information and reward mechanism. Even though introduction of Coins has increased request-engagement on both sides (guests &amp; venues), it proved to have room for improvement for a wider-audience. Keyflow has come with a newer and transparent approach to increase request engagement by making changes on Keyflow Business (venue response rate). Nightlife dynamics show a large variety globally, and Keyflow has following challenges:"
           />
           <br />
-          <TextLi TextLi="Unique solutions for food-truck chains and single trucks." />
-          <TextLi TextLi="Generating meaningful analysis based on collected data from the city and the truck. Notifying both users and trucks about previous positive experiences." />
-          <TextLi TextLi="Collaboration with municipal organisations to improve street-food habitat (e.g. better locations, bending hour-limits at certain situations)." />
-          <TextLi TextLi="Helping truck owners to improve how they can represent themselves and their food." />
+          <TextLi TextLi="Nightlife trends are changing, as open-air and festival-like events increasingly become popular." />
+          <TextLi TextLi="Providing value and localising the product would need re-defining business models and product features (e.g. Japanese nightlife culture being different from Scandinavia)." />
+          <TextLi TextLi="Current social media platforms do not meet the needs of nightlife habitat. However, different demographics display different needs. The product in the future would need to branch more towards finding unique solutions for VIP's, creatives, festival lovers, etc. " />
           <div className="BWrapper">
             <Link to="/strafe">
               <BTextA BHeader1="⟵ Previous" BText1="Strafe" />
             </Link>
-            <Link to="/others">
+            <Link to="/keyflowbusiness">
               <BTextB BHeader2="Next ⟶" BText2="Keyflow Business" />
             </Link>
           </div>
@@ -152,3 +187,41 @@ const keyflowPage = () => (
 )
 
 export default keyflowPage
+
+export const pageQuery = graphql`
+  query {
+    kfOne: file(relativePath: { eq: "kf1.jpg" }) {
+      ...fluidImage2
+    }
+    kfTwo: file(relativePath: { eq: "kf2.jpg" }) {
+      ...fluidImage2
+    }
+    kfThree: file(relativePath: { eq: "kf3.jpg" }) {
+      ...fluidImage
+    }
+    kfFour: file(relativePath: { eq: "kf4.jpg" }) {
+      ...fluidImage480
+    }
+    kfFive: file(relativePath: { eq: "kf5.jpg" }) {
+      ...fluidImage480
+    }
+    kfSix: file(relativePath: { eq: "kf_icons.jpg" }) {
+      ...fluidImage
+    }
+    kfSeven: file(relativePath: { eq: "kf_app.jpg" }) {
+      ...fluidImage
+    }
+    kfEight: file(relativePath: { eq: "kf8.jpg" }) {
+      ...fluidImage
+    }
+    kfNine: file(relativePath: { eq: "kf9.jpg" }) {
+      ...fluidImage
+    }
+    kfTen: file(relativePath: { eq: "kf10.jpg" }) {
+      ...fluidImage
+    }
+    kfEleven: file(relativePath: { eq: "kf11.jpg" }) {
+      ...fluidImage
+    }
+  }
+`

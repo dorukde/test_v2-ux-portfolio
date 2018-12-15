@@ -139,6 +139,12 @@ li {
   max-width: 800px;
 }
 
+.gatsby-image-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  max-width: 960px;
+}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -240,6 +246,9 @@ p {
   }
 
   .gatsby-image-wrapper2 {
+    flex-direction: column;
+  }
+  .gatsby-image-wrapper3 {
     flex-direction: column;
   }
 }

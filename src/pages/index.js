@@ -43,3 +43,33 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(quality: 100, maxWidth: 960) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
+
+export const fluidImage2 = graphql`
+  fragment fluidImage2 on File {
+    childImageSharp {
+      fluid(quality: 100, maxWidth: 400) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
+
+export const fluidImage480 = graphql`
+  fragment fluidImage480 on File {
+    childImageSharp {
+      fluid(quality: 100, maxWidth: 480) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`

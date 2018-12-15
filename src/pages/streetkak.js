@@ -123,11 +123,11 @@ const skakPage = props => (
             Sketching, Wireframing &amp; Zeplin
             <br />
             <strong>Prototype:</strong> High Fidelity Prototype, Interactive
-            Button &amp; Notifications (trucks)
+            Button (flic) &amp; Notifications (trucks)
             <br />
-            <strong>Test-Produce-Evaluate:</strong> User Testing (individual &
-            group), Experience Sampling, Field (Feature) Testing, Functional
-            Testing
+            <strong>Test-Produce-Evaluate:</strong> User Testing (individual
+            &amp; group), Experience Sampling, Field (Feature) Testing,
+            Functional Testing
             <br />
           </p>
           <HText1
@@ -208,36 +208,6 @@ const skakPage = props => (
 )
 
 export default skakPage
-
-export const fluidImage = graphql`
-  fragment fluidImage on File {
-    childImageSharp {
-      fluid(quality: 100, maxWidth: 960) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`
-
-export const fluidImage2 = graphql`
-  fragment fluidImage2 on File {
-    childImageSharp {
-      fluid(quality: 100, maxWidth: 400) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`
-
-export const fixedImage = graphql`
-  fragment fixedImage on File {
-    childImageSharp {
-      fixed(quality: 100, width: 400) {
-        ...GatsbyImageSharpFixed
-      }
-    }
-  }
-`
 
 export const pageQuery = graphql`
   query {
