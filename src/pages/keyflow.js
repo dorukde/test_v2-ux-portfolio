@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { FaGooglePlay, FaApple } from 'react-icons/fa'
+import '../../node_modules/video-react/dist/video-react.css'
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
 import { Player } from 'video-react'
@@ -11,8 +12,6 @@ import Text2 from '../components/text2'
 import TextLi from '../components/textLi'
 import BTextA from '../components/btn1'
 import BTextB from '../components/btn2'
-
-import '../../node_modules/video-react/dist/video-react.css'
 
 import kvideo1 from '../images/keyflow0.mp4'
 import kvideo2 from '../images/keyflow1.mp4'
