@@ -179,13 +179,13 @@ const keyflowPage = props => (
           <br />
           <div className="prototypes">
             <div className="prototype1">
-              <Player playsInline fluid="false" src={kvideo1} />
+              <Player playsInline src={kvideo1} />
             </div>
             <div className="prototype1">
-              <Player playsInline fluid="false" src={kvideo2} />
+              <Player playsInline src={kvideo2} />
             </div>
             <div className="prototype1">
-              <Player playsInline fluid="false" src={kvideo3} />
+              <Player playsInline src={kvideo3} />
             </div>
           </div>
           <br />
