@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { FaGooglePlay, FaApple } from 'react-icons/fa'
-import { Player } from 'video-react'
 import '../../node_modules/video-react/dist/video-react.css'
+import { Player } from 'video-react'
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
 
