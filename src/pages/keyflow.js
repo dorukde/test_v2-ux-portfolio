@@ -188,6 +188,21 @@ const keyflowPage = props => (
               <Player playsInline fluid="false" src={kvideo3} />
             </div>
           </div>
+          <div className="prototypes">
+            <div className="prototype1">
+              <Player playsInline src={kvideo1} />
+            </div>
+            <div className="prototype1">
+              <Player playsInline src={kvideo2} />
+            </div>
+            <div className="prototype1">
+              <Player playsInline src={kvideo3} />
+            </div>
+          </div>
+          <Player
+            playsInline
+            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+          />
           <br />
           <HText1
             Header1="Conclusions"
