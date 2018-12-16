@@ -11,6 +11,8 @@ import ResumeItem from '../components/resume'
 import ResumeItem2 from '../components/resume2'
 import ResumeItem3 from '../components/resume3'
 import '../components/resume.css'
+import '../components/project.css'
+
 import HText1 from '../components/text1'
 import Text2 from '../components/text2'
 

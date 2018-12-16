@@ -44,7 +44,8 @@ const keyflowPage = props => (
               <FaGooglePlay />
             </Link>
             <div className="infobox">
-              <div className="textbold">Platform:</div> iOS/Android & Web <br />
+              <div className="textbold">Platform:</div> iOS/Android &amp; Web{' '}
+              <br />
               <div className="textbold">Duration:</div> 2015/5 – 2018/8 <br />
               <div className="textbold">Role:</div> Product Designer <br />
               <div className="textbold">Method:</div> Agile + Lean UX <br />

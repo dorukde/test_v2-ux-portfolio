@@ -1,3 +1,8 @@
+.ProjectTitle {
+  display: inline-block;
+  width: 100%;
+}
+
 .ProjectName2 {
   float: left;
   font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
