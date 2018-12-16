@@ -218,7 +218,7 @@ p {
   padding: 4em 0 1em 0;
 }
 
-/* VIDEO PLAYER OVERRIDES */
+/* 
 .prototypes {
   display: flex;
 }
@@ -237,7 +237,7 @@ p {
 }
 
 .video-react-volume-menu-button {
-  display: none !important;
+  display: hidden !important;
 }
 
 .video-react-control-bar {
