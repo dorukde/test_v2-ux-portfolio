@@ -63,6 +63,7 @@
   -webkit-font-smoothing: antialiased;
   width: 100%;
   max-width: 80%;
+  clear: both;
 }
 
 .AboutProject {
