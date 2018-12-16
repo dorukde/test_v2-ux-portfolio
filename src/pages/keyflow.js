@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { FaGooglePlay, FaApple } from 'react-icons/fa'
+import { Player } from 'video-react'
 import '../../node_modules/video-react/dist/video-react.css'
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
-import { Player } from 'video-react'
 
 /*TEXT COMPONENTS */
 import HText1 from '../components/text1'
