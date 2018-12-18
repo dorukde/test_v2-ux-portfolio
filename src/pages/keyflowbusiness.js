@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { FaGooglePlay, FaApple } from 'react-icons/fa'
+import { Player } from 'video-react'
+import '../components/video-react.css'
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
 
@@ -14,6 +16,9 @@ import BTextB from '../components/btn2'
 
 import Scroller from '../components/scrollP'
 
+import kbvideo1 from '../images/kbusiness_1d.mp4'
+import kbvideo2 from '../images/kbusiness_1.mp4'
+
 const keyflowBPage = props => (
   <div id="rect">
     <Scroller />
@@ -25,8 +30,10 @@ const keyflowBPage = props => (
             <div className="ProjectDetail2">UX-UI</div>
           </div>
           <div className="ProjectDescription">
-            Keyflow, headquartered in Stockholm Sweden, is an event service
-            solution for both event producers and guests around the globe.
+            Keyflow Business, is the solution for pre-event and real-time guest
+            list management of each event of a nightclub. It features guest-list
+            management, offline support, real-time request handling, considering
+            the goals of venue producers and their teams.
           </div>{' '}
           <h1>
             <Link>
@@ -38,7 +45,8 @@ const keyflowBPage = props => (
             <div className="infobox">
               <div className="textbold">Platform:</div> iOS/Android & Web <br />
               <div className="textbold">Duration:</div> 2015/5 – 2018/8 <br />
-              <div className="textbold">Role:</div> Product Designer <br />
+              <div className="textbold">Role:</div> Product Designer (B2B){' '}
+              <br />
               <div className="textbold">Method:</div> Agile + Lean UX <br />
             </div>
           </h1>
@@ -57,37 +65,61 @@ const keyflowBPage = props => (
           </div>
           <div className="SectionTitle2">Introduction</div>
           <HText1
-            Header1="Digitalisation of Nightlife in the Age of Social Media"
-            Text1="Nightlife is seriously fun and having access to it can be challenging. Every guest seeks to have the access to a uniquely fun experience. Keyflow was motivated by solving the complicated problems of nightlife, aiming to make the fun of nightlife accessible again. Guests and venues have specific requirements and finding the right fit makes the night fun for everyone. Keyflow Team includes night-life professionals who has access to a focus-group of venues and night-life guests. The solutions come with an integrated 2-layered nightlife ecosystem:"
+            Header1="Digital Event Management for Nightlife Professionals"
+            Text1="Nightlife management and marketing requires a variety of skills in every event production team. Current tools for event management, marketing and data collection lack specifity to solve nightlife venue problems. Keyflow Business  
+            is a unique system crafted for different stages of event-production, starting from event planning to data-collection after event. The system empowers venue-staff and gives event managers direct access to venue clientele for business growth with real-time tools utilising Keyflow platform. Keyflow ecosystem aims to close the gap between venue producers and nightlife guests:"
           />{' '}
           <br />
-          <TextLi TextLi="Keyflow App for guests to track events, manage VIP cards, invite friends and get admissions." />
-          <TextLi TextLi="Keyflow Business helping venues to create events, manage lists, sell admissions and collect meaningful pre-event and after-event data." />
+          <TextLi
+            TextLi="Keyflow Business is the main platform for venues to create and promote events, track real-time statistics and collect after-event data about past-events.  
+          helping venues to create events, manage lists, sell admissions and collect meaningful pre-event and after-event data."
+          />
+          <TextLi TextLi="Keyflow App is the platform for guests where events are published, promoted and users have the power to manage their own VIP-cards and invite friends." />
           <br />
+          <div className="gatsby-image-wrapper2">
+            <Img
+              fluid={props.data.kbOne.childImageSharp.fluid}
+              alt="Keyflow App"
+            />
+            <Img
+              fluid={props.data.kbTwo.childImageSharp.fluid}
+              alt="Keyflow Business"
+            />
+          </div>
           <HText1
             Header1="The Problem"
-            Text1="Accessing a venue or having deep information on what happens in a city is too complicated for guests. It takes several trial &amp; errors, long timespans waiting at the queue. Booking a table with friends, connecting to a promoter or noticing the venue as a VIP guest need quick solutions. There are various obstacles against every type of nightlife guest:"
+            Text1="Event production, promotion and management on digital platforms comes with multiple challenges for each team-member. Collecting meaningful information during and after event are essentials to understand what is necessary to grow business, host better events and provide better service for venues. Keyflow Team has held an exclusive research of global nightlife producers with the objective to solve specific problems:"
           />{' '}
           <br />
-          <TextLi TextLi="Guests seek transparency. They need to know about the atmosphere, dress code and avoid being rejected at the door." />
-          <TextLi TextLi="Booking a table, planning a night out with friends require lots of phone calls and making a comparison between venues is time-consuming." />
-          <TextLi TextLi="Some venues have long queues at the door, which takes the fun away from nightlife. Getting an admission should be time-efficient and hassle-free." />
+          <TextLi TextLi="The ideal scenario is to pre-sell admissions and table-bookings to plan ahead for the venues. However, guests tend to inform venues with short notice." />
+          <TextLi TextLi="Marketing and promoting events with a nighlife-focused global audience is a challenging process with current tools." />
+          <TextLi TextLi="Door service is sensitive, time-consuming and can be frustrating for guests. Guests expect transparent and friction-free experiences at the door." />
+          <TextLi TextLi="Analysis of each event help understand the pain-points and make performance analysis. '(VIP) Name +3' provides no information about the group." />
+          <Img
+            fluid={props.data.kBusinessOne.childImageSharp.fluid}
+            alt="Keyflow Business Ecosystem and Features"
+          />
           <HText1
-            Header1="The Solution: Keyflow"
-            Text1="Keyflow is currently the most inspiring nightlife event platform in Scandinavia. "
+            Header1="The Solution: Keyflow Business"
+            Text1="Keyflow Business is the streamlined solution for event creation, marketing and analysis for every team member of a venue. Guest-list management, table booking, event-updates, VIP creation and unique 'request' possibility helps guests and venues to plan-ahead for the night. Keyflow Business helps nightlife business producers with:"
           />{' '}
           <br />
-          <TextLi TextLi="Getting access to venues on a global scale, finding the inspiring events conveniently." />
-          <TextLi TextLi="Planning-ahead individually or as a group of friends." />
-          <TextLi TextLi="Empowering guests when getting admissions and booking tables with flexibility." />
-          <TextLi TextLi="Skipping the queue-line, pre-event communication with the venue." />
-          <br />
-          <br />
+          <TextLi TextLi="Getting closer to global-guests, collect information and reward." />
+          <TextLi TextLi="Pre-event sales and management to plan-ahead and analyse events and continous business-growth." />
+          <TextLi
+            TextLi="
+          Empowering every team member with specific tools created for each role (e.g. venue owner, manager, doorman, etc.)."
+          />
+          <TextLi TextLi="Streamlining event-management with real-time tools (e.g. Requests, Check-in)." />
+          <Img
+            fluid={props.data.kBusinessTwo.childImageSharp.fluid}
+            alt="Keyflow Business Ecosystem and Features"
+          />
           <div className="SectionTitle2">The Process</div>
           <p>
             <strong>Research:</strong> Contextual Analysis, Surveys (guests
             &amp; venues), Periodic Interviews (venue staff), Focus groups (e.g.
-            Creatives, VIP guests)
+            Venue owners, Doormen)
             <br />
             <strong>Ideas:</strong> Mind Map, Empathy Map, User Journey Map,
             Personas
@@ -100,47 +132,86 @@ const keyflowBPage = props => (
             Prototype (Staging)
             <br />
             <strong>Test-Produce-Evaluate:</strong> User Testing (individual
-            &amp; groups), Experience Sampling, Field (Feature) Testing (sober
-            &amp; drunk), Functional Testing, Testing &amp; Bug Reporting (JIRA)
+            &amp; groups), Experience Sampling, Field (Feature) Testing,
+            Functional Testing, Testing &amp; Bug Reporting (JIRA)
             <br />
           </p>
           <HText1
-            Header1="Research: Seeing beyond the queue"
-            Text1="Thrill of the night might fade out during long queues. Several focus groups for being able to analyse needs of a wide-range of nightlife guests. A group of creatives were invited to the workshops to understanding the needs of guests and the venues. VIP-Guests answered surveys about VIP-Card privileges, sharing privileges with friends and requesting from venues."
+            Header1="Research: Thinking Before Dancing"
+            Text1="Keyflow has been continuously in contact with event-producers and venues in Stockholm from its start. A focus-group including event-producers, promoters and doormen provided feedbacks for feature decisions and iterative improvements. Having nightlife professionals as Keyflow Team members provided a better access to venues and other nightlife-professionals. Offline-support, guest-preferences and tags have been crafted based on focus-groups and individual interviews."
           />
           <HText1
-            Header1="Ideas: Synthesis for Street-Food Ecosystem"
-            Text1="Ideation process of the ecosystem has started with mind-mapping, for being able to name the possible features surrounded by what street-food culture could be. Early iterations of the App-features would focus on 'communication' aspect, connecting different dots of the ecosystem. Empathy maps helped us see the differences between tech-savvy and cooking-focused food-truck chefs. On later iterations, the focus has shifted on improving simultaneous order management &amp; cooking processes. "
+            Header1="Ideas: Creations of the Night"
+            Text1="Understanding event production and problems of different personas improved the specifity of the ideation process. Event-timeline of a venue manager, event promoter or doormen differ from each other. These branching processes inspired new personas and relevant user-journey maps. Synthesis of user-roles has been an early and important step to provide relevant experiences to every team member later on."
+          />
+          <Img
+            fluid={props.data.kBusinessThree.childImageSharp.fluid}
+            alt="Keyflow App - Sketches"
+          />
+          <Img
+            fluid={props.data.kBusinessFour.childImageSharp.fluid}
+            alt="Keyflow App - Sketches"
+          />
+          <br />
+          <Img
+            fluid={props.data.kBusinessSeven.childImageSharp.fluid}
+            alt="Keyflow Business - Web: Request Management"
           />
           <HText1
-            Header1="Design &amp; Prototyping:"
-            Text1="Findings of street-food lovers and the food-truck chefs were different from each other. In earlier iterations the design processes were moving on two single-tracks as two developers worked on iOS &amp; Android versions. However, with the implementation of Streetkäk's payment feature, simultaneity has become the new focus. The process started with defining information architecture, sketches and - continued with wireframes, flow diagrams and finally delivery of prototypes (Principle App) assets through Zeplin to developers."
+            Header1="Designing Keyflow Business"
+            Text1="The design system (and visual language) of Keyflow Business has had differences from Keyflow App. Onboarding process involves user-roles and registration of team-members and venues too. The product is designed to be a real-time and collaborative event-management tool with multiple states and edge cases. The visual design process is based on a new design system and sketch component-library with state-indicators for features like offline-support and additional documentation on Confluence. Keyflow Business iterations have been designed and developed simultaneously with guest-focused Keyflow App. Consideration of empty-states, in-App onboarding and older-version support have been important considerations during the visual design-process of Keyflow Business."
           />
           <br />
+          <br />
+          <div className="gatsby-image-wrapper2">
+            <Img
+              fluid={props.data.kBusinessFive.childImageSharp.fluid}
+              alt="Keyflow Business: Sketching Event Management System"
+            />
+            <Img
+              fluid={props.data.kBusinessSix.childImageSharp.fluid}
+              alt="Keyflow Business: Sketching Statistics"
+            />
+          </div>
           <br />
           <HText1
-            Header1="Designing Streetkäk Check-in"
-            Text1="Our team had the chance to collaborate with PayPal, Nike and Universal Studios - Sweden to organise focus-group events where working-prototypes built on staging environment were tested. Cash payment, phone-call, disabling menu items during sales, have been developed per the feedback received from the trucks. The system has designed to be scalable and autonomous, which later have been used outside of Stockholm - the birthplace."
+            Header1="From Ideation to High-Fidelity Design"
+            Text1="Keyflow Business collects and presents several layers of information to venue managers. Check-in Timeline displays real-time check-in data from every team-member using Keyflow Business. Large-scaled venues utilise this information to find the right balance between queue and max. allowed guests inside the venue at the time. Attendance &amp; Activity graphs display how pre-sales and guest lists progress during the night. Finally, admission types are displayed on a daily basis for performance analysis. This analysis helps which events need a boost and which admission types need advertisement through Keyflow Business."
           />
           <br />
           <br />
+          <Img
+            fluid={props.data.kBusinessEight.childImageSharp.fluid}
+            alt="Keyflow Business - Web: Event Statistics"
+          />
+          <br />
+          <Img
+            fluid={props.data.kBusinessNine.childImageSharp.fluid}
+            alt="Keyflow Business - Web: Marketing Events"
+          />
           <HText1
             Header1="Test - Produce - Evaluate"
-            Text1="Field tests of Streetkäk have helped addition of agile cooking situations, making it simple to handle crisis situations such as 'sold-out' or cancellation of orders and communicating with the customers. Final run of field-test has taken place in Way Out West festival in Gothenburg, Sweden before release. The released Apps were tested out at a pop-up food-court where discounts, iOS &amp; Android and web products were tested. The development stage has been completed with 2 consults and one internal team-member, where a part of the work has been conducted remotely. Testing, data collection and decision of agile sprint-scopes have been challenges that our team had to solve until the final release."
+            Text1="
+            At later stages, Keyflow Business has gone through a complete visual re-design with the introduction of a new pricing-model. Larger-sprints in such agile environment require end-to-end testing in staging environment. Internal testing involved multiple team-members testing event creation, ticket scanning and checking-in guests. We also had the chance to run closed-events in collaboration with Absoluit and Marshall where we could work with our focus-group in a real-venue before the release. Keyflow product has over 200+ screens/states so inter-screen prototypes were built on inVision, in addition to documentation prepared for relevant stakeholders. Micro-interactions in each screen were prototyped using Principle App."
           />
           <br />
-          <br />
+          <div className="prototypes">
+            <div className="prototype1">
+              <Player playsInline src={kbvideo1} />
+            </div>
+            <div className="prototype2">
+              <Player playsInline src={kbvideo2} />
+            </div>
+          </div>{' '}
           <HText1
             Header1="Conclusions"
-            Text1="Keyflow is the main nightlife platform of Scandinavia, with a large number of venues and events posted 
-            has grown from an MVP-level software to a compleme 
-            Streetkäk has evolved from a simple digital street-food map to become a holistic product that solves problems of street-food habitat in Scandinavia. It has been featured on several international media outlets, creating an organic growth that has lad to 6-digit number of downloads - mostly in Stockholm. I have learned a lot from the whole process about how to brand, build, scale a product, conducting research and solving problems in a set-timeframe. Even though, the product has made its mark to the street-food culture, further improvements are necessary to maintain a sustainable growth:"
+            Text1="
+            Keyflow Business has introduced a unique way to streamline and analyse nightclub management. Empowerment of team-members of nightclub management has been at the core of the product development process. Being able to plan-ahead for the venues added the business value. Venues had the chance to collect information to analyse and improve future-events and reward their guests. Request feature has increased transparency with the venue and the guests removing the hassle of having large number of phone calls during preparation phase. Engagement of the guests and venues were improved by 'request response rate' which motivated venues to have a higher transparency rating. Venues in Scandinavia has embraced the product and using a large portion of its features. Nightlife trends are changing and re-defining event production. Keyflow Business as a growing product would have these challenges at global-scale:"
           />
           <br />
-          <TextLi TextLi="Unique solutions for food-truck chains and single trucks." />
-          <TextLi TextLi="Generating meaningful analysis based on collected data from the city and the truck. Notifying both users and trucks about previous positive experiences." />
-          <TextLi TextLi="Collaboration with municipal organisations to improve street-food habitat (e.g. better locations, bending hour-limits at certain situations)." />
-          <TextLi TextLi="Helping truck owners to improve how they can represent themselves and their food." />
+          <TextLi TextLi="Event management of large-audiences (open-air &amp; festivals) require highly-customisable solutions." />
+          <TextLi TextLi="Global nightlife practices are different and price-charts, branding and features would require to be localised as an addition to today's multi-language support." />
+          <TextLi TextLi="Design of event-pages and venue-pages are based on largely common social-media content for re-usability and agile-improvement of processes. Social-media integration and management are considerable future-features for the product." />
           <div className="BWrapper">
             <Link to="/keyflow">
               <BTextA BHeader1="⟵ Previous" BText1="Keyflow" />
@@ -156,3 +227,41 @@ const keyflowBPage = props => (
 )
 
 export default keyflowBPage
+
+export const pageQuery = graphql`
+  query {
+    kBusinessOne: file(relativePath: { eq: "kbusiness1.jpg" }) {
+      ...fluidImage
+    }
+    kBusinessTwo: file(relativePath: { eq: "kb_app.jpg" }) {
+      ...fluidImage
+    }
+    kBusinessThree: file(relativePath: { eq: "kbusiness_flow.jpg" }) {
+      ...fluidImage
+    }
+    kBusinessFour: file(relativePath: { eq: "kbusiness_edit.jpg" }) {
+      ...fluidImage
+    }
+    kBusinessFive: file(relativePath: { eq: "kfb_process1.jpg" }) {
+      ...fluidImage
+    }
+    kBusinessSix: file(relativePath: { eq: "kfb_process2.jpg" }) {
+      ...fluidImage
+    }
+    kBusinessSeven: file(relativePath: { eq: "kfb2.jpg" }) {
+      ...fluidImage
+    }
+    kBusinessEight: file(relativePath: { eq: "kfb_web1.jpg" }) {
+      ...fluidImage
+    }
+    kBusinessNine: file(relativePath: { eq: "kb_market.jpg" }) {
+      ...fluidImage
+    }
+    kbOne: file(relativePath: { eq: "kf2.jpg" }) {
+      ...fluidImage2
+    }
+    kbTwo: file(relativePath: { eq: "kbTwo.jpg" }) {
+      ...fluidImage2
+    }
+  }
+`

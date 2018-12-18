@@ -22,12 +22,17 @@ const IndexPage = () => (
       />
     </Link>
 
-    <Project
-      ProjectName="Key&#64258;ow Business"
-      ProjectDetail="UX-UI"
-      ProjectText1="Keyflow Business, is the solution for pre-event and real-time guest list management of each event of a nightclub. It features offline support, guest-list management, request handling, considering the goals of venue-owners, and the team."
-      ProjectText2="VIEW PROJECT >"
-    />
+    <Link to="/keyflowbusiness">
+      <Project
+        ProjectName="Key&#64258;ow Business"
+        ProjectDetail="UX-UI"
+        ProjectText1=" Keyflow Business, is the solution for pre-event and real-time guest
+            list management of each event of a nightclub. It features guest-list
+            management, offline support, real-time request handling, considering
+            the goals of venue producers and their teams."
+        ProjectText2="VIEW PROJECT >"
+      />
+    </Link>
 
     <Link to="/streetkak">
       <Project

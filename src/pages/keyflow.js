@@ -46,7 +46,8 @@ const keyflowPage = props => (
               <div className="textbold">Platform:</div> iOS/Android &amp; Web{' '}
               <br />
               <div className="textbold">Duration:</div> 2015/5 – 2018/8 <br />
-              <div className="textbold">Role:</div> Product Designer <br />
+              <div className="textbold">Role:</div> Product Designer (B2C)
+              <br />
               <div className="textbold">Method:</div> Agile + Lean UX <br />
             </div>
           </h1>
@@ -66,10 +67,10 @@ const keyflowPage = props => (
           <div className="SectionTitle2">Introduction</div>
           <HText1
             Header1="Digitalisation of Nightlife in the Social Media Age"
-            Text1="Nightlife is seriously fun and having access to it can sometimes be challenging. Every guest seeks to have the access to a uniquely fun experience. Keyflow was motivated by solving the complicated problems of nightlife, aiming to make the fun of nightlife accessible. Guests and venues have specific requirements and finding the right fit makes the night fun for everyone. Keyflow Team includes night-life professionals who has access to a focus-group of venues and night-life guests. The solutions come with an integrated 2-layered nightlife ecosystem:"
+            Text1="Nightlife is seriously fun and having access to it can sometimes be challenging. Every guest seeks to have the access to a uniquely fun experience. Keyflow was inspired by solving the complicated problems of nightlife, aiming to make the fun of nightlife accessible. Guests and venues have specific requirements and finding the right fit makes the night fun for everyone. Keyflow Team includes night-life professionals who has access to a focus-group of venues and night-life guests. The solutions come with an integrated 2-layered nightlife ecosystem:"
           />{' '}
           <br />
-          <TextLi TextLi="Keyflow App for guests to track events, manage VIP cards, invite friends and get admissions." />
+          <TextLi TextLi="Keyflow App for guests to discover events, manage VIP cards, invite friends and get admissions." />
           <TextLi TextLi="Keyflow Business helping venues to create events, manage lists, sell admissions and collect meaningful pre-event and after-event data." />
           <br />
           <div className="gatsby-image-wrapper2">
@@ -92,11 +93,11 @@ const keyflowPage = props => (
           <TextLi TextLi="Some venues have long queues at the door, which takes the fun away from nightlife. Getting an admission should be time-efficient and hassle-free." />
           <Img
             fluid={props.data.kfNine.childImageSharp.fluid}
-            alt="Keyflow Nightlife"
+            alt="Keyflow Ecosystem"
           />
           <HText1
             Header1="The Solution: Keyflow"
-            Text1="Keyflow helps guests discover, get and share friction-free access to a wide-range of nightclubs. Guests have the power to pre-manage the night out without any surprises. Guests can request to be on the list, have digital VIP cards, pre-order table service, skip the queue and get admission for their friends. Keyflow also works as a discovery platform for nightlife "
+            Text1="Keyflow helps guests discover, get and share friction-free access to a wide-range of nightclubs. Guests have the power to pre-manage the night out without any surprises. Guests can request to be on the list, have digital VIP cards, pre-order table service, skip the queue and get admission for their friends. Keyflow also provides a discovery platform for nightlife guests. Keyflow's benefits for the guests are:"
           />{' '}
           <br />
           <TextLi TextLi="Getting access to venues on a global scale, finding the inspiring events conveniently." />
@@ -106,6 +107,10 @@ const keyflowPage = props => (
           <Img
             fluid={props.data.kfSeven.childImageSharp.fluid}
             alt="Keyflow App (iOS)"
+          />
+          <Img
+            fluid={props.data.kfTen.childImageSharp.fluid}
+            alt="Keyflow Web (landing)"
           />
           <div className="SectionTitle2">The Process</div>
           <p>
@@ -134,7 +139,7 @@ const keyflowPage = props => (
           />
           <HText1
             Header1="Ideas: From pre-party to 'story-to-tell'"
-            Text1="To have a deeper understanding of the journey of guests, we worked along personas of young-creatives, VIP guests and built empathy maps. The ideation process has helped us define a smart way of defining events and admission types. Building a framework of a new iconography and creating tags for atmosphere &amp; music preferences. Tags would help defining venue atmosphere and match guest preferences to provide a better discovery experience."
+            Text1="To have a deeper understanding of the journey of guests, we worked along personas of young-creatives, VIP guests and built empathy &amp; user-journey maps. The ideation process has helped us define a smart way of defining events and admission types. Building a framework of a new iconography and creating tags for atmosphere &amp; music preferences. Tags would help defining venue atmosphere and match guest preferences to provide a better discovery experience."
           />
           <br />
           <br />
@@ -151,7 +156,7 @@ const keyflowPage = props => (
           />
           <HText1
             Header1="Designing Keyflow App &amp; Web"
-            Text1="My role in the team as the only product designer required collaboration with several stakeholders including members from sales-marketing team, project management and 8+ developers (native mobile &amp; web). Keyflow is a scalable and multi-lingual product from the start. The earliest visual-iterations has been about improving core-functional requirements about multi-platform and multi-lingual support of the products. Building a design system, started with a sketch component-library, continued with Confluence documentation and workshops with developers."
+            Text1="My role in the team as the only product designer required collaboration with several stakeholders including members from sales-marketing team, project management and 8+ developers (native mobile &amp; web). Keyflow has been a scalable and multi-lingual product from its earlier steps. The earliest visual-iterations has been about improving core-functional requirements about multi-platform and multi-lingual support of the products. Building a design system, started with a sketch component-library, continued with Confluence documentation and workshops with developers."
           />{' '}
           <br />
           <div className="gatsby-image-wrapper2">
@@ -169,6 +174,10 @@ const keyflowPage = props => (
           <br />
           <Img
             fluid={props.data.kfThree.childImageSharp.fluid}
+            alt="Keyflow App - Flow Diagram"
+          />
+          <Img
+            fluid={props.data.kfEleven.childImageSharp.fluid}
             alt="Keyflow App - Flow Diagram"
           />
           <HText1
@@ -191,7 +200,7 @@ const keyflowPage = props => (
           <br />
           <HText1
             Header1="Conclusions"
-            Text1="Keyflow is currently the main nightlife platform of Scandinavia with a growing number of guests who discover nightlife events and venues through the platform. As an integrated nightlife solution, the product has branched to provide unique solutions to the needs of various types of guests. Team's understanding has increased as the product and user-base has grown. Request feature has been the most significant disruption in the industry and its development has not continued as a straight-line. Introduction of Keyflow Coins was based on surveys and user-interviews to help venues engage more with guest list requests. Coins would add value to the requests, save time for venues and help gathering user information and reward mechanism. Even though introduction of Coins has increased request-engagement on both sides (guests &amp; venues), it proved to have room for improvement for a wider-audience. Keyflow has come with a newer and transparent approach to increase request engagement by making changes on Keyflow Business (venue response rate). Nightlife dynamics show a large variety globally, and Keyflow has following challenges:"
+            Text1="Keyflow is currently the main nightlife platform of Scandinavia with a growing number of guests who discover nightlife events and venues through the platform. As an integrated nightlife solution, the product has branched to provide unique solutions to the needs of various types of guests. Team's understanding has increased as the product and user-base has grown. Request feature has been the most significant disruption in the industry and its development has not continued as a straight-line. Introduction of Keyflow Coins was based on surveys and user-interviews to help venues engage more with guest list requests. Coins would add value to the requests, save time for venues and help gathering user information and reward mechanism. Even though introduction of Coins has increased request-engagement on both sides (guests &amp; venues), it proved to have room for improvement to reach a wider-audience. Keyflow has come with a newer and transparent approach to increase request engagement by making changes on Keyflow Business (venue response rate). Nightlife dynamics show a large variety globally, and Keyflow has following challenges:"
           />
           <br />
           <TextLi TextLi="Nightlife trends are changing, as open-air and festival-like events increasingly become popular." />
@@ -218,7 +227,7 @@ export const pageQuery = graphql`
     kfOne: file(relativePath: { eq: "kf1.jpg" }) {
       ...fluidImage2
     }
-    kfTwo: file(relativePath: { eq: "kf2.jpg" }) {
+    kfTwo: file(relativePath: { eq: "kfTwo.jpg" }) {
       ...fluidImage2
     }
     kfThree: file(relativePath: { eq: "kf3a.jpg" }) {
@@ -242,10 +251,10 @@ export const pageQuery = graphql`
     kfNine: file(relativePath: { eq: "kf3c.jpg" }) {
       ...fluidImage
     }
-    kfTen: file(relativePath: { eq: "kf10.jpg" }) {
+    kfTen: file(relativePath: { eq: "kf_web.jpg" }) {
       ...fluidImage
     }
-    kfEleven: file(relativePath: { eq: "kf11.jpg" }) {
+    kfEleven: file(relativePath: { eq: "kf_venues.jpg" }) {
       ...fluidImage
     }
   }
