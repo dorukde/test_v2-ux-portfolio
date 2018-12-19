@@ -140,7 +140,7 @@ const strafePage = props => (
           <br />
           <br />
           <HText1
-            Header1="Design: Visual Iterations on Strafe Score"
+            Header1="Design:Visual Iterations on Strafe Score"
             Text1="
             Even though I have been involved with User Interface design of library components and new-feature screens my focus had been on improving user experience. Branding and visual design guidelines were not updated during my consultation sprints of Strafe Score. Initially, a library of wireframe components of Sketch App was built to increase interactive collaboration with other stakeholders (including PO and developers). 
             
