@@ -36,12 +36,21 @@ const keyflowPage = props => (
             solution for both event producers and guests around the globe.
           </div>{' '}
           <h1>
-            <Link>
+            <a
+              href="https://itunes.apple.com/app/keyflow-your-key-to-nightlife/id963685753?mt=8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
               <FaApple />
-            </Link>{' '}
-            <Link>
+            </a>{' '}
+            <a
+              href="https://play.google.com/store/apps/details?id=se.keyflow.android.guest&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGooglePlay />
-            </Link>
+            </a>
             <div className="infobox">
               <div className="textbold">Platform:</div> iOS/Android &amp; Web{' '}
               <br />

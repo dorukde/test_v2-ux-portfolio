@@ -30,14 +30,17 @@ const skakPage = props => (
             countries such as Sweden, Denmark, Norway and Finland.
           </div>
           <h1>
-            <Link>
+            <a
+              href="https://itunes.apple.com/se/app/streetkak/id789455301"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaApple />
-            </Link>{' '}
-            <Link>
-              <FaGooglePlay />
-            </Link>
+            </a>
+            <FaGooglePlay />
             <div className="infobox">
-              <div className="textbold">Platform:</div> iOS/Android & Web <br />
+              <div className="textbold">Platform:</div> iOS/Android &amp; Web{' '}
+              <br />
               <div className="textbold">Duration:</div> 2015/5 – 2018/12 <br />
               <div className="textbold">Role:</div> Co-Founder, Product Designer
               <br />

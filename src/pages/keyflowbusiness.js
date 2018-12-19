@@ -36,12 +36,21 @@ const keyflowBPage = props => (
             the goals of venue producers and their teams.
           </div>{' '}
           <h1>
-            <Link>
+            <a
+              href="https://itunes.apple.com/app/keyflow-business/id1019105434?mt=8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
               <FaApple />
-            </Link>{' '}
-            <Link>
+            </a>{' '}
+            <a
+              href="https://play.google.com/store/apps/details?id=se.keyflow.android.venue"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGooglePlay />
-            </Link>
+            </a>
             <div className="infobox">
               <div className="textbold">Platform:</div> iOS/Android & Web <br />
               <div className="textbold">Duration:</div> 2015/5 – 2018/8 <br />
