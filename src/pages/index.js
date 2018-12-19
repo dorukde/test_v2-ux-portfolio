@@ -12,7 +12,7 @@ const IndexPage = () => (
         ProjectDetail="UX-UI"
         ProjectText1=" Strafe is the first esports tracking App for iOS and Android.
             Strafe provides a gamified experience with results, schedules,
-            tournament info &amp; statistics for major e-sports titles."
+            tournament info &amp; statistics for major esports titles."
         ProjectText2="VIEW PROJECT >"
       />
     </Link>
