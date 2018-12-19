@@ -22,7 +22,10 @@ const Footer2 = ({ siteTitle }) => (
           <span role="img" aria-label="cat">
             🐈
           </span>{' '}
-          &amp; Doruk
+          Doruk{' '}
+          <span role="img" aria-label="cat">
+            🐈
+          </span>
         </a>
       </div>
       <div className="bottom_right2">

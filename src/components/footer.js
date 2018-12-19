@@ -18,11 +18,10 @@ const Footer = ({ siteTitle }) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Built by{' '}
+          Built by Doruk{' '}
           <span role="img" aria-label="cat">
             🐈
-          </span>{' '}
-          &amp; Doruk
+          </span>
         </a>
       </div>
       <div className="bottom_right">
