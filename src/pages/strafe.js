@@ -84,7 +84,7 @@ const strafePage = props => (
           </div>
           <HText1
             Header1="The Problem"
-            Text1="Strafe Score is the feature that drives the engagement of esports fans to Strafe App. Current version is widely embraced with a 50,000+ active players per month. However, engagement of players during monthly tournaments (Strafe Score Seasons) drops, as the gap between the players in live-leaderboard grows. Strafe Score is a system where correct predictions of every video-game title rewards players to be at the top of the leaderboard. Strafe Score's current dynamics has encouraged players to be interested in a wider-range of video-game titles. However, having a large amount of active players of various game-titles have some challenges:"
+            Text1="Strafe Score is the feature that drives the engagement of esports fans to Strafe App. Current version is widely embraced with a 50,000+ active players per month. However, engagement of players during monthly tournaments (Strafe Score Seasons) drops, as the gap between the players in live-leader board grows. Strafe Score is a system where correct predictions of every video-game title rewards players to be at the top of the leader board. Strafe Score's current dynamics has encouraged players to be interested in a wider-range of video-game titles. However, having a large number of active players of various game-titles have some challenges:"
           />{' '}
           <br />
           <TextLi TextLi="Global-coverage of tournaments mean matches to be tracked during late-nights. Esports tournament locations affect the gameplay and performance on Strafe Score." />
@@ -96,10 +96,10 @@ const strafePage = props => (
           <HText1
             Header1="The Solution: New Strafe Score"
             Text1="
-            I had the chance to collaborate with Strafe Team for a fun 3 month period with the complete design thinking process of increasing esports fan engagement through Strafe Score. I have also created an efficient visual design workflow including Sketch Library, Wireframe generation and Zeplin for collaboration with developers. We have introduced new features and set-up a user research framework for addition and discovery of new-features. New Strafe Score features aimed to engage esports fans with:"
+            I had the chance to collaborate with Strafe Team for a fun 3-month period with the complete design thinking process of increasing esports fan engagement through Strafe Score. I have also created an efficient visual design workflow including Sketch Library, Wireframe generation and Zeplin for collaboration with developers. We have introduced new features and set-up a user research framework for addition and discovery of new-features. New Strafe Score features aimed to engage esports fans with:"
           />{' '}
           <br />
-          <TextLi TextLi="New Strafe Score Leaderboard: Multiple leaderboards for each video-game title to increase engagement of title or game-type focused audience. Divisions and multiple-levels to involve a wider-range of the audience in the thrill of competition." />
+          <TextLi TextLi="New Strafe Score Leader board: Multiple leader boards for each video-game title to increase engagement of title or game-type focused audience. Divisions and multiple-levels to involve a wider-range of the audience in the thrill of competition." />
           <TextLi TextLi="Friends feature to increase interaction and engagement of friends. Strafe Score to display how a fan compares to friends, making the seasons more fun." />
           <TextLi TextLi="Brackets (playoffs) are decided during tournaments and making it hard to follow and predict real-time. Prototypes of pre-bracket predictions." />
           <div className="SectionTitle2">The Process</div>
@@ -130,19 +130,19 @@ const strafePage = props => (
           <HText1
             Header1="Ideas: Predicting the Feature"
             Text1="
-            Interviews have provided insights about how playing Strafe Score fits into daily routines of players, their goals and what drives them to play at a competitive edge. Learning friction-points of the current version of the leaderboard helped ideation of game-title focused features. Interviews have shown that friend-engagement increases engagement even when the competitor is not at the peak. Some of the ideas to discover were:"
+            Interviews have provided insights about how playing Strafe Score fits into daily routines of players, their goals and what drives them to play at a competitive edge. Learning friction-points of the current version of the leader board helped ideation of game-title focused features. Interviews have shown that friend-engagement increases engagement even when the competitor is not at the peak. Some of the ideas to discover were:"
           />
           <TextLi TextLi="Odd &amp; Streak mechanism to reward players who predict the least-probable correct results consistently." />
           <TextLi TextLi="Friends feature to keep in touch and to compete with friends. It is also a way to find esports fans who share similar interests." />
-          <TextLi TextLi="Pre-bracket predictions (discovery phase): Matches at the higher ladder playoffs are decided during the tournaments at a different timezone. Pre-bracket prediction is a way to reward players who come first." />
-          <TextLi TextLi="Boosters (discovery phase): Interviews have shown that competitive players prefer personality over pay-to-win mechanism. A possible way to gamify Strafe Score further is to have limited amount of boosters to be used at a critical point of the season. " />
+          <TextLi TextLi="Pre-bracket predictions (discovery phase): Matches at the higher ladder playoffs are decided during the tournaments at a different time zone. Pre-bracket prediction is a way to reward players who come first." />
+          <TextLi TextLi="Boosters (discovery phase): Interviews have shown that competitive players prefer personality over pay-to-win mechanism. A possible way to gamify Strafe Score further is to have limited number of boosters to be used at a critical point of the season. " />
           <TextLi TextLi="Divisions (Leagues): Since the active players are over 50,000, players have tendency to lose interest during the season. In addition to shortening season time, divisions and leagues similar to the league mechanisms of popular game-titles would keep the competitiveness high continuously." />
           <br />
           <br />
           <HText1
             Header1="Design: Visual Iterations on Strafe Score"
             Text1="
-            Even though I have been involved with User Interface design of library components and new-feature screens my focus had been on improving user experience. Branding and visual design guidelines were not updated during my consultation sprints of Strafe Score. Initially, a library of wireframe components of Sketch App were built to increase interactive collaboration with other stakeholders (including PO and developers). 
+            Even though I have been involved with User Interface design of library components and new-feature screens my focus had been on improving user experience. Branding and visual design guidelines were not updated during my consultation sprints of Strafe Score. Initially, a library of wireframe components of Sketch App was built to increase interactive collaboration with other stakeholders (including PO and developers). 
             
             Visual-design workflow in Agile sprints included iterations of high-density assets made for new Strafe Score features, such as Friends functionality. The assets included onboarding, multiple-states of screens (empty, logged-out, etc.) which finally formed high-density wireframes built by 'Overflow' App. Zeplin boards are grouped and named based on features/sprints to create a reference point when working remotely with developers."
           />{' '}
@@ -151,7 +151,7 @@ const strafePage = props => (
           <br />
           <HText1
             Header1="Test - Produce - Evaluate"
-            Text1="Interactive high-fidelity flow diagrams (built by Sketch App itself) form the initial and the basic prototyping of different user-states. However, discovery of new features and micro-interactions required more specifity and higher-fidelity for testing and presentation purposes. Discovery prototypes were built using Principle App to compare possible mechanisms of pre-bracket predictions. Strafe App has 2 native mobile applications (iOS &amp; Android) and I had been available to support development team during development-phase with questions or when modifications were required. Internal testing includes testing of both applications on staging environment and all platforms have the same feature-set and visual style aligned with relevant design guidelines. Evaluation and testing of the product features is a continuous process which involves a focus-group for user-testing. Here are some of the prototypes that were built during the discovery phase of new features:           
+            Text1="Interactive high-fidelity flow diagrams (built by Sketch App itself) form the initial and the basic prototyping of different user-states. However, discovery of new features and micro-interactions required more specificity and higher-fidelity for testing and presentation purposes. Discovery prototypes were built using Principle App to compare possible mechanisms of pre-bracket predictions. Strafe App has 2 native mobile applications (iOS &amp; Android) and I had been available to support development team during development-phase with questions or when modifications were required. Internal testing includes testing of both applications on staging environment and all platforms have the same feature-set and visual style aligned with relevant design guidelines. Evaluation and testing of the product features is a continuous process which involves a focus-group for user-testing. Here are some of the prototypes that were built during the discovery phase of new features:           
             "
           />
           <br />
@@ -159,7 +159,7 @@ const strafePage = props => (
           <HText1
             Header1="Conclusions"
             Text1="
-            Strafe is an exciting project that keeps up with the growth of esports built on a solid foundation. I had the chance to work as the only product-designer as a member of a collaborative team. Setting up user-research methodology, synthesis of new ideas and improving visual deisgn-workflow had been efficient and fun processes. During user-research we have learned a lot about the transition from being an esports player to become an esports fan who needs to time-manage smartly. Strafe fits in very well to the transition from the enthusiasm of youth to responsible-fun of adulthood. Both of the core-functionalities (tournament trakcing and prediction game) are balanced and future-challenges will be about having a larger user-base, localisation for the global audience and improving the dynamics of competitive edge. I think Strafe is looking to a bright future on following subjects:"
+            Strafe is an exciting project that keeps up with the growth of esports built on a solid foundation. I had the chance to work as the only product-designer as a member of a collaborative team. Setting up user-research methodology, synthesis of new ideas and improving visual design-workflow had been efficient and fun processes. During user-research we have learned a lot about the transition from being an esports player to become an esports fan who needs to time-manage smartly. Strafe fits in very well to the transition from the enthusiasm of youth to responsible-fun of adulthood. Both of the core-functionalities (tournament tracking and prediction game) are balanced and future-challenges will be about having a larger user-base, localisation for the global audience and improving the dynamics of competitive edge. I think Strafe is looking to a bright future on following subjects:"
           />
           <br />
           <TextLi TextLi="Number of esports titles and their tournaments are increasing globally. As these numbers increase, Strafe Score would iterate into localised leagues and providing localised content." />
