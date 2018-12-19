@@ -58,10 +58,10 @@ const keyflowPage = props => (
         <div className="Content">
           <div className="infobox2">
             <div className="textbold">Platform:</div> iOS/Android & Web <br />
-            <div className="textbold">Duration:</div> 2015/5 – 2018/12 <br />
-            <div className="textbold">Role:</div> Co-Founder, Product Designer
+            <div className="textbold">Duration:</div> 2015/5 – 2018/8 <br />
+            <div className="textbold">Role:</div> Product Designer (B2C)
             <br />
-            <div className="textbold">Method:</div> Lean UX
+            <div className="textbold">Method:</div> Agile + Lean UX
             <br />
           </div>
           <div className="SectionTitle2">Introduction</div>
