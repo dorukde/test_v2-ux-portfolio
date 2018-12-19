@@ -29,7 +29,7 @@ const strafePage = props => (
         <div className="AboutProject">
           <div className="ProjectTitle">
             <div className="ProjectName2">Strafe</div>
-            <div className="ProjectDetail2">UX-UI (Consult)</div>
+            <div className="ProjectDetail2">UX-UI</div>
           </div>
           <div className="ProjectDescription">
             Strafe is the first esports tracking App for iOS and Android. Strafe
@@ -142,7 +142,7 @@ const strafePage = props => (
           <HText1
             Header1="Research of Prediction"
             Text1="
-            Popularity of Strafe as a gamified esports platform has been growing with a globally-wide audience. The research process started with goal-analysis for Strafe fans. A focus-group of highly-engaged and top-players were interviewed initially to understand what the pain-points of highly-competitive and engaged players. A group of Strafe Score players from different continents, age-group and occupations were selected initially. The video-interviews were carried out remotely involving 3 people (1 conductor, 1 interviewer, 1 esports fan). Video-interviews were later scripted to see common-patterns and frictions based on parameters (location, age, individual conditions). The questions aimed to learn about daily gameplay patterns, personal friction points, interest in esports, real-life interactions of players and esports-related goals. The interviews concluded with a short-presentation of features discovery and open-ended questions which resulted with unique and meaningful feedbacks."
+            Popularity of Strafe as a gamified esports platform has been growing with a globally-wide audience. The research process started with goal-analysis for Strafe fans. A focus-group of highly-engaged and top-players were interviewed initially to understand what the pain-points were. A group of Strafe Score players from different continents, age-group and occupations were selected initially. The video-interviews were carried out remotely involving 3 people (1 conductor, 1 interviewer, 1 esports fan). Video-interviews were later scripted to see common-patterns and frictions based on parameters (location, age, individual conditions). The questions aimed to learn about daily gameplay patterns, personal friction points, interest in esports, real-life interactions of players and esports-related goals. The interviews concluded with a short-presentation of features discovery and open-ended questions which resulted with unique and meaningful feedbacks."
           />
           <HText1
             Header1="Ideas: Predicting the Feature"
