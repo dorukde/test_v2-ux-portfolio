@@ -14,7 +14,7 @@ const Footer = ({ siteTitle }) => (
     <div className="FooterWrapper">
       <div className="year">
         <a
-          href="https://github.com/dorukde/ux-portfolio"
+          href="https://github.com/dorukde/UX-Portfolio-v2"
           target="_blank"
           rel="noopener noreferrer"
         >
