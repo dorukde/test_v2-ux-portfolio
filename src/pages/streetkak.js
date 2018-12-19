@@ -37,7 +37,6 @@ const skakPage = props => (
             >
               <FaApple />
             </a>
-            <FaGooglePlay />
             <div className="infobox">
               <div className="textbold">Platform:</div> iOS/Android &amp; Web{' '}
               <br />
