@@ -69,8 +69,8 @@ const strafePage = props => (
             Esports has made a significant impact on video game industry with live streaming, increased amount of titles and large-scaled global tournaments. Strafe started as an esports tracking App where users can keep track of tournaments and news about their favourite teams/players. Strafe is also a prediction game platform to climb against 50,000+ esports fans. The thrill of esports come in 2 packages:"
           />{' '}
           <br />
-          <TextLi TextLi="Esports companion App that helps fans to track selected titles and stream live-tournaments and dive deep into detailed match-stats." />
-          <TextLi TextLi="Esports prediction game to make esports tournaments more engaging and fun." />
+          <TextLi TextLi="Esports companion App Strafe that helps fans to track selected titles and stream live-tournaments and dive deep into detailed match-stats." />
+          <TextLi TextLi="Esports prediction game Strafe Score to make esports tournaments more engaging and fun." />
           <br />
           <div className="gatsby-image-wrapper2">
             <Img

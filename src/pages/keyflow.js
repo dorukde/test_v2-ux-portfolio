@@ -135,7 +135,7 @@ const keyflowPage = props => (
           </p>
           <HText1
             Header1="Research: Seeing beyond the queue"
-            Text1="Thrill of the night might fade out during long queues. Several focus groups for being able to analyse needs of a wide-range of nightlife guests. A group of creatives were invited to the workshops to understanding the needs of guests and the venues. VIP-Guests answered surveys about VIP-Card privileges, sharing privileges with friends and requesting from venues. Keyflow has also ran private-events (e.g. Absolut Nights, Marshall Headphones) to connect with nightclub owners in Sweden - also a chance to test new features and collect user-feedback. Decision and schedule of features have been based on these research insights, as well as data gathered using analytics from Apps &amp; web platform. "
+            Text1="Thrill of the night might fade out during long queues. Several focus groups for being able to analyse needs of a wide-range of nightlife guests. A group of creatives were invited to the workshops to understand the needs of guests and the venues. VIP-Guests answered surveys about VIP-Card privileges, sharing privileges with friends and requesting from venues. Keyflow has also ran private-events (e.g. Absolut Nights, Marshall Headphones) to connect with nightclub owners in Sweden - also a chance to test new features and collect user-feedback. Decision and schedule of features have been based on these research insights, as well as data gathered using analytics from Apps &amp; web platform. "
           />
           <HText1
             Header1="Ideas: From pre-party to 'story-to-tell'"
@@ -147,7 +147,7 @@ const keyflowPage = props => (
             fluid={props.data.kfSix.childImageSharp.fluid}
             alt="Keyflow - iconography"
           />
-          <Text2 Text2="Transparency has been the focal-point to find the matching experience. The idea behind 'Guest list request' feature, was to remove the gap between guests and the venues before the night. Even though, loyalty is already being tracked and rewarded by Keyflow, guests need earlier answers before waiting in the queue to plan their night-out. Admission types and ticketing options have iteratively developed and request feature has been iteratively improving since the introduction. Layers of business-logic, transactional communication, functional dependencies were also considered at the end of every ideation session." />
+          <Text2 Text2="Transparency has been the focal-point to find the matching experience. The idea behind 'Guest list request' feature, was to remove the gap between guests and the venues before the night. Even though, loyalty is already being tracked and rewarded by Keyflow, guests need earlier answers before waiting in the queue to plan their night-out. Admission types and ticketing options have developed, and request feature has been iteratively improving since the introduction. Layers of business-logic, transactional communication, functional dependencies were also considered at the end of every ideation session." />
           <br />
           <br />
           <Img
@@ -182,7 +182,7 @@ const keyflowPage = props => (
           />
           <HText1
             Header1="Test - Produce - Evaluate"
-            Text1="Testing of new-releases at Keyflow started with internal-testing on the staging environment where edge-cases were continuously created and early bugs were reported. Further field-tests took place in person during office-hours and nightlife events. Major features such as RSVP or QR-code tickets required field-testing in event conditions, where a doorman, an event manager and number of guests were required. Keyflow team had the chance to collaborate with brands like Absolut, Marshall, Peroni and Universal Studios for being able to host nightlife professionals to hold feature-tests to gain meaningful insights and user-feedbacks from professionals. Handling of invitations, listing of events and intrusiveness of advertisements were prototyped in Principle App for micro-interactions. 
+            Text1="Testing of new-releases at Keyflow started with internal-testing on the staging environment where edge-cases were continuously created, and early bugs were reported. Further field-tests took place in person during office-hours and nightlife events. Major features such as RSVP or QR-code tickets required field-testing in event conditions, where a doorman, an event manager and number of guests were required. Keyflow team had the chance to collaborate with brands like Absolut, Marshall, Peroni and Universal Studios for being able to host nightlife professionals to hold feature-tests to gain meaningful insights and user-feedbacks from professionals. Handling of invitations, listing of events and intrusiveness of advertisements were prototyped in Principle App for micro-interactions. 
             "
           />
           <br />

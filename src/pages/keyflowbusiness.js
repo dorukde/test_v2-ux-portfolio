@@ -66,7 +66,7 @@ const keyflowBPage = props => (
           <div className="SectionTitle2">Introduction</div>
           <HText1
             Header1="Digital Event Management for Nightlife Professionals"
-            Text1="Nightlife management and marketing requires a variety of skills in every event production team. Current tools for event management, marketing and data collection lack specifity to solve nightlife venue problems. Keyflow Business  
+            Text1="Nightlife management and marketing requires a variety of skills in every event production team. Current tools for event management, marketing and data collection lack specificity to solve nightlife venue problems. Keyflow Business  
             is a unique system crafted for different stages of event-production, starting from event planning to data-collection after event. The system empowers venue-staff and gives event managers direct access to venue clientele for business growth with real-time tools utilising Keyflow platform. Keyflow ecosystem aims to close the gap between venue producers and nightlife guests:"
           />{' '}
           <br />
@@ -92,7 +92,7 @@ const keyflowBPage = props => (
           />{' '}
           <br />
           <TextLi TextLi="The ideal scenario is to pre-sell admissions and table-bookings to plan ahead for the venues. However, guests tend to inform venues with short notice." />
-          <TextLi TextLi="Marketing and promoting events with a nighlife-focused global audience is a challenging process with current tools." />
+          <TextLi TextLi="Marketing and promoting events with a nightlife-focused global audience is a challenging process with current tools." />
           <TextLi TextLi="Door service is sensitive, time-consuming and can be frustrating for guests. Guests expect transparent and friction-free experiences at the door." />
           <TextLi TextLi="Analysis of each event help understand the pain-points and make performance analysis. '(VIP) Name +3' provides no information about the group." />
           <Img
@@ -105,7 +105,7 @@ const keyflowBPage = props => (
           />{' '}
           <br />
           <TextLi TextLi="Getting closer to global-guests, collect information and reward." />
-          <TextLi TextLi="Pre-event sales and management to plan-ahead and analyse events and continous business-growth." />
+          <TextLi TextLi="Pre-event sales and management to plan-ahead and analyse events and continuous business-growth." />
           <TextLi
             TextLi="
           Empowering every team member with specific tools created for each role (e.g. venue owner, manager, doorman, etc.)."
@@ -210,7 +210,7 @@ const keyflowBPage = props => (
           />
           <br />
           <TextLi TextLi="Event management of large-audiences (open-air &amp; festivals) require highly-customisable solutions." />
-          <TextLi TextLi="Global nightlife practices are different and price-charts, branding and features would require to be localised as an addition to today's multi-language support." />
+          <TextLi TextLi="Global nightlife practices are different, and price-charts, branding and features would require to be localised as an addition to today's multi-language support." />
           <TextLi TextLi="Design of event-pages and venue-pages are based on largely common social-media content for re-usability and agile-improvement of processes. Social-media integration and management are considerable future-features for the product." />
           <div className="BWrapper">
             <Link to="/keyflow">
