@@ -28,7 +28,7 @@ const strafePage = props => (
             <div className="ProjectDetail2">UX-UI (Consultant)</div>
           </div>
           <div className="ProjectDescription">
-            Strafe is the first Esports tracking App for iOS and Android. Strafe
+            Strafe is the first esports tracking App for iOS and Android. Strafe
             provides a gamified experience with results, schedules, tournament
             info &amp; statistics for major esports titles.
           </div>{' '}
