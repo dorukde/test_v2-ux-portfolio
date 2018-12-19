@@ -17,6 +17,10 @@ import BTextB from '../components/btn2'
 
 import Scroller from '../components/scrollP'
 
+import svideo1 from '../images/strafe0.mp4'
+import svideo2 from '../images/strafe1.mp4'
+import svideo3 from '../images/strafe2.mp4'
+
 const strafePage = props => (
   <div id="rect">
     <Scroller />
@@ -25,7 +29,7 @@ const strafePage = props => (
         <div className="AboutProject">
           <div className="ProjectTitle">
             <div className="ProjectName2">Strafe</div>
-            <div className="ProjectDetail2">UX-UI (Consultant)</div>
+            <div className="ProjectDetail2">UX-UI (Consult)</div>
           </div>
           <div className="ProjectDescription">
             Strafe is the first esports tracking App for iOS and Android. Strafe
@@ -72,14 +76,14 @@ const strafePage = props => (
           <TextLi TextLi="Esports companion App Strafe that helps fans to track selected titles and stream live-tournaments and dive deep into detailed match-stats." />
           <TextLi TextLi="Esports prediction game Strafe Score to make esports tournaments more engaging and fun." />
           <br />
-          <div className="gatsby-image-wrapper2">
-            <Img
-              fluid={props.data.sfOne.childImageSharp.fluid}
-              alt="Keyflow App"
-            />
-            <Img
-              fluid={props.data.sfTwo.childImageSharp.fluid}
-              alt="Keyflow Business"
+          <div class="embed-container">
+            <iframe
+              width="779"
+              height="438"
+              src="https://www.youtube.com/embed/-RZd_5XC57c"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
             />
           </div>
           <HText1
@@ -102,6 +106,10 @@ const strafePage = props => (
           <TextLi TextLi="New Strafe Score Leader board: Multiple leader boards for each video-game title to increase engagement of title or game-type focused audience. Divisions and multiple-levels to involve a wider-range of the audience in the thrill of competition." />
           <TextLi TextLi="Friends feature to increase interaction and engagement of friends. Strafe Score to display how a fan compares to friends, making the seasons more fun." />
           <TextLi TextLi="Brackets (playoffs) are decided during tournaments and making it hard to follow and predict real-time. Prototypes of pre-bracket predictions." />
+          <Img
+            fluid={props.data.sfApp.childImageSharp.fluid}
+            alt="Strafe - App"
+          />
           <div className="SectionTitle2">The Process</div>
           <p>
             <strong>Research:</strong> Contextual Analysis, Surveys (Global
@@ -138,24 +146,52 @@ const strafePage = props => (
           <TextLi TextLi="Boosters (discovery phase): Interviews have shown that competitive players prefer personality over pay-to-win mechanism. A possible way to gamify Strafe Score further is to have limited number of boosters to be used at a critical point of the season. " />
           <TextLi TextLi="Divisions (Leagues): Since the active players are over 50,000, players have tendency to lose interest during the season. In addition to shortening season time, divisions and leagues similar to the league mechanisms of popular game-titles would keep the competitiveness high continuously." />
           <br />
-          <br />
+          <Img
+            fluid={props.data.sfIcons.childImageSharp.fluid}
+            alt="Strafe - Divisions"
+          />
           <HText1
             Header1="Design: Visual Iterations on Strafe Score"
             Text1="
             Even though I have been involved with User Interface design of library components and new-feature screens my focus had been on improving user experience. Branding and visual design guidelines were not updated during my consultation sprints of Strafe Score. Initially, a library of wireframe components of Sketch App was built to increase interactive collaboration with other stakeholders (including PO and developers). 
             
             Visual-design workflow in Agile sprints included iterations of high-density assets made for new Strafe Score features, such as Friends functionality. The assets included onboarding, multiple-states of screens (empty, logged-out, etc.) which finally formed high-density wireframes built by 'Overflow' App. Zeplin boards are grouped and named based on features/sprints to create a reference point when working remotely with developers."
-          />{' '}
+          />
           <br />
-          <div className="gatsby-image-wrapper2" />
-          <br />
+          <Img
+            fluid={props.data.sfOnboarding.childImageSharp.fluid}
+            alt="Strafe - Friends Feature Onboarding"
+          />
+          <Img
+            fluid={props.data.sfFlow.childImageSharp.fluid}
+            alt="Strafe - Flow Diagram"
+          />
+          <Img
+            fluid={props.data.sfWflow.childImageSharp.fluid}
+            alt="Strafe Design: Workflow"
+          />
           <HText1
             Header1="Test - Produce - Evaluate"
-            Text1="Interactive high-fidelity flow diagrams (built by Sketch App itself) form the initial and the basic prototyping of different user-states. However, discovery of new features and micro-interactions required more specificity and higher-fidelity for testing and presentation purposes. Discovery prototypes were built using Principle App to compare possible mechanisms of pre-bracket predictions. Strafe App has 2 native mobile applications (iOS &amp; Android) and I had been available to support development team during development-phase with questions or when modifications were required. Internal testing includes testing of both applications on staging environment and all platforms have the same feature-set and visual style aligned with relevant design guidelines. Evaluation and testing of the product features is a continuous process which involves a focus-group for user-testing. Here are some of the prototypes that were built during the discovery phase of new features:           
+            Text1="Interactive high-fidelity flow diagrams (built by Sketch App itself) form the initial and the basic prototyping of different user-states. However, discovery of new features and micro-interactions required more specificity and higher-fidelity for testing and presentation purposes. Discovery prototypes were built using Principle App to compare possible mechanisms of pre-bracket predictions. Strafe App has 2 native mobile applications (iOS &amp; Android) and I had been available to support development team during development-phase with questions or when modifications were required. Internal testing includes testing of both applications on staging environment and all platforms have the same feature-set and visual style aligned with relevant design guidelines. Evaluation and testing of the product features is a continuous process which involves a focus-group for user-testing. Here are some of the images &amp; prototypes built during the discovery phase of new features:           
             "
           />
           <br />
+          <Img
+            fluid={props.data.sfLeaderboard.childImageSharp.fluid}
+            alt="Strafe Discovery: Leaderboard"
+          />
           <br />
+          <div className="prototypes">
+            <div className="prototype1">
+              <Player playsInline src={svideo1} />
+            </div>
+            <div className="prototype1">
+              <Player playsInline src={svideo2} />
+            </div>
+            <div className="prototype1">
+              <Player playsInline src={svideo3} />
+            </div>
+          </div>
           <HText1
             Header1="Conclusions"
             Text1="
@@ -189,22 +225,22 @@ export const pageQuery = graphql`
     sfTwo: file(relativePath: { eq: "kfTwo.jpg" }) {
       ...fluidImage2
     }
-    sfThree: file(relativePath: { eq: "kf3a.jpg" }) {
+    sfIcons: file(relativePath: { eq: "strafe_icons.jpg" }) {
       ...fluidImage
     }
-    sfFour: file(relativePath: { eq: "kf4.jpg" }) {
-      ...fluidImage480
-    }
-    sfFive: file(relativePath: { eq: "kf5.jpg" }) {
-      ...fluidImage480
-    }
-    sfSix: file(relativePath: { eq: "kf_icons.jpg" }) {
+    sfOnboarding: file(relativePath: { eq: "st_onboarding.jpg" }) {
       ...fluidImage
     }
-    sfSeven: file(relativePath: { eq: "kf_app.jpg" }) {
+    sfLeaderboard: file(relativePath: { eq: "stLeaderboard.jpg" }) {
       ...fluidImage
     }
-    sfEight: file(relativePath: { eq: "kf_app.jpg" }) {
+    sfFlow: file(relativePath: { eq: "stFlow.jpg" }) {
+      ...fluidImage
+    }
+    sfWflow: file(relativePath: { eq: "stWflow.jpg" }) {
+      ...fluidImage
+    }
+    sfApp: file(relativePath: { eq: "sf_app.jpg" }) {
       ...fluidImage
     }
   }
