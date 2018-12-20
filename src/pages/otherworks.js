@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import { FaGooglePlay, FaApple } from 'react-icons/fa'
 
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
@@ -16,9 +15,13 @@ import BTextB from '../components/btn2'
 
 import Scroller from '../components/scrollP'
 
-import svideo1 from '../images/strafe0.mp4'
-import svideo2 from '../images/strafe1.mp4'
-import svideo3 from '../images/strafe2.mp4'
+import dvideo1 from '../images/dimm1.mp4'
+import dvideo2 from '../images/dimm2.mp4'
+import dvideo3 from '../images/dimm3.mp4'
+
+import dtvideo1 from '../images/poster/dimmer1.png'
+import dtvideo2 from '../images/poster/dimmer2.png'
+import dtvideo3 from '../images/poster/dimmer3.png'
 
 const otherWorks = props => (
   <div id="rect">
@@ -44,10 +47,30 @@ const otherWorks = props => (
             Header1="Thomas Cook: UI Design"
             Text1="
             UI Design for the landing page of a campaign, including purchase flow elements - Consult Work, Sydney."
-          />{' '}
+          />
+          <div className="images">
+            <div className="protoImg">
+              <Img
+                fluid={props.data.thomasZero.childImageSharp.fluid}
+                alt="Thomas Cook: UI Design"
+              />
+            </div>
+            <div className="protoImg">
+              <Img
+                fluid={props.data.thomasTwo.childImageSharp.fluid}
+                alt="Thomas Cook: UI Design"
+              />
+            </div>
+            <div className="protoImg">
+              <Img
+                fluid={props.data.thomasThree.childImageSharp.fluid}
+                alt="Thomas Cook: UI Design"
+              />
+            </div>
+          </div>
           <Img
-            fluid={props.data.sfApp.childImageSharp.fluid}
-            alt="Design Guidebook (Prototype) - 3D Model"
+            fluid={props.data.thomasOne.childImageSharp.fluid}
+            alt="Thomas Cook: UI Design"
           />
           <br />
           <HText1
@@ -58,40 +81,44 @@ const otherWorks = props => (
           <TextLi TextLi="Hearing difficulty indicators: Speed of communication, clarity, amplitude." />
           <TextLi TextLi="Vibration &amp; light indicators as visual feedback, compatibility with hearing devices." />
           <TextLi TextLi="Additional Speaker &amp; keyboard with physical keys for improved usability." />
+          <br />
           <div className="prototypes">
             <div className="prototype1">
               <video
+                poster={dtvideo1}
                 playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
               >
-                <source src={svideo1} />
+                <source src={dvideo1} />
               </video>
             </div>
             <div className="prototype1">
               <video
+                poster={dtvideo2}
                 playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
               >
-                <source src={svideo2} />
+                <source src={dvideo2} />
               </video>
             </div>
-            <div className="prototype1">
+            <div className="prototype3">
               <video
+                poster={dtvideo3}
                 playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
               >
-                <source src={svideo3} />
+                <source src={dvideo3} />
               </video>
             </div>
           </div>
           <Img
-            fluid={props.data.sfApp.childImageSharp.fluid}
+            fluid={props.data.dimmerRender.childImageSharp.fluid}
             alt="Dimmer (Prototype) - 3D Model"
           />
           <HText1
@@ -100,7 +127,7 @@ const otherWorks = props => (
             A pocket design-guidebook to illustrate subjects I find interesting about 'design' - School Assignment (UNSW), PDF, 12 Pages."
           />
           <Img
-            fluid={props.data.sfApp.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Design Guidebook (Prototype) - 3D Model"
           />
           <HText1
@@ -109,12 +136,12 @@ const otherWorks = props => (
             Noluit, is a houseboat which is built over 6 steel floating blocks. The houseboat does not just float on water, but also travels around Stockholm’s Archipelago. Branding process included several interviews, research on maritime iconography, considering business plan &amp; recreational event demographics of Noluit, Stockholm.:"
           />
           <Img
-            fluid={props.data.sfApp.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Noluit: Branding"
           />
           <br />
           <Img
-            fluid={props.data.sfIcons.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Noluit: Branding"
           />
           <HText1
@@ -124,11 +151,11 @@ const otherWorks = props => (
           />
           <br />
           <Img
-            fluid={props.data.sfOnboarding.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Pats Place - Logo"
           />
           <Img
-            fluid={props.data.sfFlow.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Pats Place - Images"
           />
           <HText1
@@ -138,7 +165,7 @@ const otherWorks = props => (
           />
           <br />
           <Img
-            fluid={props.data.sfLeaderboard.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Ikiz: Zoetic Sessions"
           />
           <br />
@@ -148,7 +175,7 @@ const otherWorks = props => (
             Album Cover design for 'Karl Olandersson - Simple as That':"
           />
           <Img
-            fluid={props.data.sfApp.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Karl Olandersson - Simple as That"
           />
           <HText1
@@ -157,7 +184,7 @@ const otherWorks = props => (
             Album Cover design for 'Petter Bergander Trio - The Grand Dance':"
           />
           <Img
-            fluid={props.data.sfApp.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Petter Bergander Trio - The Grand Dance"
           />
           <HText1
@@ -166,7 +193,7 @@ const otherWorks = props => (
             'The Process' Joel Embiid (NBA Player from 76'ers): 3D-model is inspired by his recovery period &amp; personal journey in NBA."
           />
           <Img
-            fluid={props.data.sfApp.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Joel Embiid - Trust the Process"
           />
           <HText1
@@ -175,7 +202,7 @@ const otherWorks = props => (
             'Low-Poly &amp; rigged koi fish animation study done for an independent movie project."
           />
           <Img
-            fluid={props.data.sfApp.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="Joel Embiid - Trust the Process"
           />
           <HText1
@@ -184,7 +211,7 @@ const otherWorks = props => (
             Inspired by the realm of neon-signs, that will no longer exist in a near future in HK. Desgined for colleagues during a business trip."
           />
           <Img
-            fluid={props.data.sfApp.childImageSharp.fluid}
+            fluid={props.data.thomasZero.childImageSharp.fluid}
             alt="HONG KONG: Neon Skyline"
           />
           <br />
@@ -206,28 +233,19 @@ export default otherWorks
 
 export const pageQuery = graphql`
   query {
-    sfOne: file(relativePath: { eq: "kf1.jpg" }) {
-      ...fluidImage2
+    thomasZero: file(relativePath: { eq: "thomas0.jpg" }) {
+      ...fluidImage640
     }
-    sfTwo: file(relativePath: { eq: "kfTwo.jpg" }) {
-      ...fluidImage2
-    }
-    sfIcons: file(relativePath: { eq: "strafe_icons.jpg" }) {
+    thomasOne: file(relativePath: { eq: "thomas1.jpg" }) {
       ...fluidImage
     }
-    sfOnboarding: file(relativePath: { eq: "st_onboarding.jpg" }) {
-      ...fluidImage
+    thomasTwo: file(relativePath: { eq: "thomas2.jpg" }) {
+      ...fluidImage640
     }
-    sfLeaderboard: file(relativePath: { eq: "stLeaderboard.jpg" }) {
-      ...fluidImage
+    thomasThree: file(relativePath: { eq: "thomas3.jpg" }) {
+      ...fluidImage640
     }
-    sfFlow: file(relativePath: { eq: "stFlow.jpg" }) {
-      ...fluidImage
-    }
-    sfWflow: file(relativePath: { eq: "stWflow.jpg" }) {
-      ...fluidImage
-    }
-    sfApp: file(relativePath: { eq: "sf_app.jpg" }) {
+    dimmerRender: file(relativePath: { eq: "dimmer1.jpg" }) {
       ...fluidImage
     }
   }

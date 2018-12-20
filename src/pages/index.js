@@ -74,6 +74,16 @@ export const fluidImage2 = graphql`
   }
 `
 
+export const fluidImage640 = graphql`
+  fragment fluidImage640 on File {
+    childImageSharp {
+      fluid(quality: 100, maxWidth: 640) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
+
 export const fluidImage480 = graphql`
   fragment fluidImage480 on File {
     childImageSharp {

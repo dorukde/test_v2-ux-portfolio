@@ -222,6 +222,17 @@ p {
   display: flex;
 }
 
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.protoImg {
+  height: auto;
+  padding: 20px 0;
+  width: 310px;
+}
+
 .prototype1 {
   padding: 0 20px 20px 0;
   width: auto;
@@ -275,6 +286,12 @@ video {
   }
   .gatsby-image-wrapper3 {
     flex-direction: column;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .protoImg {
+    width: 100%;
   }
 }
 
