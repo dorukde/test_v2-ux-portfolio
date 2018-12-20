@@ -29,12 +29,12 @@ const otherWorks = props => (
           <div className="ProjectTitle">
             <div className="ProjectName2">Other Works</div>
             <div className="ProjectDetail2">HCD, 3D, Print</div>
+            <div className="ProjectDescription">
+              My personal visual design design projects - including UI,
+              Guidebook, Human Centred Design, 3D, Album Covers, Live
+              Illustration and Print Design
+            </div>
           </div>
-          <div className="ProjectDescription">
-            My personal visual design design projects - including UI, Guidebook,
-            Human Centred Design, 3D, Album Covers, Live Illustration and Print
-            Design
-          </div>{' '}
         </div>
       </div>
 
