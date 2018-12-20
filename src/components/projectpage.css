@@ -274,9 +274,6 @@ p {
   .gatsby-image-wrapper3 {
     flex-direction: column;
   }
-  .prototypes {
-    flex-direction: row;
-  }
 }
 
 @media (max-width: 740px) {
