@@ -7,6 +7,7 @@
 }
 
 .ProjectTitle {
+  transition: all 0.5s ease;
   display: inline-block;
   width: 100%;
 }
@@ -80,6 +81,11 @@
   opacity: 1;
   visibility: visible;
   padding-bottom: 0;
+}
+
+.ProjectItem:hover > .ProjectTitle {
+  transition: all 0.5s ease;
+  padding-top: 0.75em;
 }
 
 @media (max-width: 960px) {

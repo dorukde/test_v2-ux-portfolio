@@ -40,7 +40,6 @@ const otherWorks = props => (
           </div>
         </div>
       </div>
-
       <div className="ContentW">
         <div className="Content">
           <HText1
