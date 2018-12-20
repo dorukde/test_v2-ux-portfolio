@@ -30,56 +30,21 @@ const otherWorks = props => (
       <div className="AboutW">
         <div className="AboutProject">
           <div className="ProjectTitle">
-            <div className="ProjectName2">Strafe</div>
-            <div className="ProjectDetail2">UX-UI</div>
+            <div className="ProjectName2">Other Works</div>
+            <div className="ProjectDetail2">HCD, 3D, Print</div>
           </div>
           <div className="ProjectDescription">
-            Strafe is the first esports tracking App for iOS and Android. Strafe
-            provides a gamified experience with results, schedules, tournament
-            info &amp; statistics for major esports titles.
+            My personal visual design design projects - including UI, Guidebook,
+            Human Centred Design, 3D, Album Covers, Live Illustration and Print
+            Design
           </div>{' '}
-          <h1>
-            <a
-              href="https://itunes.apple.com/us/app/strafe/id934858411?ls=1&mt=8"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {' '}
-              <FaApple />
-            </a>{' '}
-            <a
-              href="https://play.google.com/store/apps/details?id=com.strafe.android"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGooglePlay />
-            </a>
-            <div className="infobox">
-              <div className="textbold">Platform:</div> iOS/Android
-              <br />
-              <div className="textbold">Duration:</div> 2018/5 – 2018/8 <br />
-              <div className="textbold">Role:</div> UX-UI Designer (Consultant)
-              <br />
-              <div className="textbold">Method:</div> Agile + Lean UX <br />
-            </div>
-          </h1>
         </div>
       </div>
 
       <div className="ContentW">
         <div className="Content">
-          <div className="infobox2">
-            <div className="textbold">Platform:</div> iOS/Android
-            <br />
-            <div className="textbold">Duration:</div> 2018/5 – 2018/8 <br />
-            <div className="textbold">Role:</div> UX-UI Designer (Consultant)
-            <br />
-            <div className="textbold">Method:</div>Agile + Lean UX
-            <br />
-          </div>
-          <div className="SectionTitle2">Introduction</div>
           <HText1
-            Header1="Esports is growing, so Strafe does"
+            Header1="Thomas Cook: UI Design"
             Text1="
             Esports has made a significant impact on video game industry with live streaming, increased amount of titles and large-scaled global tournaments. Strafe started as an esports tracking App where users can keep track of tournaments and news about their favourite teams/players. Strafe is also a prediction game platform to climb against 50,000+ esports fans. The thrill of esports come in 2 packages:"
           />{' '}
