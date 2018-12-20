@@ -20,6 +20,10 @@ import svideo1 from '../images/strafe0.mp4'
 import svideo2 from '../images/strafe1.mp4'
 import svideo3 from '../images/strafe2.mp4'
 
+import stvideo1 from '../images/poster/strafe0.png'
+import stvideo2 from '../images/poster/strafe1.png'
+import stvideo3 from '../images/poster/strafe2.png'
+
 const strafePage = props => (
   <div id="rect">
     <Scroller />
@@ -192,7 +196,7 @@ const strafePage = props => (
           <div className="prototypes">
             <div className="prototype1">
               <video
-                poster="../images/poster/strafe0.png"
+                poster={stvideo1}
                 preload="auto"
                 playsinline
                 loop
@@ -204,7 +208,7 @@ const strafePage = props => (
             </div>
             <div className="prototype1">
               <video
-                poster="../images/poster/strafe1.png"
+                poster={stvideo2}
                 preload="auto"
                 playsinline
                 loop
@@ -216,7 +220,7 @@ const strafePage = props => (
             </div>
             <div className="prototype1">
               <video
-                poster="../images/poster/strafe2.png"
+                poster={stvideo3}
                 preload="auto"
                 playsinline
                 loop

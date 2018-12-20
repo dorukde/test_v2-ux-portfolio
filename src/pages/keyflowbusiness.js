@@ -18,6 +18,9 @@ import Scroller from '../components/scrollP'
 import kbvideo1 from '../images/kbusiness_1d.mp4'
 import kbvideo2 from '../images/kbusiness_1.mp4'
 
+import kbtvideo1 from '../images/poster/kbusiness0.png'
+import kbtvideo2 from '../images/poster/kbusiness1.png'
+
 const keyflowBPage = props => (
   <div id="rect">
     <Scroller />
@@ -206,7 +209,7 @@ const keyflowBPage = props => (
           <div className="prototypes">
             <div className="prototype1">
               <video
-                poster="../images/poster/kbusiness0.png"
+                poster={kbtvideo1}
                 preload="auto"
                 playsinline
                 loop
@@ -218,7 +221,7 @@ const keyflowBPage = props => (
             </div>
             <div className="prototype2">
               <video
-                poster="../images/poster/kbusiness1.png"
+                poster={kbtvideo2}
                 preload="auto"
                 playsinline
                 loop

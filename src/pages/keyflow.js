@@ -16,6 +16,10 @@ import kvideo1 from '../images/keyflow0.mp4'
 import kvideo2 from '../images/keyflow1.mp4'
 import kvideo3 from '../images/keyflow2.mp4'
 
+import ktvideo1 from '../images/keyflow0.png'
+import ktvideo2 from '../images/keyflow1.png'
+import ktvideo3 from '../images/keyflow2.png'
+
 /*TESTING */
 
 import Scroller from '../components/scrollP'
@@ -197,7 +201,7 @@ const keyflowPage = props => (
           <div className="prototypes">
             <div className="prototype1">
               <video
-                poster="../images/poster/keyflow0.png"
+                poster={ktvideo1}
                 preload="auto"
                 playsinline
                 loop
@@ -209,7 +213,7 @@ const keyflowPage = props => (
             </div>
             <div className="prototype1">
               <video
-                poster="../images/poster/keyflow1.png"
+                poster={ktvideo2}
                 preload="auto"
                 playsinline
                 loop
@@ -221,7 +225,7 @@ const keyflowPage = props => (
             </div>
             <div className="prototype1">
               <video
-                poster="../images/poster/keyflow2.png"
+                poster={ktvideo3}
                 preload="auto"
                 playsinline
                 loop
