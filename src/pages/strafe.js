@@ -192,6 +192,7 @@ const strafePage = props => (
           <div className="prototypes">
             <div className="prototype1">
               <video
+                playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
@@ -201,6 +202,7 @@ const strafePage = props => (
             </div>
             <div className="prototype1">
               <video
+                playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
@@ -210,6 +212,7 @@ const strafePage = props => (
             </div>
             <div className="prototype1">
               <video
+                playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}

@@ -61,6 +61,7 @@ const otherWorks = props => (
           <div className="prototypes">
             <div className="prototype1">
               <video
+                playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
@@ -70,6 +71,7 @@ const otherWorks = props => (
             </div>
             <div className="prototype1">
               <video
+                playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
@@ -79,6 +81,7 @@ const otherWorks = props => (
             </div>
             <div className="prototype1">
               <video
+                playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}

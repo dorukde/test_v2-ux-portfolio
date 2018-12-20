@@ -206,6 +206,7 @@ const keyflowBPage = props => (
           <div className="prototypes">
             <div className="prototype1">
               <video
+                playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
@@ -215,6 +216,7 @@ const keyflowBPage = props => (
             </div>
             <div className="prototype2">
               <video
+                playsinline
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
