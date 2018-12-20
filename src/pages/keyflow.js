@@ -16,9 +16,9 @@ import kvideo1 from '../images/keyflow0.mp4'
 import kvideo2 from '../images/keyflow1.mp4'
 import kvideo3 from '../images/keyflow2.mp4'
 
-import ktvideo1 from '../images/keyflow0.png'
-import ktvideo2 from '../images/keyflow1.png'
-import ktvideo3 from '../images/keyflow2.png'
+import ktvideo1 from '../images/poster/keyflow0.png'
+import ktvideo2 from '../images/poster/keyflow1.png'
+import ktvideo3 from '../images/poster/keyflow2.png'
 
 /*TESTING */
 
