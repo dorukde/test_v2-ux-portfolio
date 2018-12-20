@@ -1,6 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'Doruk Demircioglu - UX Portfolio',
+    description:
+      'Portfolio of Doruk Demircioglu, Digital Product Designer (User Experience, User Interface, Human Centred Design)',
+    keywords:
+      'UX, UI, user experience, user interface, product designer, Sydney, digital product, start-up, consult, freelance, UNSW, Australia, HCD, 3D, album cover, jazz, Doruk, Demircioglu',
+    url: 'https://www.dorukdemircioglu.com',
+    image: '/images/doruk-icon.png',
   },
   plugins: [
     {

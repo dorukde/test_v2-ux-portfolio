@@ -2,9 +2,6 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { FaGooglePlay, FaApple } from 'react-icons/fa'
 
-import { DefaultPlayer as Video } from 'react-html5video'
-import 'react-html5video/dist/styles.css'
-
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
 
@@ -63,31 +60,31 @@ const otherWorks = props => (
           <TextLi TextLi="Additional Speaker &amp; keyboard with physical keys for improved usability." />
           <div className="prototypes">
             <div className="prototype1">
-              <Video
+              <video
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
               >
                 <source src={svideo1} />
-              </Video>
+              </video>
             </div>
             <div className="prototype1">
-              <Video
+              <video
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
               >
                 <source src={svideo2} />
-              </Video>
+              </video>
             </div>
             <div className="prototype1">
-              <Video
+              <video
                 loop
                 muted
                 controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
               >
                 <source src={svideo3} />
-              </Video>
+              </video>
             </div>
           </div>
           <Img
