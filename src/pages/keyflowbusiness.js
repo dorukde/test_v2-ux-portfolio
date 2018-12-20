@@ -206,6 +206,7 @@ const keyflowBPage = props => (
           <div className="prototypes">
             <div className="prototype1">
               <video
+                poster="../images/poster/kbusiness0.png"
                 preload="auto"
                 playsinline
                 loop
@@ -217,6 +218,7 @@ const keyflowBPage = props => (
             </div>
             <div className="prototype2">
               <video
+                poster="../images/poster/kbusiness1.png"
                 preload="auto"
                 playsinline
                 loop

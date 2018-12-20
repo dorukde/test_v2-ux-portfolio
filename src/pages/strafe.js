@@ -192,6 +192,7 @@ const strafePage = props => (
           <div className="prototypes">
             <div className="prototype1">
               <video
+                poster="../images/poster/strafe0.png"
                 preload="auto"
                 playsinline
                 loop
@@ -203,6 +204,7 @@ const strafePage = props => (
             </div>
             <div className="prototype1">
               <video
+                poster="../images/poster/strafe1.png"
                 preload="auto"
                 playsinline
                 loop
@@ -214,6 +216,7 @@ const strafePage = props => (
             </div>
             <div className="prototype1">
               <video
+                poster="../images/poster/strafe2.png"
                 preload="auto"
                 playsinline
                 loop
