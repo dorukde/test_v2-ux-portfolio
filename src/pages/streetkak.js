@@ -188,7 +188,7 @@ const skakPage = props => (
           <br />
           <HText1
             Header1="Conclusions"
-            Text1="Streetkäk has evolved from a simple digital street-food map to a holistic product that solves problems of street-food habitat in Scandinavia. It has been featured on several international media outlets, creating an organic growth that has led to 6-digit number of downloads - mostly in Stockholm. I have learned a lot from the whole process about how to brand, build, scale a product, conducting research and solving problems in a set-timeframe. Even though, the product has made its mark to the street-food culture, further improvements are necessary to maintain a sustainable growth:"
+            Text1="Streetkäk has evolved from a simple digital street-food map to a holistic product that solves problems of street-food habitat in Scandinavia. It has been featured on several international media outlets, creating an organic growth that has led to 6-digit number of downloads - mostly in Stockholm. I have learned a lot from the whole process - about how to brand, build, scale a product, conducting research and solving problems in a set-timeframe. Even though, the product has made its mark to the street-food culture, further improvements are necessary to maintain a sustainable growth:"
           />
           <br />
           <TextLi TextLi="Unique solutions for food-truck chains and single trucks." />
