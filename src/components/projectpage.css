@@ -231,9 +231,9 @@ p {
   padding: 0 20px 20px 0;
   flex-grow: 2;
 }
-
-.rh5v-DefaultPlayer_component {
-  background-color: rgb(0, 0, 0, 0);
+video {
+  width: 100% !important;
+  height: auto !important;
 }
 
 @media (max-width: 640px) {
@@ -304,5 +304,9 @@ p {
   }
   .prototypes {
     flex-direction: column;
+  }
+  video {
+    width: 320px !important;
+    height: auto !important;
   }
 }

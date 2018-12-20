@@ -197,6 +197,7 @@ const keyflowPage = props => (
           <div className="prototypes">
             <div className="prototype1">
               <video
+                preload="auto"
                 playsinline
                 loop
                 muted
@@ -207,6 +208,7 @@ const keyflowPage = props => (
             </div>
             <div className="prototype1">
               <video
+                preload="auto"
                 playsinline
                 loop
                 muted
@@ -217,6 +219,7 @@ const keyflowPage = props => (
             </div>
             <div className="prototype1">
               <video
+                preload="auto"
                 playsinline
                 loop
                 muted
