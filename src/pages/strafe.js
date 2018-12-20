@@ -82,7 +82,7 @@ const strafePage = props => (
           <HText1
             Header1="Esports is growing, so Strafe does"
             Text1="
-            Esports has made a significant impact on video game industry with live streaming, increased amount of titles and large-scaled global tournaments. Strafe started as an esports tracking App where users can keep track of tournaments and news about their favourite teams/players. Strafe is also a prediction game platform to climb against 50,000+ esports fans. The thrill of esports come in 2 packages:"
+            Esports has made a significant impact on video game industry with live streaming, increased amount of titles and large-scaled global tournaments. Strafe started as an esports tracking App where users can keep track of tournaments and news about their favourite teams/players. Strafe is also a prediction game platform to climb against 50,000+ esports fans. Fans live the thrill of esports in two ways:"
           />{' '}
           <br />
           <TextLi TextLi="Esports companion App Strafe that helps fans to track selected titles and stream live-tournaments and dive deep into detailed match-stats." />
