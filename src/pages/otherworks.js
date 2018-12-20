@@ -46,7 +46,7 @@ const otherWorks = props => (
           <HText1
             Header1="Thomas Cook: UI Design"
             Text1="
-            UI Design for the landing page of a campaign, including purchase flow elements - Consult Work, Sydney."
+            UI Design for the landing page of a campaign, including purchase flow elements and iconography - Consult Work, Sydney."
           />
           <div className="images">
             <div className="protoImg">
