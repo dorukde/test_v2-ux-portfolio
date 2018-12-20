@@ -132,7 +132,7 @@ const otherWorks = props => (
           <HText1
             Header1="Noluit: Branding"
             Text1="
-            Noluit, is a houseboat which is built over 6 steel floating blocks. The houseboat does not just float on water, but also travels around Stockholm’s Archipelago. Branding process included several interviews, research on maritime iconography, considering business plan &amp; recreational event demographics of Noluit, Stockholm.:"
+            Noluit, is a houseboat which is built over 6 steel floating blocks. The houseboat does not just float on water, but also travels around Stockholm’s Archipelago. Branding process included several interviews, research on maritime iconography, considering business plan &amp; recreational event demographics of Noluit, Stockholm."
           />
           <Img
             fluid={props.data.thomasZero.childImageSharp.fluid}
