@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { FaGooglePlay, FaApple } from 'react-icons/fa'
-import { Player } from 'video-react'
-import '../components/video-react.css'
+
+import { DefaultPlayer as Video } from 'react-html5video'
+import 'react-html5video/dist/styles.css'
+
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
 
@@ -197,13 +199,31 @@ const keyflowPage = props => (
           <br />
           <div className="prototypes">
             <div className="prototype1">
-              <Player playsInline src={kvideo1} />
+              <Video
+                loop
+                muted
+                controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
+              >
+                <source src={kvideo1} />
+              </Video>
             </div>
             <div className="prototype1">
-              <Player playsInline src={kvideo2} />
+              <Video
+                loop
+                muted
+                controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
+              >
+                <source src={kvideo2} />
+              </Video>{' '}
             </div>
             <div className="prototype1">
-              <Player playsInline src={kvideo3} />
+              <Video
+                loop
+                muted
+                controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
+              >
+                <source src={kvideo3} />
+              </Video>{' '}
             </div>
           </div>
           <br />

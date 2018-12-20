@@ -23,7 +23,7 @@ import svideo1 from '../images/strafe0.mp4'
 import svideo2 from '../images/strafe1.mp4'
 import svideo3 from '../images/strafe2.mp4'
 
-const strafePage = props => (
+const otherWorks = props => (
   <div id="rect">
     <Scroller />
     <div id="HeroAbout2" className="HeroAbout">
@@ -231,11 +231,11 @@ const strafePage = props => (
           <TextLi TextLi="Esports fans are evolving from players to spectators. With such growth the product might consider becoming an esport 'fantasy league' and branch out to different products." />
           <TextLi TextLi="Esports fans like to be able to see content from different sources curated at Strafe. Exclusive-content and future tournaments can become a part of the user experience in the future." />
           <div className="BWrapper">
-            <Link to="/otherworks">
-              <BTextA BHeader1="⟵ Previous" BText1="Other Works" />
+            <Link to="/streetkak">
+              <BTextA BHeader1="⟵ Previous" BText1="Streetkäk App" />
             </Link>
-            <Link to="/keyflow">
-              <BTextB BHeader2="Next ⟶" BText2="Keyflow" />
+            <Link to="/strafe">
+              <BTextB BHeader2="Next ⟶" BText2="Strafe" />
             </Link>
           </div>
         </div>
@@ -244,7 +244,7 @@ const strafePage = props => (
   </div>
 )
 
-export default strafePage
+export default otherWorks
 
 export const pageQuery = graphql`
   query {
