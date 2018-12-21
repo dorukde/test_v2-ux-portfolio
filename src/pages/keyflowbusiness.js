@@ -83,7 +83,7 @@ const keyflowBPage = props => (
           <br />
           <TextLi
             TextLi="Keyflow Business is the main platform for venues to create and promote events, track real-time statistics and collect after-event data about past-events.  
-          helping venues to create events, manage lists, sell admissions and collect meaningful pre-event and after-event data."
+          Helping venues to create events, manage lists, sell admissions and collect meaningful pre-event and after-event data."
           />
           <TextLi TextLi="Keyflow App is the platform for guests where events are published, promoted and users have the power to manage their own VIP-cards and invite friends." />
           <br />
@@ -105,7 +105,7 @@ const keyflowBPage = props => (
           <TextLi TextLi="The ideal scenario is to pre-sell admissions and table-bookings to plan ahead for the venues. However, guests tend to inform venues with short notice." />
           <TextLi TextLi="Marketing and promoting events with a nightlife-focused global audience is a challenging process with current tools." />
           <TextLi TextLi="Door service is sensitive, time-consuming and can be frustrating for guests. Guests expect transparent and friction-free experiences at the door." />
-          <TextLi TextLi="Analysis of each event help understand the pain-points and make performance analysis. '(VIP) Name +3' provides no information about the group." />
+          <TextLi TextLi="Analysis of each event help understand the pain-points and make performance analysis — '(VIP) Name +3' provides no information about the group." />
           <Img
             fluid={props.data.kBusinessOne.childImageSharp.fluid}
             alt="Keyflow Business Ecosystem and Features"
@@ -149,11 +149,11 @@ const keyflowBPage = props => (
           </p>
           <HText1
             Header1="Research: Thinking Before Dancing"
-            Text1="Keyflow has been continuously in contact with event-producers and venues in Stockholm from its start. A focus-group including event-producers, promoters and doormen provided feedbacks for feature decisions and iterative improvements. Having nightlife professionals as Keyflow Team members provided a better access to venues and other nightlife-professionals. Offline-support, guest-preferences and tags have been crafted based on focus-groups and individual interviews."
+            Text1="Keyflow has been continuously in contact with event-producers and venues in Stockholm from its start. A focus-group including event-producers, promoters and doormen provided feedbacks for feature decisions and iterative improvements. Having nightlife professionals as Keyflow Team members provided better access to venues and other nightlife-professionals. Offline-support, guest-preferences and tags have been crafted based on focus-groups and individual interviews."
           />
           <HText1
             Header1="Ideas: Creations of the Night"
-            Text1="Understanding event production and problems of different personas improved the specifity of the ideation process. Event-timeline of a venue manager, event promoter or doormen differ from each other. These branching processes inspired new personas and relevant user-journey maps. Synthesis of user-roles has been an early and important step to provide relevant experiences to every team member later on."
+            Text1="Understanding event production and problems of different personas improved the clarity of ideation process. Event-timeline of a venue manager, event promoter or doormen differ from each other. These branching processes inspired new personas and relevant user-journey maps. Synthesis of user-roles has been an early and important step to provide relevant experiences to every team member later on."
           />
           <Img
             fluid={props.data.kBusinessThree.childImageSharp.fluid}
@@ -170,7 +170,7 @@ const keyflowBPage = props => (
           />
           <HText1
             Header1="Designing Keyflow Business"
-            Text1="The design system (and visual language) of Keyflow Business has had differences from Keyflow App. Onboarding process involves user-roles and registration of team-members and venues too. The product is designed to be a real-time and collaborative event-management tool with multiple states and edge cases. The visual design process is based on a new design system and sketch component-library with state-indicators for features like offline-support and additional documentation on Confluence. Keyflow Business iterations have been designed and developed simultaneously with guest-focused Keyflow App. Consideration of empty-states, in-App onboarding and older-version support have been important considerations during the visual design-process of Keyflow Business."
+            Text1="The design system (and visual language) of Keyflow Business differs from Keyflow App. Onboarding process involves user-roles and registration of team-members and venues too. The product is designed to be a real-time and collaborative event-management tool with multiple states and edge cases. The visual design process is based on a new design system and sketch component-library with state-indicators for features like offline-support and additional documentation on Confluence. Keyflow Business iterations have been designed and developed simultaneously with guest-focused Keyflow App. Empty-states, in-App onboarding and older-version support have been important considerations during the visual design-process of Keyflow Business."
           />
           <br />
           <br />
@@ -203,7 +203,7 @@ const keyflowBPage = props => (
           <HText1
             Header1="Test - Produce - Evaluate"
             Text1="
-            At later stages, Keyflow Business has gone through a complete visual re-design with the introduction of a new pricing-model. Larger-sprints in such agile environment require end-to-end testing in staging environment. Internal testing involved multiple team-members testing event creation, ticket scanning and checking-in guests. We also had the chance to run closed-events in collaboration with Absoluit and Marshall where we could work with our focus-group in a real-venue before the release. Keyflow product has over 200+ screens/states so inter-screen prototypes were built on inVision, in addition to documentation prepared for relevant stakeholders. Micro-interactions in each screen were prototyped using Principle App."
+            At later stages, Keyflow Business has gone through a complete visual re-design with the introduction of a new pricing-model. Larger-sprints in such agile environment require end-to-end testing in staging environment. Internal testing involved multiple team-members testing event creation, ticket scanning and checking-in guests. We also had the chance to run closed-events in collaboration with Absoluit and Marshall where we could work with our focus-groups in a real-venue before the release. Keyflow product has over 200 screens/states accordingly, and inter-screen prototypes were built on inVision, in addition to documentation prepared for relevant stakeholders. Micro-interactions in each screen were prototyped using Principle App."
           />
           <br />
           <div className="prototypes">
@@ -233,7 +233,7 @@ const keyflowBPage = props => (
           <HText1
             Header1="Conclusions"
             Text1="
-            Keyflow Business has introduced a unique way to streamline and analyse nightclub management. Empowerment of team-members of nightclub management has been at the core of the product development process. Being able to plan-ahead for the venues added the business value. Venues had the chance to collect information to analyse and improve future-events and reward their guests. Request feature has increased transparency with the venue and the guests removing the hassle of having large number of phone calls during preparation phase. Engagement of the guests and venues were improved by 'request response rate' which motivated venues to have a higher transparency rating. Venues in Scandinavia has embraced the product and using a large portion of its features. Nightlife trends are changing and re-defining event production. Keyflow Business as a growing product would have these challenges at global-scale:"
+            Keyflow Business has introduced a unique way to streamline and analyse nightclub management. Empowerment of team-members of nightclub management has been at the core of the product development process. Being able to plan-ahead for the venues added to the business value. Venues had the chance to collect information to analyse and improve future-events and reward their guests. Request feature has increased transparency with the venue and the guests removing the hassle of having large number of phone calls during preparation phase. Engagement of the guests and venues were improved by 'request response rate', which motivated venues to have a higher transparency rating. Venues in Scandinavia has embraced the product, using a large portion of its features. Nightlife trends are changing and re-defining event production. Keyflow Business as a growing product, would have these challenges at global-scale:"
           />
           <br />
           <TextLi TextLi="Event management of large-audiences (open-air &amp; festivals) require highly-customisable solutions." />

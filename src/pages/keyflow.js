@@ -35,7 +35,7 @@ const keyflowPage = props => (
             <div className="ProjectDetail2">UX-UI</div>
           </div>
           <div className="ProjectDescription">
-            Keyflow, headquartered in Stockholm Sweden, is an event service
+            Keyflow, headquartered in Stockholm (SE), is an event services
             solution for both event producers and guests around the globe.
           </div>{' '}
           <h1>
@@ -69,7 +69,8 @@ const keyflowPage = props => (
       <div className="ContentW">
         <div className="Content">
           <div className="infobox2">
-            <div className="textbold">Platform:</div> iOS/Android & Web <br />
+            <div className="textbold">Platform:</div> iOS/Android &amp; Web{' '}
+            <br />
             <div className="textbold">Duration:</div> 2015/5 – 2018/8 <br />
             <div className="textbold">Role:</div> Product Designer (B2C)
             <br />
