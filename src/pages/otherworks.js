@@ -43,36 +43,6 @@ const otherWorks = props => (
       <div className="ContentW">
         <div className="Content">
           <HText1
-            Header1="Thomas Cook: UI Design"
-            Text1="
-            UI Design for the landing page of a campaign, including purchase flow elements and iconography - Consult Work, Sydney."
-          />
-          <div className="images">
-            <div className="protoImg">
-              <Img
-                fluid={props.data.thomasZero.childImageSharp.fluid}
-                alt="Thomas Cook: UI Design"
-              />
-            </div>
-            <div className="protoImg">
-              <Img
-                fluid={props.data.thomasTwo.childImageSharp.fluid}
-                alt="Thomas Cook: UI Design"
-              />
-            </div>
-            <div className="protoImg">
-              <Img
-                fluid={props.data.thomasThree.childImageSharp.fluid}
-                alt="Thomas Cook: UI Design"
-              />
-            </div>
-          </div>
-          <Img
-            fluid={props.data.thomasOne.childImageSharp.fluid}
-            alt="Thomas Cook: UI Design"
-          />
-          <br />
-          <HText1
             Header1="Dimmer: Human Centred Design"
             Text1="
             Dimmer is a school-project (at UNSW) where I had the chance to focus on human-centred design. Initial focus of the project was to create a video-chat experience for seniors. Final iteration of the product aims to remove challenges of incompatible experiences with a focus on 'hearing difficulties'. Features were designed after having run two user-research sessions and user-testing using simple prototypes. 3D models were rendered using Maya &amp; Arnold. Dimmer features:"
@@ -80,6 +50,11 @@ const otherWorks = props => (
           <TextLi TextLi="Hearing difficulty indicators: Speed of communication, clarity, amplitude." />
           <TextLi TextLi="Vibration &amp; light indicators as visual feedback, compatibility with hearing devices." />
           <TextLi TextLi="Additional Speaker &amp; keyboard with physical keys for improved usability." />
+          <br />
+          <Img
+            fluid={props.data.dimmerRender.childImageSharp.fluid}
+            alt="Dimmer (Prototype) - 3D Model"
+          />{' '}
           <br />
           <div className="prototypes">
             <div className="prototype1">
@@ -116,18 +91,45 @@ const otherWorks = props => (
               </video>
             </div>
           </div>
-          <Img
-            fluid={props.data.dimmerRender.childImageSharp.fluid}
-            alt="Dimmer (Prototype) - 3D Model"
+          <HText1
+            Header1="Thomas Cook: UI Design"
+            Text1="
+            UI Design for the landing page of a campaign, including purchase flow elements and iconography - Consult Work, Sydney."
           />
+          <div className="images">
+            <div className="protoImg">
+              <Img
+                fluid={props.data.thomasZero.childImageSharp.fluid}
+                alt="Thomas Cook: UI Design"
+              />
+            </div>
+            <div className="protoImg">
+              <Img
+                fluid={props.data.thomasTwo.childImageSharp.fluid}
+                alt="Thomas Cook: UI Design"
+              />
+            </div>
+            <div className="protoImg">
+              <Img
+                fluid={props.data.thomasThree.childImageSharp.fluid}
+                alt="Thomas Cook: UI Design"
+              />
+            </div>
+          </div>
+          <Img
+            fluid={props.data.thomasOne.childImageSharp.fluid}
+            alt="Thomas Cook: UI Design"
+          />
+          <br />
           <HText1
             Header1="Design Guidebook: Digital (PDF)"
             Text1="
             A pocket design-guidebook to illustrate subjects I find interesting about 'design' - School Assignment (UNSW), PDF, 12 Pages."
           />
+          <br />
           <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Design Guidebook (Prototype) - 3D Model"
+            fluid={props.data.dGuidebook.childImageSharp.fluid}
+            alt="Design Guidebook:"
           />
           <HText1
             Header1="Noluit: Branding"
@@ -245,6 +247,9 @@ export const pageQuery = graphql`
       ...fluidImage640
     }
     dimmerRender: file(relativePath: { eq: "dimmer1.jpg" }) {
+      ...fluidImage
+    }
+    dGuidebook: file(relativePath: { eq: "unsw_guidebook.jpg" }) {
       ...fluidImage
     }
   }
