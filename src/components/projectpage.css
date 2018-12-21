@@ -347,4 +347,11 @@ video {
     width: 100% !important;
     padding: 20px 0 0 0;
   }
+  .zoetic2 video {
+    width: 100% !important;
+  }
+
+  .prototype2 video {
+    width: 100% !important;
+  }
 }
