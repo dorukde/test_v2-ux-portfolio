@@ -27,8 +27,6 @@ import dtvideo3 from '../images/poster/dimmer3.png'
 import ztvideo from '../images/poster/zs.png'
 import koitvideo from '../images/poster/koi.png'
 
-import dguidebook from '../images/guidebook.pdf'
-
 const otherWorks = props => (
   <div id="rect">
     <Scroller />
@@ -134,9 +132,9 @@ const otherWorks = props => (
           />
           <br />
           <div className="DText">
-            <a href={dguidebook}>Download e-book (PDF) </a>
+            <a href="/guidebook.pdf">Download e-book (PDF) </a>
           </div>
-          <a href={dguidebook}>
+          <a href="/guidebook.pdf">
             <br />
             <Img
               fluid={props.data.dGuidebook.childImageSharp.fluid}

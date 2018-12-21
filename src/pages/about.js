@@ -12,7 +12,6 @@ import ResumeItem2 from '../components/resume2'
 import ResumeItem3 from '../components/resume3'
 import '../components/resume.css'
 import '../components/project.css'
-
 import HText1 from '../components/text1'
 import Text2 from '../components/text2'
 
@@ -47,7 +46,7 @@ const AboutPage = () => (
           </h4>
           <br />
           <h4>
-            You can download my <Link> Resume</Link>
+            You can download my <a href="/Resume_DD.pdf"> Resume</a>
             <br />
             <br />
             Get in touch with me at
