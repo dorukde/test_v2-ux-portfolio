@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import { withPrefix } from 'gatsby'
-
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
 
@@ -28,6 +26,8 @@ import dtvideo2 from '../images/poster/dimmer2.png'
 import dtvideo3 from '../images/poster/dimmer3.png'
 import ztvideo from '../images/poster/zs.png'
 import koitvideo from '../images/poster/koi.png'
+
+import dguidebook from '../images/guidebook.pdf'
 
 const otherWorks = props => (
   <div id="rect">
@@ -132,7 +132,7 @@ const otherWorks = props => (
             Text1="
             A pocket-sized design book to summarise and illustrate subjects I find interesting, about 'design' - School Assignment (UNSW), PDF, 12 Pages."
           />
-          <a href={withPrefix('/images/guidebook.pdf')}>
+          <a href={dguidebook}>
             <br />
             <Img
               fluid={props.data.dGuidebook.childImageSharp.fluid}
