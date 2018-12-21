@@ -18,10 +18,12 @@ import Scroller from '../components/scrollP'
 import dvideo1 from '../images/dimm1.mp4'
 import dvideo2 from '../images/dimm2.mp4'
 import dvideo3 from '../images/dimm3.mp4'
+import zvideo from '../images/zs2.mp4'
 
 import dtvideo1 from '../images/poster/dimmer1.png'
 import dtvideo2 from '../images/poster/dimmer2.png'
 import dtvideo3 from '../images/poster/dimmer3.png'
+import ztvideo from '../images/poster/zs.png'
 
 const otherWorks = props => (
   <div id="rect">
@@ -137,48 +139,87 @@ const otherWorks = props => (
             Noluit, is a houseboat which is built over 6 steel floating blocks. The houseboat does not just float on water, but also travels around Stockholm’s Archipelago. Branding process included several interviews, research on maritime iconography, considering business plan &amp; recreational event demographics of Noluit, Stockholm."
           />
           <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Noluit: Branding"
+            fluid={props.data.noluitOne.childImageSharp.fluid}
+            alt="Noluit: Logo and Early Process"
           />
+          <div className="gatsby-image-wrapper3">
+            <Img
+              fluid={props.data.noluitTwo.childImageSharp.fluid}
+              alt="Noluit: Branding"
+            />
+            <Img
+              fluid={props.data.noluitThree.childImageSharp.fluid}
+              alt="Noluit: Office Tools"
+            />
+          </div>
           <br />
-          <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Noluit: Branding"
-          />
           <HText1
             Header1="Pat's Place: Branding"
             Text1="
             Branding &amp; logo design for new Thai Tapas restaurant located at Södermalm, Stockholm (SE). The characters were inspired by tattoos of co-founders (and partners) Pat (Suvannamaccha) and Jacob (Hanuman)."
           />
           <br />
-          <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Pats Place - Logo"
-          />
-          <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Pats Place - Images"
-          />
+          <div className="gatsby-image-wrapper3">
+            <Img
+              fluid={props.data.patsOne.childImageSharp.fluid}
+              alt="Pats Place - Logo"
+            />
+            <Img
+              fluid={props.data.patsTwo.childImageSharp.fluid}
+              alt="Pats Place - Images"
+            />
+          </div>
           <HText1
             Header1="Ikiz - Zoetic Sessions: Album Cover + Live Illustration"
-            Text1="Album cover &amp; live-drawing performance for 'Ikiz - Zoetic Sessions' jazz project. The idea of 'Zoetic Sessions' is to create a unique live-experience where arts collide to engage audiences both visually and lyrically. 
+            Text1="Album cover &amp; live-drawing performance for 'Ikiz - Zoetic Sessions' jazz project. 
             "
           />
           <br />
-          <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Ikiz: Zoetic Sessions"
-          />
+          <div className="gatsby-image-wrapper3">
+            <Img
+              fluid={props.data.ikizOne.childImageSharp.fluid}
+              alt="Zoetic Sessions: Album Cover"
+            />
+            <Img
+              fluid={props.data.ikizTwo.childImageSharp.fluid}
+              alt="Zoetic Sessions: Cover"
+            />
+          </div>
+          <Text2 Text2="Zoe comes from Greek and means “life”. Live sessions, zoetic sessions. The idea of Zoetic sessions is to create a unique live experience where arts collide to entertain and engage audiences both visually and lyrically." />
           <br />
+          <div className="prototypes">
+            <div className="zoetic1">
+              <Img
+                fluid={props.data.ikizDraw.childImageSharp.fluid}
+                alt="Zoetic Sessions: Illustration"
+              />
+            </div>
+            <div className="zoetic2">
+              <video
+                poster={ztvideo}
+                playsinline
+                loop
+                controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
+              >
+                <source src={zvideo} />
+              </video>
+            </div>
+          </div>
           <HText1
             Header1="Karl Olandersson - Simple as That"
             Text1="
             Album Cover design for 'Karl Olandersson - Simple as That':"
           />
-          <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Karl Olandersson - Simple as That"
-          />
+          <div className="gatsby-image-wrapper3">
+            <Img
+              fluid={props.data.koOne.childImageSharp.fluid}
+              alt="Karl Olandersson: Simple as That"
+            />
+            <Img
+              fluid={props.data.koTwo.childImageSharp.fluid}
+              alt="Karl Olandersson: Simple as That"
+            />
+          </div>
           <HText1
             Header1="Petter Bergander Trio - The Grand Dance"
             Text1="
@@ -251,6 +292,36 @@ export const pageQuery = graphql`
     }
     dGuidebook: file(relativePath: { eq: "unsw_guidebook.jpg" }) {
       ...fluidImage
+    }
+    noluitOne: file(relativePath: { eq: "noluit1.jpg" }) {
+      ...fluidImage800
+    }
+    noluitTwo: file(relativePath: { eq: "noluit2.jpg" }) {
+      ...fluidImage640
+    }
+    noluitThree: file(relativePath: { eq: "noluit3.jpg" }) {
+      ...fluidImage640
+    }
+    patsOne: file(relativePath: { eq: "pats1.jpg" }) {
+      ...fluidImage640
+    }
+    patsTwo: file(relativePath: { eq: "pats2.jpg" }) {
+      ...fluidImage640
+    }
+    ikizOne: file(relativePath: { eq: "ikiz1.jpg" }) {
+      ...fluidImage640
+    }
+    ikizTwo: file(relativePath: { eq: "ikiz2.jpg" }) {
+      ...fluidImage640
+    }
+    koOne: file(relativePath: { eq: "ko1.jpg" }) {
+      ...fluidImage640
+    }
+    koTwo: file(relativePath: { eq: "ko2.jpg" }) {
+      ...fluidImage640
+    }
+    ikizDraw: file(relativePath: { eq: "ikizZoetic.jpg" }) {
+      ...fluidImage640
     }
   }
 `
