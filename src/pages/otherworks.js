@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
+import { withPrefix } from 'gatsby'
+
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
 
@@ -19,11 +21,13 @@ import dvideo1 from '../images/dimm1.mp4'
 import dvideo2 from '../images/dimm2.mp4'
 import dvideo3 from '../images/dimm3.mp4'
 import zvideo from '../images/zs2.mp4'
+import koivideo from '../images/koi.mp4'
 
 import dtvideo1 from '../images/poster/dimmer1.png'
 import dtvideo2 from '../images/poster/dimmer2.png'
 import dtvideo3 from '../images/poster/dimmer3.png'
 import ztvideo from '../images/poster/zs.png'
+import koitvideo from '../images/poster/koi.png'
 
 const otherWorks = props => (
   <div id="rect">
@@ -128,11 +132,13 @@ const otherWorks = props => (
             Text1="
             A pocket-sized design book to summarise and illustrate subjects I find interesting, about 'design' - School Assignment (UNSW), PDF, 12 Pages."
           />
-          <br />
-          <Img
-            fluid={props.data.dGuidebook.childImageSharp.fluid}
-            alt="Design Guidebook:"
-          />
+          <a href={withPrefix('/images/guidebook.pdf')}>
+            <br />
+            <Img
+              fluid={props.data.dGuidebook.childImageSharp.fluid}
+              alt="Design Guidebook:"
+            />
+          </a>
           <HText1
             Header1="Noluit: Branding"
             Text1="
@@ -205,6 +211,7 @@ const otherWorks = props => (
               </video>
             </div>
           </div>
+          <br />
           <HText1
             Header1="Karl Olandersson - Simple as That"
             Text1="
@@ -225,38 +232,59 @@ const otherWorks = props => (
             Text1="
             Album Cover design for 'Petter Bergander Trio - The Grand Dance':"
           />
-          <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Petter Bergander Trio - The Grand Dance"
+          <div className="gatsby-image-wrapper3">
+            <Img
+              fluid={props.data.pbtOne.childImageSharp.fluid}
+              alt="Petter Bergander Trio: Multi-Lingual Illustration"
+            />
+            <Img
+              fluid={props.data.pbtTwo.childImageSharp.fluid}
+              alt="Petter Bergander Trio: The Grand Dance Cover"
+            />
+          </div>
+          <HText1
+            Header1="#funkjazzsoul Posters: Print"
+            Text1="
+            #funkjazzsoul fashion line posters from Stockholm Jazz Records. Displayed at Fasching Jazz Club, Stockholm (SE).:"
           />
+          <div className="gatsby-image-wrapper3">
+            <Img
+              fluid={props.data.fOne.childImageSharp.fluid}
+              alt="#funkjazzsoul 1"
+            />
+            <Img
+              fluid={props.data.fTwo.childImageSharp.fluid}
+              alt="#funkjazzsoul 2"
+            />
+          </div>
           <HText1
             Header1="#trusttheprocess"
             Text1="
             'The Process' Joel Embiid (NBA Player from 76'ers): 3D-model is inspired by his recovery period &amp; personal journey in NBA."
           />
-          <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Joel Embiid - Trust the Process"
-          />
+          <br />
+          <div className="wrapper800">
+            <Img
+              fluid={props.data.embiidOne.childImageSharp.fluid}
+              alt="Joel Embiid - Trust the Process"
+            />
+          </div>
+          <br />
           <HText1
             Header1="Koi Fish: 3D"
             Text1="
             'Low-Poly &amp; rigged koi fish animation study done for an independent movie project."
           />
-          <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="Joel Embiid - Trust the Process"
-          />
-          <HText1
-            Header1="Hong Kong: Neon Skyline"
-            Text1="
-            Inspired by the realm of neon-signs, that will no longer exist in a near future in HK. Desgined for colleagues during a business trip."
-          />
-          <Img
-            fluid={props.data.thomasZero.childImageSharp.fluid}
-            alt="HONG KONG: Neon Skyline"
-          />
           <br />
+          <video
+            poster={koitvideo}
+            playsinline
+            loop
+            muted
+            controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
+          >
+            <source src={koivideo} />
+          </video>
           <div className="BWrapper">
             <Link to="/streetkak">
               <BTextA BHeader1="⟵ Previous" BText1="Streetkäk App" />
@@ -294,7 +322,7 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     noluitOne: file(relativePath: { eq: "noluit1.jpg" }) {
-      ...fluidImage800
+      ...fluidImage
     }
     noluitTwo: file(relativePath: { eq: "noluit2.jpg" }) {
       ...fluidImage640
@@ -322,6 +350,21 @@ export const pageQuery = graphql`
     }
     ikizDraw: file(relativePath: { eq: "ikizZoetic.jpg" }) {
       ...fluidImage640
+    }
+    fOne: file(relativePath: { eq: "fasching1.jpg" }) {
+      ...fluidImage640
+    }
+    fTwo: file(relativePath: { eq: "fasching2.jpg" }) {
+      ...fluidImage640
+    }
+    pbtOne: file(relativePath: { eq: "pbt1.jpg" }) {
+      ...fluidImage640
+    }
+    pbtTwo: file(relativePath: { eq: "pbt2.jpg" }) {
+      ...fluidImage640
+    }
+    embiidOne: file(relativePath: { eq: "embiid1.jpg" }) {
+      ...fluidImage800
     }
   }
 `
