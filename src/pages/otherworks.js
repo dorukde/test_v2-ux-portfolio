@@ -124,7 +124,7 @@ const otherWorks = props => (
           <HText1
             Header1="Design Guidebook: Digital (PDF)"
             Text1="
-            A pocket design-guidebook to illustrate subjects I find interesting about 'design' - School Assignment (UNSW), PDF, 12 Pages."
+            A pocket-sized design book to summarise and illustrate subjects I find interesting, about 'design' - School Assignment (UNSW), PDF, 12 Pages."
           />
           <br />
           <Img
