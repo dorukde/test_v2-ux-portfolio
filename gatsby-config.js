@@ -10,6 +10,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: 'UA-116679318-1',
+      },
+    },
+    {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         // Setting a color is optional.
