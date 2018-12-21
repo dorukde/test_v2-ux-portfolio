@@ -132,6 +132,10 @@ const otherWorks = props => (
             Text1="
             A pocket-sized design book to summarise and illustrate subjects I find interesting, about 'design' - School Assignment (UNSW), PDF, 12 Pages."
           />
+          <br />
+          <div className="DText">
+            <a href={dguidebook}>Download e-book (PDF) </a>
+          </div>
           <a href={dguidebook}>
             <br />
             <Img
