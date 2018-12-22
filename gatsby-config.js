@@ -9,6 +9,7 @@ module.exports = {
     image: '/images/doruk-icon.png',
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
