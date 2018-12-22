@@ -6,6 +6,7 @@ module.exports = {
     keywords:
       'UX, UI, user experience, user interface, product designer, Sydney, digital product, start-up, consult, freelance, UNSW, Australia, HCD, 3D, album cover, jazz, Doruk, Demircioglu',
     url: 'https://www.dorukdemircioglu.com',
+    siteUrl: `https://www.dorukdemircioglu.com`,
     image: '/images/doruk-icon.png',
   },
   plugins: [
