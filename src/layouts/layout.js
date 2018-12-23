@@ -20,6 +20,7 @@ const Layout = ({ children, data, location }) => (
             description
             canonicalUrl
             image
+            url
           }
         }
       }
@@ -36,6 +37,10 @@ const Layout = ({ children, data, location }) => (
             { name: 'keywords', content: data.site.siteMetadata.keywords },
             { name: 'image', content: data.site.siteMetadata.image },
             { name: 'url', content: data.site.siteMetadata.url },
+            {
+              name: 'canonicalUrl',
+              content: data.site.siteMetadata.canonicalUrl,
+            },
           ]}
         >
           <html lang="en" />

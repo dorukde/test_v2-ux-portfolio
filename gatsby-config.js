@@ -8,6 +8,7 @@ module.exports = {
     url: 'https://www.dorukdemircioglu.com',
     siteUrl: `https://www.dorukdemircioglu.com`,
     image: '/images/doruk-icon.png',
+    canonicalUrl: 'https://www.dorukdemircioglu.com',
   },
   plugins: [
     `gatsby-plugin-sitemap`,
