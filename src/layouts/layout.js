@@ -18,9 +18,10 @@ const Layout = ({ children, data, location }) => (
           siteMetadata {
             title
             description
+            url
+            siteUrl
             canonicalUrl
             image
-            url
           }
         }
       }
@@ -39,6 +40,10 @@ const Layout = ({ children, data, location }) => (
             { name: 'url', content: data.site.siteMetadata.url },
             {
               name: 'canonicalUrl',
+              content: data.site.siteMetadata.canonicalUrl,
+            },
+            {
+              name: 'siteUrl',
               content: data.site.siteMetadata.canonicalUrl,
             },
           ]}
