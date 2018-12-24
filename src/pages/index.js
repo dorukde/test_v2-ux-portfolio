@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
+
 import Project from '../components/project'
 import ProjectMini from '../components/projectmini'
 import '../components/header.css'
