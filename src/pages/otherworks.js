@@ -37,8 +37,8 @@ const otherWorks = props => (
             <div className="ProjectName2">Other Works</div>
             <div className="ProjectDetail2">HCD, 3D, Print</div>
             <div className="ProjectDescription">
-              My personal visual design design projects - including UI,
-              Guidebook, Human Centred Design, 3D, Album Covers, Live
+              My personal visual design design projects - including UI, a short
+              guidebook, a Human Centred Design project, 3D, Album Covers, Live
               Illustration and Print Design
             </div>
           </div>
@@ -49,7 +49,7 @@ const otherWorks = props => (
           <HText1
             Header1="Dimmer: Human Centred Design"
             Text1="
-            Dimmer is a school-project (at UNSW) where I had the chance to focus on human-centred design. Initial focus of the project was to create a video-chat experience for seniors. Final iteration of the product aims to remove challenges of incompatible experiences with a focus on 'hearing difficulties'. Features were designed after having run two user-research sessions and user-testing using simple prototypes. 3D models were rendered using Maya &amp; Arnold. Dimmer features:"
+            Dimmer is a university (UNSW) project where I had the chance to focus on human-centred design. Initial focus of the project was to create a video-chat experience for seniors. Final iteration of the product aims to remove challenges of incompatible experiences with a focus on 'hearing difficulties'. Features were designed after having run two user-research sessions and user-testing on simple prototypes. 3D models were rendered using Maya &amp; Arnold. Dimmer features:"
           />{' '}
           <TextLi TextLi="Hearing difficulty indicators: Speed of communication, clarity, amplitude." />
           <TextLi TextLi="Vibration &amp; light indicators as visual feedback, compatibility with hearing devices." />
@@ -144,7 +144,7 @@ const otherWorks = props => (
           <HText1
             Header1="Noluit: Branding"
             Text1="
-            Noluit, is a houseboat which is built over 6 steel floating blocks. The houseboat does not just float on water, but also travels around Stockholm’s Archipelago. Branding process included several interviews, research on maritime iconography, considering business plan &amp; recreational event demographics of Noluit, Stockholm."
+            Noluit is a houseboat, which is built over 6 steel floating blocks. The houseboat does not just float on water, but also travels around Stockholm’s Archipelago. Branding process included several interviews, research on maritime iconography, considering the business plan &amp; recreational event demographics of Noluit, Stockholm."
           />
           <Img
             fluid={props.data.noluitOne.childImageSharp.fluid}
@@ -164,7 +164,7 @@ const otherWorks = props => (
           <HText1
             Header1="Pat's Place: Branding"
             Text1="
-            Branding &amp; logo design for new Thai Tapas restaurant located at Södermalm, Stockholm (SE). The characters were inspired by tattoos of co-founders (and partners) Pat (Suvannamaccha) and Jacob (Hanuman)."
+            Branding &amp; logo design for a new Thai Tapas restaurant located at Södermalm, Stockholm (SE). The characters were inspired by tattoos of co-founders (and partners) Pat (Suvannamaccha) and Jacob (Hanuman)."
           />
           <br />
           <div className="gatsby-image-wrapper3">
@@ -193,7 +193,7 @@ const otherWorks = props => (
               alt="Zoetic Sessions: Cover"
             />
           </div>
-          <Text2 Text2="Zoe comes from Greek and means “life”. Live sessions, zoetic sessions. The idea of Zoetic sessions is to create a unique live experience where arts collide to entertain and engage audiences both visually and lyrically." />
+          <Text2 Text2="'Zoe' comes from Greek and means 'life'. Live sessions, zoetic sessions. The idea of Zoetic sessions is to create a unique live experience where arts collide to entertain and engage audiences both visually and lyrically." />
           <br />
           <div className="prototypes">
             <div className="zoetic1">

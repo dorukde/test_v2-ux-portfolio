@@ -80,11 +80,11 @@ const keyflowPage = props => (
           <div className="SectionTitle2">Introduction</div>
           <HText1
             Header1="Digitalisation of Nightlife in the Social Media Age"
-            Text1="Nightlife is seriously fun and having access to it can sometimes be challenging. Every guest seeks to have the access to a uniquely fun experience. Keyflow was inspired by solving the complicated problems of nightlife, aiming to make the fun of nightlife accessible. Guests and venues have specific requirements and finding the right fit makes the night fun for everyone. Keyflow Team includes night-life professionals who has access to a focus-group of venues and night-life guests. The solutions come with an integrated 2-layered nightlife ecosystem:"
+            Text1="Nightlife is seriously fun and having access to it can sometimes be challenging. Every guest seeks to have the access to a unique experience. Keyflow was inspired by solving the complicated problems of nightlife, aiming to make the nightlife accessible and transparent. Guests and venues have specific requirements and finding the right fit makes the night fun for everyone. Keyflow Team includes night-life professionals who has access to a focus-group of venues and night-life guests. The solutions come with an integrated 2-layered nightlife ecosystem:"
           />{' '}
           <br />
           <TextLi TextLi="Keyflow App for guests to discover events, manage VIP cards, invite friends and get admissions." />
-          <TextLi TextLi="Keyflow Business helping venues to create events, manage lists, sell admissions and collect meaningful pre-event and after-event data." />
+          <TextLi TextLi="Keyflow Business for venues to create events, manage lists, sell admissions and collect meaningful pre-event and after-event data." />
           <br />
           <div className="gatsby-image-wrapper2">
             <Img
@@ -98,7 +98,7 @@ const keyflowPage = props => (
           </div>
           <HText1
             Header1="The Problem"
-            Text1="Accessing a venue or having deep information on what happens in a city is too complicated for guests. It takes several trial &amp; errors, long timespans waiting at the queue. Booking a table with friends, connecting to a promoter or noticing the venue as a VIP guest need quick solutions. There are various obstacles against every type of nightlife guest:"
+            Text1="Accessing a venue or having in depth information on what is on in the town can be too complicated for guests. It takes several trial &amp; errors, long timespans waiting at the queue. Booking a table with friends, connecting to a promoter or noticing the venue as a VIP guest need quick solutions. There are various obstacles against every type of nightlife guest:"
           />{' '}
           <br />
           <TextLi TextLi="Guests seek transparency. They need to know about the atmosphere, dress code and avoid being rejected at the door." />
@@ -116,7 +116,7 @@ const keyflowPage = props => (
           <TextLi TextLi="Getting access to venues on a global scale, finding the inspiring events conveniently." />
           <TextLi TextLi="Planning-ahead individually or as a group of friends, sharing digital tickets." />
           <TextLi TextLi="Empowering guests when getting admissions and booking tables with flexibility." />
-          <TextLi TextLi="Skipping the queue-line, pre-event communication with the venue." />
+          <TextLi TextLi="Skipping the queue, pre-event communication with the venue." />
           <Img
             fluid={props.data.kfSeven.childImageSharp.fluid}
             alt="Keyflow App (iOS)"
@@ -142,13 +142,13 @@ const keyflowPage = props => (
             Prototype (Staging)
             <br />
             <strong>Test-Produce-Evaluate:</strong> User Testing (individual
-            &amp; groups), Experience Sampling, Field (Feature) Testing (sober
-            &amp; drunk), Functional Testing, Testing &amp; Bug Reporting (JIRA)
+            &amp; groups), Experience Sampling, Field (Feature) Testing,
+            Functional Testing, Testing &amp; Bug Reporting (JIRA)
             <br />
           </p>
           <HText1
             Header1="Research: Seeing beyond the queue"
-            Text1="Thrill of the night might fade out during long queues. Several focus groups for being able to analyse needs of a wide-range of nightlife guests. A group of creatives were invited to the workshops to understand the needs of guests and the venues. VIP-Guests answered surveys about VIP-Card privileges, sharing privileges with friends and requesting from venues. Keyflow has also ran private-events (e.g. Absolut Nights, Marshall Headphones) to connect with nightclub owners in Sweden - also a chance to test new features and collect user-feedback. Decision and schedule of features have been based on these research insights, as well as data gathered using analytics from Apps &amp; web platform. "
+            Text1="Thrill of the night might fade out during long queues. Several focus groups were tested in ortder to undertand the needs of nightlife guests. A group of creatives were invited to the workshops to understand the needs of the guests and the venues. VIP-Guests answered surveys about VIP-Card privileges, sharing privileges with friends and requesting admission from venues. Keyflow has also organised private-events (e.g. Absolut Nights, Marshall Headphones) to connect with nightclub owners in Sweden - another platform to test new features and collect user-feedback. Decision and schedule of features have been based on these research insights, as well as data gathered using analytics from Apps &amp; web platform."
           />
           <HText1
             Header1="Ideas: From pre-party to 'story-to-tell'"
@@ -160,7 +160,7 @@ const keyflowPage = props => (
             fluid={props.data.kfSix.childImageSharp.fluid}
             alt="Keyflow - iconography"
           />
-          <Text2 Text2="Transparency has been the focal-point to find the matching experience. The idea behind 'Guest list request' feature, was to remove the gap between guests and the venues before the night. Even though, loyalty is already being tracked and rewarded by Keyflow, guests need earlier answers before waiting in the queue to plan their night-out. Admission types and ticketing options have developed, and request feature has been iteratively improving since the introduction. Layers of business-logic, transactional communication, functional dependencies were also considered at the end of every ideation session." />
+          <Text2 Text2="Transparency has been the focal-point to find the matching experience. The idea behind 'Guest list request' feature, was to remove the gap between guests and the venues before the night. Even though, loyalty is already being tracked and rewarded by Keyflow, guests need earlier answers before starting to wait in the queue. Admission types and ticketing options were developed, and request feature has been iteratively improving since the introduction. Layers of business-logic, transactional communication, functional dependencies were also considered at the end of every ideation session." />
           <br />
           <br />
           <Img
@@ -169,7 +169,7 @@ const keyflowPage = props => (
           />
           <HText1
             Header1="Designing Keyflow App &amp; Web"
-            Text1="My role in the team as the only product designer required collaboration with several stakeholders including members from sales-marketing team, project management and 8+ developers (native mobile &amp; web). Keyflow has been a scalable and multi-lingual product from its earlier steps. The earliest visual-iterations has been about improving core-functional requirements about multi-platform and multi-lingual support of the products. Building a design system, started with a sketch component-library, continued with Confluence documentation and workshops with developers."
+            Text1="My role in the team, as the only product designer, required collaboration with several stakeholders including members from sales-marketing team, project management and 8+ developers (native mobile &amp; web). Keyflow has been a scalable and multi-lingual product from its earlier steps. The earliest visual-iterations have been about improving core-functional requirements about multi-platform and multi-lingual support of the products. Building a design system, started with a sketch component-library, continued with Confluence documentation and workshops with developers."
           />{' '}
           <br />
           <div className="gatsby-image-wrapper2">
@@ -183,7 +183,7 @@ const keyflowPage = props => (
             />
           </div>
           <br />
-          <Text2 Text2="Design details of new features were presented to relevant stakeholders before each sprint, periodically. This helped creating a sprint-based workflow and delivery of assets on Zeplin. The component-libraries, guidelines, app-store images and onboarding assets were also periodically updated. Periodic presentations and workshops with other stakeholders helped preventing bugs, creating better data-collection points in the product and keep visual and functional consistency." />
+          <Text2 Text2="Design details of new features were presented to relevant stakeholders before each sprint, periodically. This helped creating a sprint-based workflow and delivery of assets on Zeplin. The component-libraries, guidelines, app-store images and onboarding assets were also updated during each sprint. Scheduled presentations and workshops with other stakeholders helped to prevent bugs, creating better data-collection points in the product and keep visual and functional consistency." />
           <br />
           <Img
             fluid={props.data.kfThree.childImageSharp.fluid}
@@ -195,7 +195,7 @@ const keyflowPage = props => (
           />
           <HText1
             Header1="Test - Produce - Evaluate"
-            Text1="Testing of new-releases at Keyflow started with internal-testing on the staging environment where edge-cases were continuously created, and early bugs were reported. Further field-tests took place in person during office-hours and nightlife events. Major features such as RSVP or QR-code tickets required field-testing in event conditions, where a doorman, an event manager and number of guests were required. Keyflow team had the chance to collaborate with brands like Absolut, Marshall, Peroni and Universal Studios for being able to host nightlife professionals to hold feature-tests to gain meaningful insights and user-feedbacks from professionals. Handling of invitations, listing of events and intrusiveness of advertisements were prototyped in Principle App for micro-interactions. 
+            Text1="Testing of new-releases at Keyflow started with internal-testing on the staging environment where edge-cases were continuously created, and early bugs were reported. Further field-tests took place in person during office-hours and nightlife events. Major features such as RSVP or QR-code tickets required field-testing in event conditions, where a doorman, an event manager and number of guests were required. Keyflow team had the chance to collaborate with brands like Absolut, Marshall, Peroni and Universal Studios in order to host nightlife professionals where feature-tests were held to gain meaningful insights and user-feedbacks from professionals. Handling of invitations, listing of events and intrusiveness of advertisements were prototyped in Principle App for micro-interactions. 
             "
           />
           <br />
@@ -237,11 +237,11 @@ const keyflowPage = props => (
           <br />
           <HText1
             Header1="Conclusions"
-            Text1="Keyflow is currently the main nightlife platform of Scandinavia with a growing number of guests who discover nightlife events and venues through the platform. As an integrated nightlife solution, the product has branched to provide unique solutions to the needs of various types of guests. Team's understanding has increased as the product and user-base has grown. Request feature has been the most significant disruption in the industry and its development has not continued as a straight-line. Introduction of Keyflow Coins was based on surveys and user-interviews to help venues engage more with guest list requests. Coins would add value to the requests, save time for venues and help gathering user information and reward mechanism. Even though introduction of Coins has increased request-engagement on both sides (guests &amp; venues), it proved to have room for improvement to reach a wider-audience. Keyflow has come with a newer and transparent approach to increase request engagement by making changes on Keyflow Business (venue response rate). Nightlife dynamics show a large variety globally, and Keyflow has following challenges:"
+            Text1="Keyflow is currently the main nightlife platform of Scandinavia with a growing number of users who discover nightlife events and venues through the platform. As an integrated nightlife solution, the product has branched out to provide unique solutions to the needs of various types of guests. Team's understanding of the ecosystem has increased as the product and user-base has grown. Request feature has been the most significant disruption in the industry and its development did not follow a straight-line. Introduction of Keyflow Coins was based on surveys and user-interviews to help venues engage more with guest list requests. Coins were expected to add value to the requests, save time for venues and help to gather user information and reward mechanism. Even though introduction of Coins has increased request-engagement on both sides (guests &amp; venues), it proved to have room for improvement to reach a wider-audience. Keyflow has come up with a newer and more transparent approach to increase request engagement by making changes on Keyflow Business (venue response rate). Nightlife dynamics show a large variety globally, and Keyflow has the following challenges:"
           />
           <br />
-          <TextLi TextLi="Nightlife trends are changing, as open-air and festival-like events increasingly become popular." />
-          <TextLi TextLi="Providing value and localising the product would need re-defining business models and product features (e.g. Japanese nightlife culture being different from Scandinavia)." />
+          <TextLi TextLi="As open-air and festival-like events are becoming increasingly popular, the nightlife trends are changing accordingly." />
+          <TextLi TextLi="Providing value and localising the product would need re-defining business models and product features (e.g. Japanese nightlife culture being significantly different from Scandinavia)." />
           <TextLi TextLi="Current social media platforms do not meet the needs of nightlife habitat. However, different demographics display different needs. The product in the future would need to branch more towards finding unique solutions for VIP's, creatives, festival lovers, etc. " />
           <div className="BWrapper">
             <Link to="/strafe">
