@@ -92,7 +92,7 @@ const strafePage = props => (
             <iframe
               width="779"
               height="438"
-              src="https://www.youtube.com/embed/-RZd_5XC57c"
+              src="https://www.youtube.com/embed/u6Bzbm-WBcQ"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
