@@ -37,7 +37,7 @@ const otherWorks = props => (
             <div className="ProjectName2">Other Works</div>
             <div className="ProjectDetail2">HCD, 3D, Print</div>
             <div className="ProjectDescription">
-              My personal visual design design projects - including UI, a short
+              My personal visual design projects - including UI, a short
               guidebook, a Human Centred Design project, 3D, Album Covers, Live
               Illustration and Print Design
             </div>
