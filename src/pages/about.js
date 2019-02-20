@@ -99,7 +99,7 @@ const AboutPage = () => (
           <ResumeItem
             MyRole="Digital Product Design, UX-UI Design, Branding"
             Workplace="Streetkäk"
-            Duration="2013 &#x2013; Present"
+            Duration="2014/2 &#x2013; 2018/6"
             City="Stockholm, Sweden"
             Item1="UX-UI Design for native mobile Apps for end-users and food-truck owners"
             Item2="Branding &amp; art direction of events, video production"

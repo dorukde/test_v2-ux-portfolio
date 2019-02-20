@@ -40,7 +40,7 @@ const skakPage = props => (
             <div className="infobox">
               <div className="textbold">Platform:</div> iOS/Android &amp; Web{' '}
               <br />
-              <div className="textbold">Duration:</div> 2015/5 – 2018/12 <br />
+              <div className="textbold">Duration:</div> 2014/2 – 2018/6 <br />
               <div className="textbold">Role:</div> Co-Founder, Product Designer
               <br />
               <div className="textbold">Method:</div> Lean UX <br />
@@ -52,7 +52,7 @@ const skakPage = props => (
         <div className="Content">
           <div className="infobox2">
             <div className="textbold">Platform:</div> iOS/Android & Web <br />
-            <div className="textbold">Duration:</div> 2015/5 – 2018/12 <br />
+            <div className="textbold">Duration:</div> 2014/2 – 2018/6 <br />
             <div className="textbold">Role:</div> Co-Founder, Product Designer
             <br />
             <div className="textbold">Method:</div> Lean UX

@@ -54,11 +54,23 @@ const Layout = ({ children, data, location }) => (
           {location.pathname === '/' && (
             <Header siteTitle={data.site.siteMetadata.title} />
           )}
-          {location.pathname !== '/' && (
-            <Header3 siteTitle={data.site.siteMetadata.title} />
-          )}
           {location.pathname === '/about' && (
             <Header2 siteTitle={data.site.siteMetadata.title} />
+          )}
+          {location.pathname === '/strafe' && (
+            <Header3 siteTitle={data.site.siteMetadata.title} />
+          )}
+          {location.pathname === '/keyflow' && (
+            <Header3 siteTitle={data.site.siteMetadata.title} />
+          )}
+          {location.pathname === '/keyflowbusiness' && (
+            <Header3 siteTitle={data.site.siteMetadata.title} />
+          )}
+          {location.pathname === '/streetkak' && (
+            <Header3 siteTitle={data.site.siteMetadata.title} />
+          )}
+          {location.pathname === '/otherworks' && (
+            <Header3 siteTitle={data.site.siteMetadata.title} />
           )}
 
           {children}
