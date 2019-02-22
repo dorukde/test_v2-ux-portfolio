@@ -75,6 +75,26 @@
   src: url('webfonts/Supply-Regular.otf');
 }
 
+@font-face {
+  font-family: 'ObjectSans-Regular';
+  src: url('webfonts/ObjectSans-Regular.otf');
+}
+
+@font-face {
+  font-family: 'ObjectSans-Bold';
+  src: url('webfonts/ObjectSans-Bold.otf');
+}
+
+@font-face {
+  font-family: 'ObjectSans-Thin';
+  src: url('webfonts/ObjectSans-Thin.otf');
+}
+
+@font-face {
+  font-family: 'ObjectSans-ThinSlanted';
+  src: url('webfonts/ObjectSans-ThinSlanted.otf');
+}
+
 /**
  * @license
  * MyFonts Webfont Build ID 3676401, 2018-11-21T09:20:53-0500
