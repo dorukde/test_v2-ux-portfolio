@@ -1,6 +1,7 @@
 .DText a {
-  font-family: 'NexaLight', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'NeueMontreal-Light', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   color: #393939;
   border: #131313;
 }
@@ -17,32 +18,35 @@
 
 .ProjectName2 {
   float: left;
-  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'MonumentExtended-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   font-weight: normal;
-  font-size: 2.2em;
+  font-size: 1.75em;
   color: #f7f4f0;
   padding: 1em 0 0 0;
   -webkit-font-smoothing: antialiased;
 }
 
 .ProjectDetail2 {
-  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'MonumentExtended-UltraLight', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #857d7d;
-  padding: 1.9em 2.5em 0 0;
+  padding: 1.9em 3em 0 0;
   float: right;
   -webkit-font-smoothing: antialiased;
 }
 
 .ProjectDescription {
-  font-family: 'NexaBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'ObjectSans-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   font-size: 1.2em;
-  line-height: 1.7em;
-  color: #f7f4f0;
+  line-height: 1.5em;
+  color: #a89e9e;
   padding: 1em 0 2em 0;
   -webkit-font-smoothing: antialiased;
   width: 100%;
@@ -65,21 +69,25 @@ h1 a {
 }
 
 h1 {
-  font-family: 'NexaBook', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'NeueMontreal-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   color: #f7f4f0;
   font-size: 1em;
   line-height: 1.5em;
+  font-weight: normal;
 }
 
 li {
   color: #393939;
-  width: 80%;
+  width: 75%;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 .infobox {
   background-color: #131313;
-  font-family: 'NexaLight', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'Supply-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #f7f4f0;
   float: right;
@@ -96,19 +104,31 @@ li {
 
 .textbold {
   display: inline;
-  font-family: 'NexaBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Supply-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .SectionTitle2 {
-  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'MonumentExtended-UltraLight', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   margin: 0;
-  font-size: 1.6em;
+  font-size: 1.4em;
   line-height: 1em;
   color: #857d7d;
-  padding: 2em 0 0 0;
+  padding: 2em 0em 0.5em 0;
   -webkit-font-smoothing: antialiased;
+}
+
+.Process {
+  font-family: 'NeueMontreal-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  color: #393939;
+  -webkit-font-smoothing: antialiased;
+  width: 75%;
 }
 
 .infobox2 {
@@ -116,9 +136,9 @@ li {
 }
 
 .Header1 {
-  font-family: 'NexaXBold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'ObjectSans-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   color: #393939;
   -webkit-font-smoothing: antialiased;
   padding: 2em 0 1em 0;
@@ -126,9 +146,10 @@ li {
 }
 
 .Text1 {
-  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1em;
+  font-family: 'NeueMontreal-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 1.1em;
   line-height: 1.5em;
   color: #393939;
   -webkit-font-smoothing: antialiased;
@@ -136,9 +157,10 @@ li {
 }
 
 .Text2 {
-  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1em;
+  font-family: 'NeueMontreal-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 1.1em;
   line-height: 1.5em;
   color: #393939;
   -webkit-font-smoothing: antialiased;
@@ -192,16 +214,17 @@ p {
 /* BUTTONS STYLE */
 .BHeader1 {
   text-align: left;
-  font-family: 'NexaxBold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'ObjectSans-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #857d7d;
 }
 
 .BText1 {
-  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'MonumentExtended-Ultralight', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   margin: 0;
-  font-size: 1.6em;
+  font-size: 1.2em;
   line-height: 1em;
   color: #393939;
   padding: 0.5em 0 0 0;
@@ -210,16 +233,17 @@ p {
 
 .BHeader2 {
   text-align: right;
-  font-family: 'NexaxBold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'ObjectSans-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #857d7d;
 }
 
 .BText2 {
-  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'MonumentExtended-Ultralight', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   margin: 0;
-  font-size: 1.6em;
+  font-size: 1.2em;
   line-height: 1em;
   color: #393939;
   padding: 0.5em 0 0 0;
@@ -324,11 +348,10 @@ video {
     display: none;
   }
   .infobox2 {
-    font-family: 'NexaLight', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    font-family: 'Supply-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI',
       Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
       sans-serif;
     color: #f7f4f0;
-    font-weight: 600;
     line-height: 1.75em;
     margin: -5em 0 0 0;
     padding: 1.25em;
@@ -365,5 +388,14 @@ video {
 
   .prototype2 video {
     width: 100% !important;
+  }
+  .BText1,
+  .BText2 {
+    font-family: 'ObjectSans-Regular', -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+      'Helvetica Neue', sans-serif;
+  }
+  .Process {
+    width: 100%;
   }
 }

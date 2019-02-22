@@ -51,9 +51,6 @@ const Layout = ({ children, data, location }) => (
           <html lang="en" />
         </Helmet>{' '}
         <Transition location={location}>
-          {location.pathname === '/' && (
-            <Header siteTitle={data.site.siteMetadata.title} />
-          )}
           {location.pathname === '/about' && (
             <Header2 siteTitle={data.site.siteMetadata.title} />
           )}
@@ -71,6 +68,9 @@ const Layout = ({ children, data, location }) => (
           )}
           {location.pathname === '/otherworks' && (
             <Header3 siteTitle={data.site.siteMetadata.title} />
+          )}
+          {location.pathname === '/' && (
+            <Header siteTitle={data.site.siteMetadata.title} />
           )}
 
           {children}

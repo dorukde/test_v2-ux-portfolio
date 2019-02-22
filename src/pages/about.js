@@ -14,6 +14,7 @@ import '../components/resume.css'
 import '../components/project.css'
 import HText1 from '../components/text1'
 import Text2 from '../components/text2'
+import Header2 from '../components/header2'
 
 import Scroller from '../components/scrollP'
 

@@ -20,7 +20,7 @@ const IndexPage = () => (
 
     <Link to="/keyflow">
       <Project
-        ProjectName="Key&#64258;ow"
+        ProjectName="Keyflow"
         ProjectDetail="UX-UI"
         ProjectText1="Keyflow, headquartered in Stockholm (SE), is an event service solution for both event producers and guests around the globe."
         ProjectText2="VIEW PROJECT >"
@@ -29,21 +29,20 @@ const IndexPage = () => (
 
     <Link to="/keyflowbusiness">
       <Project
-        ProjectName="Key&#64258;ow Business"
+        ProjectName="Keyflow Business"
         ProjectDetail="UX-UI"
         ProjectText1=" Keyflow Business, is the solution for pre-event and real-time guest
             list management of each event of a nightclub. It features guest-list
-            management, offline support, real-time request handling, considering
-            the goals of venue producers and their teams."
+            management, offline support, real-time request handling for venue producers and teams."
         ProjectText2="VIEW PROJECT >"
       />
     </Link>
 
     <Link to="/streetkak">
       <Project
-        ProjectName="Streetkäk App"
+        ProjectName="Streetkäk"
         ProjectDetail="Product Design"
-        ProjectText1="Inspired by the growing streed food culture in Scandinavia and legendary Citroen H Van - Streetkäk is the first App to locate food trucks and street food vendors real-time, in the Nordic countries such as Sweden, Denmark, Norway and Finland."
+        ProjectText1="Inspired by the growing streed food culture in Scandinavia and legendary Citroen H Van - Streetkäk is the first App to locate food trucks and street food vendors real-time, in the Nordic countries."
         ProjectText2="VIEW PROJECT >"
       />
     </Link>

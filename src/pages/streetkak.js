@@ -20,7 +20,7 @@ const skakPage = props => (
       <div className="AboutW">
         <div className="AboutProject">
           <div className="ProjectTitle">
-            <div className="ProjectName2">Streetkäk App</div>
+            <div className="ProjectName2">Streetkäk</div>
             <div className="ProjectDetail2">Product Design</div>
           </div>
           <div className="ProjectDescription">
@@ -116,23 +116,26 @@ const skakPage = props => (
           </div>
           <br />
           <div className="SectionTitle2">The Process</div>
-          <p>
+          <div className="Process">
             <strong>Research:</strong> Contextual Analysis, Surveys (trucks),
             Interviews (users), Focus groups
-            <br />
+          </div>
+          <div className="Process">
             <strong>Ideas:</strong> Mind Map, Empathy Map, User Journey Map
-            <br />
+          </div>
+          <div className="Process">
             <strong>Design:</strong> Storyboarding, Heuristic Evaluation,
             Sketching, Wireframing &amp; Zeplin
-            <br />
+          </div>
+          <div className="Process">
             <strong>Prototype:</strong> High Fidelity Prototype, Interactive
             Button (flic) &amp; Notifications (trucks)
-            <br />
+          </div>
+          <div className="Process">
             <strong>Test-Produce-Evaluate:</strong> User Testing (individual
             &amp; groups), Experience Sampling, Field (Feature) Testing,
             Functional Testing
-            <br />
-          </p>
+          </div>
           <HText1
             Header1="Research: Persona of a Food-Truck"
             Text1="Streetkäk Team has been in close contact from the early era of food trucks in Stockholm (first 10 trucks) up until the number has grown up to 3-digit numbers of trucks in Scandinavia. The research process included participatory workshops with truck owners, surveys, recollection of test-event data. Test-events also helped food-truck lovers to answer our questions, which helped prioritisation of problems to solve and building features accordingly. The research phase created emphasis on communication and personality of food-trucks."

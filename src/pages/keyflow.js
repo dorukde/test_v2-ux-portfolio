@@ -31,7 +31,7 @@ const keyflowPage = props => (
       <div className="AboutW">
         <div className="AboutProject">
           <div className="ProjectTitle">
-            <div className="ProjectName2">Key&#64258;ow</div>
+            <div className="ProjectName2">Keyflow</div>
             <div className="ProjectDetail2">UX-UI</div>
           </div>
           <div className="ProjectDescription">
@@ -126,26 +126,29 @@ const keyflowPage = props => (
             alt="Keyflow Web (landing)"
           />
           <div className="SectionTitle2">The Process</div>
-          <p>
+          <div className="Process">
             <strong>Research:</strong> Contextual Analysis, Surveys (guests
             &amp; venues), Periodic Interviews (venue staff), Focus groups (e.g.
             Creatives, VIP guests), Data Analytics
-            <br />
+          </div>
+          <div className="Process">
             <strong>Ideas:</strong> Mind Map, Empathy Map, User Journey Map,
             Personas
-            <br />
+          </div>
+          <div className="Process">
             <strong>Design:</strong> Storyboarding, Design for Accessibility
             &amp; Localisation, Heuristic Evaluation, Sketching, Wireframing
             &amp; Zeplin, Documentation (Confluence)
-            <br />
+          </div>
+          <div className="Process">
             <strong>Prototype:</strong> High Fidelity Prototype, Working
             Prototype (Staging)
-            <br />
+          </div>
+          <div className="Process">
             <strong>Test-Produce-Evaluate:</strong> User Testing (individual
             &amp; groups), Experience Sampling, Field (Feature) Testing,
             Functional Testing, Testing &amp; Bug Reporting (JIRA)
-            <br />
-          </p>
+          </div>
           <HText1
             Header1="Research: Seeing beyond the queue"
             Text1="Thrill of the night might fade out during long queues. Several focus groups were tested in ortder to undertand the needs of nightlife guests. A group of creatives were invited to the workshops to understand the needs of the guests and the venues. VIP-Guests answered surveys about VIP-Card privileges, sharing privileges with friends and requesting admission from venues. Keyflow has also organised private-events (e.g. Absolut Nights, Marshall Headphones) to connect with nightclub owners in Sweden - another platform to test new features and collect user-feedback. Decision and schedule of features have been based on these research insights, as well as data gathered using analytics from Apps &amp; web platform."

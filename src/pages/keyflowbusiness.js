@@ -28,7 +28,7 @@ const keyflowBPage = props => (
       <div className="AboutW">
         <div className="AboutProject">
           <div className="ProjectTitle">
-            <div className="ProjectName2">Key&#64258;ow Business</div>
+            <div className="ProjectName2">Keyflow Business</div>
             <div className="ProjectDetail2">UX-UI</div>
           </div>
           <div className="ProjectDescription">
@@ -127,26 +127,29 @@ const keyflowBPage = props => (
             alt="Keyflow Business Ecosystem and Features"
           />
           <div className="SectionTitle2">The Process</div>
-          <p>
+          <div className="Process">
             <strong>Research:</strong> Contextual Analysis, Surveys (guests
             &amp; venues), Periodic Interviews (venue staff), Focus groups (e.g.
             Venue owners, Doormen)
-            <br />
+          </div>
+          <div className="Process">
             <strong>Ideas:</strong> Mind Map, Empathy Map, User Journey Map,
             Personas
-            <br />
+          </div>
+          <div className="Process">
             <strong>Design:</strong> Storyboarding, Design for Accessibility
             &amp; Localisation, Heuristic Evaluation, Sketching, Wireframing
             &amp; Zeplin, Documentation (Confluence)
-            <br />
+          </div>
+          <div className="Process">
             <strong>Prototype:</strong> High Fidelity Prototype, Working
             Prototype (Staging)
-            <br />
+          </div>
+          <div className="Process">
             <strong>Test-Produce-Evaluate:</strong> User Testing (individual
             &amp; groups), Experience Sampling, Field (Feature) Testing,
             Functional Testing, Testing &amp; Bug Reporting (JIRA)
-            <br />
-          </p>
+          </div>
           <HText1
             Header1="Research: Thinking Before Dancing"
             Text1="Keyflow has been continuously in contact with event-producers and venues in Stockholm from its start. A focus-group including event-producers, promoters and doormen provided feedbacks for feature decisions and iterative improvements. Having nightlife professionals as Keyflow Team members provided better access to venues and other nightlife-professionals. Offline-support, guest-preferences and tags have been crafted based on focus-groups and individual interviews."
@@ -244,7 +247,7 @@ const keyflowBPage = props => (
               <BTextA BHeader1="⟵ Previous" BText1="Keyflow" />
             </Link>
             <Link to="/streetkak">
-              <BTextB BHeader2="Next ⟶" BText2="Streetkäk App" />
+              <BTextB BHeader2="Next ⟶" BText2="Streetkäk" />
             </Link>
           </div>
         </div>

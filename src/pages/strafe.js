@@ -4,10 +4,10 @@ import { FaGooglePlay, FaApple } from 'react-icons/fa'
 
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
+import '../components/header2.css'
 
 /*TEXT COMPONENTS */
 import HText1 from '../components/text1'
-import Text2 from '../components/text2'
 import TextLi from '../components/textLi'
 import BTextA from '../components/btn1'
 import BTextB from '../components/btn2'
@@ -75,7 +75,7 @@ const strafePage = props => (
             <div className="textbold">Duration:</div> 2018/5 – 2018/8 <br />
             <div className="textbold">Role:</div> UX-UI Designer (Consultant)
             <br />
-            <div className="textbold">Method:</div>Agile + Lean UX
+            <div className="textbold">Method:</div> Agile + Lean UX
             <br />
           </div>
           <div className="SectionTitle2">Introduction</div>
@@ -123,25 +123,28 @@ const strafePage = props => (
             alt="Strafe - App"
           />
           <div className="SectionTitle2">The Process</div>
-          <p>
+          <div className="Process">
             <strong>Research:</strong> Contextual Analysis, Surveys (Global
             esports fans), Video Interviews (Q&amp;A, presentation, feedback),
             Focus groups (e.g. Top-ladder), Data Analytics
-            <br />
+          </div>
+          <div className="Process">
             <strong>Ideas:</strong> User Journey Map, Personas
-            <br />
+          </div>
+          <div className="Process">
             <strong>Design:</strong> Design for Localisation, in-App Onboarding,
             Heuristic Evaluation, Sketching, Design System, Wireframing &amp;
             Zeplin
-            <br />
+          </div>
+          <div className="Process">
             <strong>Prototype:</strong> High Fidelity Prototype, Working
             Prototype (Staging)
-            <br />
+          </div>
+          <div className="Process">
             <strong>Test-Produce-Evaluate:</strong> User Testing (individuals),
             Field (Feature) Testing, Functional Testing, Testing &amp; Bug
             Reporting
-            <br />
-          </p>
+          </div>
           <HText1
             Header1="Research of Prediction"
             Text1="

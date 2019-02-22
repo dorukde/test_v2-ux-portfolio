@@ -1,5 +1,5 @@
 .MyRole {
-  font-family: 'NexaXBold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'ObjectSans-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1em;
   color: #393939;
@@ -8,8 +8,9 @@
   line-height: 1.4em;
 }
 .Workplace {
-  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'ObjectSans-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   color: #393939;
@@ -17,8 +18,9 @@
 }
 
 .Duration {
-  font-family: 'NexaBook', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'ObjectSans-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   font-size: 0.75em;
   line-height: 1.6em;
   color: #857d7d;
@@ -26,27 +28,30 @@
 }
 
 .Item1 {
-  font-family: 'NexaBook', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'NeueMontreal-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   font-size: 1em;
   color: #857d7d;
   -webkit-font-smoothing: antialiased;
 }
 
 .SectionTitle {
-  font-family: 'Crimson', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'MonumentExtended-Ultralight', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   margin: 0;
-  font-size: 1.6em;
-  line-height: 1.2em;
+  font-size: 1.4em;
+  line-height: 1.6em;
   color: #857d7d;
   padding: 2em 0 0 0;
   -webkit-font-smoothing: antialiased;
 }
 
 .ThingsDone {
-  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'NeueMontreal-Regular', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   font-size: 1em;
   line-height: 1.4em;
   color: #393939;

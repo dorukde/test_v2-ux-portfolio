@@ -289,7 +289,7 @@ const otherWorks = props => (
           </video>
           <div className="BWrapper">
             <Link to="/streetkak">
-              <BTextA BHeader1="⟵ Previous" BText1="Streetkäk App" />
+              <BTextA BHeader1="⟵ Previous" BText1="Streetkäk" />
             </Link>
             <Link to="/strafe">
               <BTextB BHeader2="Next ⟶" BText2="Strafe" />
