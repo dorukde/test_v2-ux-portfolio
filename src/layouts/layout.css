@@ -1,4 +1,5 @@
-/* TYPOGRAPHY START */
+/* TYPOGRAPHY OLD 
+
 @font-face {
   font-family: 'Crimson';
   src: url('./webfonts/crimson-roman-webfont.eot');
@@ -34,6 +35,7 @@
   font-weight: bold;
   font-style: normal;
 }
+ */
 
 @font-face {
   font-family: 'NeueMontreal-Regular';
@@ -175,7 +177,7 @@
  * 
  * © 2018 MyFonts Inc
 */
-
+/* TYPOGRAPHY OLD 
 @font-face {
   font-family: 'NexaThin';
   src: url('webfonts/3818F1_1_0.eot');
@@ -250,7 +252,7 @@
     url('webfonts/3818F1_F_0.ttf') format('truetype');
 }
 
-/* TYPOGRAPHY END */
+ */
 
 body {
   font-family: 'NeueMontreal-Regular', -apple-system, BlinkMacSystemFont,
