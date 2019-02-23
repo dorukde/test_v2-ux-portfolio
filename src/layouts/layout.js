@@ -51,40 +51,28 @@ const Layout = ({ children, data, location }) => (
           <html lang="en" />
         </Helmet>{' '}
         <Transition location={location}>
-          {location.pathname === '/about/' && (
+          {(location.pathname === '/about/' ||
+            location.pathname === '/about') && (
             <Header2 siteTitle={data.site.siteMetadata.title} />
           )}
-          {location.pathname === '/about' && (
-            <Header2 siteTitle={data.site.siteMetadata.title} />
-          )}
-          {location.pathname === '/strafe/' && (
+          {(location.pathname === '/strafe/' ||
+            location.pathname === '/strafe') && (
             <Header3 siteTitle={data.site.siteMetadata.title} />
           )}
-          {location.pathname === '/strafe' && (
+          {(location.pathname === '/keyflow/' ||
+            location.pathname === '/keyflow') && (
             <Header3 siteTitle={data.site.siteMetadata.title} />
           )}
-          {location.pathname === '/keyflow/' && (
+          {(location.pathname === '/keyflowbusiness/' ||
+            location.pathname === '/keyflowbusiness') && (
             <Header3 siteTitle={data.site.siteMetadata.title} />
           )}
-          {location.pathname === '/keyflow' && (
+          {(location.pathname === '/streetkak/' ||
+            location.pathname === '/streetkak') && (
             <Header3 siteTitle={data.site.siteMetadata.title} />
           )}
-          {location.pathname === '/keyflowbusiness/' && (
-            <Header3 siteTitle={data.site.siteMetadata.title} />
-          )}
-          {location.pathname === '/keyflowbusiness' && (
-            <Header3 siteTitle={data.site.siteMetadata.title} />
-          )}
-          {location.pathname === '/streetkak/' && (
-            <Header3 siteTitle={data.site.siteMetadata.title} />
-          )}
-          {location.pathname === '/streetkak' && (
-            <Header3 siteTitle={data.site.siteMetadata.title} />
-          )}
-          {location.pathname === '/otherworks/' && (
-            <Header3 siteTitle={data.site.siteMetadata.title} />
-          )}
-          {location.pathname === '/otherworks' && (
+          {(location.pathname === '/otherworks/' ||
+            location.pathname === '/otherworks') && (
             <Header3 siteTitle={data.site.siteMetadata.title} />
           )}
           {location.pathname === '/' && (
