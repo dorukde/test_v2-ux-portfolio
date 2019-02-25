@@ -8,14 +8,14 @@ const Header = ({ siteTitle }) => (
       <div className="home">
         <Link to="/">Doruk Demircioglu</Link>
       </div>
-      <div className="navo">
+      <nav className="navo">
         <Link to="/about" id="other">
           ABOUT
         </Link>
         <Link to="/" id="selected">
           WORKS
         </Link>
-      </div>
+      </nav>
     </div>
   </div>
 )

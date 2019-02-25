@@ -8,10 +8,10 @@ const Header3 = ({ siteTitle }) => (
       <div className="home3">
         <Link to="/">Doruk Demircioglu</Link>
       </div>
-      <div className="navo3">
+      <nav className="navo3">
         <Link to="/about">ABOUT</Link>
         <Link to="/">WORKS</Link>
-      </div>
+      </nav>
     </div>
   </div>
 )
