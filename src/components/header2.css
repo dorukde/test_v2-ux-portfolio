@@ -45,7 +45,7 @@
   background: #f7f4f0;
   height: 3px;
   position: absolute;
-  bottom: -13px;
+  bottom: -11px;
   transition: 0.16s all 0.025s;
   border-radius: 2px;
 }
@@ -59,7 +59,7 @@
   background: #f7f4f0;
   height: 3px;
   position: absolute;
-  bottom: -13px;
+  bottom: -11px;
   opacity: 1;
   border-radius: 2px;
   left: 42%;
