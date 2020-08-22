@@ -29,7 +29,7 @@ class ScrollBar extends Component {
 }
 ScrollBar.propTypes = {
   width: PropTypes.number.isRequired,
-  height: PropTypes.numberisRequired,
+  height: PropTypes.number.isRequired,
 }
 
 ScrollBar.defaultProps = {
