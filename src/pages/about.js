@@ -80,6 +80,24 @@ const AboutPage = () => (
         <div className="Content">
           <div className="SectionTitle">Experience</div>
           <ResumeItem
+            MyRole="Digital Product Designer, UX"
+            Workplace="Antler"
+            Duration="2019/12 &#x2013; ongoing"
+            City="Sydney, Australia"
+            Item1="User Research of global cohorts 2020, IA, Ideation workshops, Journey Mapping, Usability Testing"
+            Item2="Product Design, Design System: firetable.io (open-source) &amp; Global Ops Platform: Antler Fusion"
+            Item3="Consultation &amp; coaching of early stage portfolio companies"
+          />
+          <ResumeItem
+            MyRole="UX Designer"
+            Workplace="2hats"
+            Duration="2019/5 &#x2013; 2019/12"
+            City="Sydney, Australia"
+            Item1="User Research (Interviews, practice-based research) "
+            Item2="Journey Mapping: User/Business, value proposition canvas"
+            Item3="New Feature: Client Portal (Internal CRM), New Student Portal"
+          />
+          <ResumeItem
             MyRole="Digital Product Design (Freelance)"
             Workplace="Strafe"
             Duration="2018/5 &#x2013; 2018/8"
