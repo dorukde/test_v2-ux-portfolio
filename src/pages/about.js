@@ -98,7 +98,7 @@ const AboutPage = () => (
             Item3="New Feature: Client Portal (Internal CRM), New Student Portal"
           />
           <ResumeItem
-            MyRole="Digital Product Design (Freelance)"
+            MyRole="Digital Product Designer, UX (Freelance)"
             Workplace="Strafe"
             Duration="2018/5 &#x2013; 2018/8"
             City="Stockholm, Sweden"
@@ -107,7 +107,7 @@ const AboutPage = () => (
             Item3="New voting module"
           />
           <ResumeItem
-            MyRole="Digital Product Design, UX-UI Design"
+            MyRole="Digital Product Designer, UX"
             Workplace="Keyflow"
             Duration="2015/5 &#x2013; 2018/5"
             City="Stockholm, Sweden"
@@ -116,7 +116,7 @@ const AboutPage = () => (
             Item3="Visual design of business presentations"
           />
           <ResumeItem
-            MyRole="Digital Product Design, UX-UI Design, Branding"
+            MyRole="Digital Product Design, UX, Brand"
             Workplace="Streetkäk"
             Duration="2014/2 &#x2013; 2018/6"
             City="Stockholm, Sweden"
