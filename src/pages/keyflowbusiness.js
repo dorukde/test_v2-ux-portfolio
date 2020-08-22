@@ -106,10 +106,10 @@ const keyflowBPage = props => (
           <TextLi TextLi="Marketing and promoting events with a nightlife-focused global audience is a challenging process with current tools." />
           <TextLi TextLi="Door service is sensitive, time-consuming and can be frustrating for guests. Guests expect transparent and friction-free experiences at the door." />
           <TextLi TextLi="Analysis of each event help understand the pain-points and make performance analysis — '(VIP) Name +3' provides no information about the group." />
-          <Img
+          {/* <Img
             fluid={props.data.kBusinessOne.childImageSharp.fluid}
             alt="Keyflow Business Ecosystem and Features"
-          />
+          /> */}
           <HText1
             Header1="The Solution: Keyflow Business"
             Text1="Keyflow Business is the streamlined solution for event creation, marketing and analysis for every team member of a venue. Guest-list management, table booking, event-updates, VIP creation and unique 'request' possibility helps guests and venues to plan-ahead for the night. Keyflow Business helps nightlife business producers with:"
