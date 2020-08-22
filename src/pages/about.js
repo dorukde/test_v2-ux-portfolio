@@ -102,7 +102,7 @@ const AboutPage = () => (
             Workplace="Strafe"
             Duration="2018/5 &#x2013; 2018/8"
             City="Stockholm, Sweden"
-            Item1="Planning &amp; Conducting User Research"
+            Item1="Remote user research, usability testing "
             Item2="New Features: Friends Functionality &amp; Gamified leaderboard"
             Item3="New voting module"
           />
@@ -111,7 +111,7 @@ const AboutPage = () => (
             Workplace="Keyflow"
             Duration="2015/5 &#x2013; 2018/5"
             City="Stockholm, Sweden"
-            Item1="UX-UI Design for Keyflow &amp; Keyflow Business Apps/web"
+            Item1="UX, Digital Product: Keyflow &amp; Keyflow Business App &amp; Web platforms, usability testing, prototyping"
             Item2="Digital marketing visuals, prints, e-mail template"
             Item3="Visual design of business presentations"
           />
@@ -120,9 +120,9 @@ const AboutPage = () => (
             Workplace="Streetkäk"
             Duration="2014/2 &#x2013; 2018/6"
             City="Stockholm, Sweden"
-            Item1="UX-UI Design for native mobile Apps for end-users and food-truck owners"
-            Item2="Branding &amp; art direction of events, video production"
-            Item3="Digital and physical marketing visuals design"
+            Item1="User research, prototyping, usability testing, digital product Design of native mobile Apps"
+            Item2="Brand design &amp; art direction of events, video production"
+            Item3="Digital and physical visual design (prints, email templates, banners)"
           />
           <div className="SectionTitle">Education</div>
           <ResumeItem2
