@@ -57,8 +57,9 @@ export default IndexPage
 export const fluidImage = graphql`
   fragment fluidImage on File {
     childImageSharp {
-      fluid(quality: 100, maxWidth: 960) {
+      fluid(quality: 90, maxWidth: 960) {
         ...GatsbyImageSharpFluid
+
       }
     }
   }
@@ -67,7 +68,7 @@ export const fluidImage = graphql`
 export const fluidImage2 = graphql`
   fragment fluidImage2 on File {
     childImageSharp {
-      fluid(quality: 100, maxWidth: 400) {
+      fluid(quality: 90, maxWidth: 400) {
         ...GatsbyImageSharpFluid
       }
     }
@@ -77,7 +78,7 @@ export const fluidImage2 = graphql`
 export const fluidImage640 = graphql`
   fragment fluidImage640 on File {
     childImageSharp {
-      fluid(quality: 100, maxWidth: 640) {
+      fluid(quality: 90, maxWidth: 640) {
         ...GatsbyImageSharpFluid
       }
     }
@@ -87,7 +88,7 @@ export const fluidImage640 = graphql`
 export const fluidImage800 = graphql`
   fragment fluidImage800 on File {
     childImageSharp {
-      fluid(quality: 100, maxWidth: 800) {
+      fluid(quality: 90, maxWidth: 800) {
         ...GatsbyImageSharpFluid
       }
     }
@@ -97,7 +98,7 @@ export const fluidImage800 = graphql`
 export const fluidImage480 = graphql`
   fragment fluidImage480 on File {
     childImageSharp {
-      fluid(quality: 100, maxWidth: 480) {
+      fluid(quality: 90, maxWidth: 480) {
         ...GatsbyImageSharpFluid
       }
     }
