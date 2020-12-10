@@ -84,35 +84,38 @@ const AboutPage = () => (
             Workplace="Antler"
             Duration="2019/12 &#x2013; ongoing"
             City="Sydney, Australia"
-            Item1="User Research of global cohorts 2020, IA, Ideation workshops, Journey Mapping, Usability Testing"
-            Item2="Product Design, Design System: firetable.io (open-source) &amp; Global Ops Platform: Antler Fusion"
-            Item3="Consultation &amp; coaching of early stage portfolio companies"
+            Item1="Design system and product design of the open-source project: firetable.io"
+            Item2="Founder Hub, Antler Fusion and antler.co redesign"
+            Item3="Co-design &amp; ideation, IA, journey mapping, designing for accessibility, usability testing 
+            Remote design learning activities for the team 
+            Coaching sessions for portfolio companies"
           />
           <ResumeItem
             MyRole="UX Designer"
             Workplace="2hats"
             Duration="2019/5 &#x2013; 2019/12"
             City="Sydney, Australia"
-            Item1="User Research (Interviews, practice-based research) "
-            Item2="Journey Mapping: User/Business, value proposition canvas"
-            Item3="New Feature: Client Portal (Internal CRM), New Student Portal"
+            Item1="Research (Interviews, practice-based research)"
+            Item2="Journey mapping, stakeholder mapping, value prop. canvas"
+            Item3="Client portal (CRM system, dashboard) 
+            Usability testing studies, onboarding stages"
           />
           <ResumeItem
             MyRole="Digital Product Designer, UX (Freelance)"
             Workplace="Strafe"
             Duration="2018/5 &#x2013; 2018/8"
             City="Stockholm, Sweden"
-            Item1="Remote user research, usability testing "
-            Item2="New Features: Friends Functionality &amp; Gamified leaderboard"
-            Item3="New voting module"
+            Item1="Remote user research and usability testing"
+            Item2="Designed friends functionality &amp; gamified leaderboard"
+            Item3="Interaction design of voting module"
           />
           <ResumeItem
             MyRole="Digital Product Designer, UX"
             Workplace="Keyflow"
             Duration="2015/5 &#x2013; 2018/5"
             City="Stockholm, Sweden"
-            Item1="UX, Digital Product: Keyflow &amp; Keyflow Business App &amp; Web platforms, usability testing, prototyping"
-            Item2="Digital marketing visuals, prints, e-mail template"
+            Item1="UX, Digital Product: Keyflow &amp; Keyflow Business iOS, Android &amp; Web, usability testing, prototyping"
+            Item2="Digital marketing visuals, prints, transactional e-mail design"
             Item3="Visual design of business presentations"
           />
           <ResumeItem
@@ -120,13 +123,13 @@ const AboutPage = () => (
             Workplace="Streetkäk"
             Duration="2014/2 &#x2013; 2018/6"
             City="Stockholm, Sweden"
-            Item1="User research, prototyping, usability testing, digital product Design of native mobile Apps"
-            Item2="Brand design &amp; art direction of events, video production"
-            Item3="Digital and physical visual design (prints, email templates, banners)"
+            Item1="User research, prototyping, usability studies"
+            Item2="UX &amp; UI design of mobile Apps (iOS &amp; Android)"
+            Item3="Digital product design, digital and physical marketing and communication collaterals"
           />
           <div className="SectionTitle">Education</div>
           <ResumeItem2
-            MyRole="Master of Design"
+            MyRole="Master of Design – Interaction Design, High Distinction"
             Workplace="UNSW (University of New South Wales)"
             Duration="2018 &#x2013; 2020"
             City="Sydney, Australia"
@@ -143,14 +146,26 @@ const AboutPage = () => (
             Duration="2003 &#x2013; 2009"
             City="Izmir, Turkey"
           />
-          <div className="SectionTitle">Tools</div>
+          <div className="SectionTitle">Tools &amp; Frameworks</div>
           <ResumeItem3
-            MyRole="Design"
-            Workplace="Sketch, Figma, Adobe CC (XD, Ps, Ai, Pr, Lr), C4D, Maya, Pencil(s) &amp; Sketchbook"
+            MyRole="Visual Design"
+            Workplace="Sketch, Figma, Adobe CC (XD, Ps, Ai, Pr, Lr, Id), C4D, Maya, Pencil(s) &amp; Sketchbook"
           />
           <ResumeItem3
-            MyRole="Prototyping"
-            Workplace="Zeplin, Principle, InVision, Framer X, html + CSS + JS, React"
+            MyRole="Prototyping &amp; Testing"
+            Workplace="ProtoPie, Principle, Framer, Max/MSP, Unity, Maze, Smartlook"
+          />
+          <ResumeItem3
+            MyRole="Design System &amp; Documentation"
+            Workplace="Zeplin, zeroheight, DSM, Confluence"
+          />
+          <ResumeItem3
+            MyRole="3D Modelling"
+            Workplace="Autodesk Maya, Fusion 360, Cinema 4D"
+          />
+          <ResumeItem3
+            MyRole="Software Development"
+            Workplace="Arduino programming, HTML, CSS, JS, React, p5.js"
           />
         </div>
       </div>
